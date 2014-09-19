@@ -1,0 +1,116 @@
+2014-09-09 21:28:12,017 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-09-09 21:28:13,078 : INFO : adding document #10000 to Dictionary(22373 unique tokens: [u'(photos)', u'sowell', u'http://t.co/grg1m2alxd', u'hanging', u'localized']...)
+2014-09-09 21:28:13,983 : INFO : adding document #20000 to Dictionary(38236 unique tokens: [u'represent..', u'(photos)', u'sowell', u'cesse', u'http://t.co/grg1m2alxd']...)
+2014-09-09 21:28:14,929 : INFO : adding document #30000 to Dictionary(52475 unique tokens: [u'https://t.co/c5r7bwuyfg', u'represent..', u'(photos)', u'sowell', u'gt3s.']...)
+2014-09-09 21:28:15,873 : INFO : adding document #40000 to Dictionary(65398 unique tokens: [u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)', u'sowell']...)
+2014-09-09 21:28:16,829 : INFO : adding document #50000 to Dictionary(78201 unique tokens: [u'#sportsnews', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)']...)
+2014-09-09 21:28:17,310 : INFO : built Dictionary(83947 unique tokens: [u'#sportsnews', u'minefield.', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..']...) from 55102 documents (total 481466 corpus positions)
+2014-09-09 21:28:17,310 : INFO : saving Dictionary object under /Users/nilayan/Project/data/ukraine.dict, separately None
+2014-09-09 21:28:22,634 : INFO : collecting document frequencies
+2014-09-09 21:28:22,634 : INFO : PROGRESS: processing document #0
+2014-09-09 21:28:22,682 : INFO : PROGRESS: processing document #10000
+2014-09-09 21:28:22,723 : INFO : PROGRESS: processing document #20000
+2014-09-09 21:28:22,762 : INFO : PROGRESS: processing document #30000
+2014-09-09 21:28:22,802 : INFO : PROGRESS: processing document #40000
+2014-09-09 21:28:22,842 : INFO : PROGRESS: processing document #50000
+2014-09-09 21:28:22,869 : INFO : calculating IDF weights for 55102 documents and 83946 features (472644 matrix non-zeros)
+2014-09-09 21:28:22,957 : INFO : storing corpus in Matrix Market format to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-09 21:28:22,957 : INFO : saving sparse matrix to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-09 21:28:22,957 : INFO : PROGRESS: saving document #0
+2014-09-09 21:28:23,081 : INFO : PROGRESS: saving document #1000
+2014-09-09 21:28:23,194 : INFO : PROGRESS: saving document #2000
+2014-09-09 21:28:23,307 : INFO : PROGRESS: saving document #3000
+2014-09-09 21:28:23,434 : INFO : PROGRESS: saving document #4000
+2014-09-09 21:28:23,559 : INFO : PROGRESS: saving document #5000
+2014-09-09 21:28:23,688 : INFO : PROGRESS: saving document #6000
+2014-09-09 21:28:23,830 : INFO : PROGRESS: saving document #7000
+2014-09-09 21:28:23,975 : INFO : PROGRESS: saving document #8000
+2014-09-09 21:28:24,106 : INFO : PROGRESS: saving document #9000
+2014-09-09 21:28:24,236 : INFO : PROGRESS: saving document #10000
+2014-09-09 21:28:24,353 : INFO : PROGRESS: saving document #11000
+2014-09-09 21:28:24,476 : INFO : PROGRESS: saving document #12000
+2014-09-09 21:28:24,597 : INFO : PROGRESS: saving document #13000
+2014-09-09 21:28:24,712 : INFO : PROGRESS: saving document #14000
+2014-09-09 21:28:24,837 : INFO : PROGRESS: saving document #15000
+2014-09-09 21:28:24,957 : INFO : PROGRESS: saving document #16000
+2014-09-09 21:28:25,069 : INFO : PROGRESS: saving document #17000
+2014-09-09 21:28:25,173 : INFO : PROGRESS: saving document #18000
+2014-09-09 21:28:25,275 : INFO : PROGRESS: saving document #19000
+2014-09-09 21:28:25,377 : INFO : PROGRESS: saving document #20000
+2014-09-09 21:28:25,514 : INFO : PROGRESS: saving document #21000
+2014-09-09 21:28:25,664 : INFO : PROGRESS: saving document #22000
+2014-09-09 21:28:25,829 : INFO : PROGRESS: saving document #23000
+2014-09-09 21:28:25,959 : INFO : PROGRESS: saving document #24000
+2014-09-09 21:28:26,076 : INFO : PROGRESS: saving document #25000
+2014-09-09 21:28:26,194 : INFO : PROGRESS: saving document #26000
+2014-09-09 21:28:26,314 : INFO : PROGRESS: saving document #27000
+2014-09-09 21:28:26,442 : INFO : PROGRESS: saving document #28000
+2014-09-09 21:28:26,560 : INFO : PROGRESS: saving document #29000
+2014-09-09 21:28:26,678 : INFO : PROGRESS: saving document #30000
+2014-09-09 21:28:26,791 : INFO : PROGRESS: saving document #31000
+2014-09-09 21:28:26,900 : INFO : PROGRESS: saving document #32000
+2014-09-09 21:28:27,016 : INFO : PROGRESS: saving document #33000
+2014-09-09 21:28:27,132 : INFO : PROGRESS: saving document #34000
+2014-09-09 21:28:27,248 : INFO : PROGRESS: saving document #35000
+2014-09-09 21:28:27,366 : INFO : PROGRESS: saving document #36000
+2014-09-09 21:28:27,489 : INFO : PROGRESS: saving document #37000
+2014-09-09 21:28:27,611 : INFO : PROGRESS: saving document #38000
+2014-09-09 21:28:27,728 : INFO : PROGRESS: saving document #39000
+2014-09-09 21:28:27,847 : INFO : PROGRESS: saving document #40000
+2014-09-09 21:28:27,964 : INFO : PROGRESS: saving document #41000
+2014-09-09 21:28:28,079 : INFO : PROGRESS: saving document #42000
+2014-09-09 21:28:28,196 : INFO : PROGRESS: saving document #43000
+2014-09-09 21:28:28,309 : INFO : PROGRESS: saving document #44000
+2014-09-09 21:28:28,432 : INFO : PROGRESS: saving document #45000
+2014-09-09 21:28:28,544 : INFO : PROGRESS: saving document #46000
+2014-09-09 21:28:28,663 : INFO : PROGRESS: saving document #47000
+2014-09-09 21:28:28,787 : INFO : PROGRESS: saving document #48000
+2014-09-09 21:28:28,904 : INFO : PROGRESS: saving document #49000
+2014-09-09 21:28:29,019 : INFO : PROGRESS: saving document #50000
+2014-09-09 21:28:29,134 : INFO : PROGRESS: saving document #51000
+2014-09-09 21:28:29,251 : INFO : PROGRESS: saving document #52000
+2014-09-09 21:28:29,366 : INFO : PROGRESS: saving document #53000
+2014-09-09 21:28:29,486 : INFO : PROGRESS: saving document #54000
+2014-09-09 21:28:29,600 : INFO : PROGRESS: saving document #55000
+2014-09-09 21:28:29,613 : INFO : saved 55102x83947 matrix, density=0.010% (472644/4625647594)
+2014-09-09 21:28:29,614 : INFO : saving MmCorpus index to /Users/nilayan/Project/data/tweetcorpus.mm.index
+2014-09-09 21:28:29,653 : INFO : using serial LSI version on this node
+2014-09-09 21:28:29,653 : INFO : updating model with new documents
+2014-09-09 21:28:30,533 : INFO : preparing a new chunk of documents
+2014-09-09 21:28:30,749 : INFO : using 100 extra samples and 2 power iterations
+2014-09-09 21:28:30,749 : INFO : 1st phase: constructing (83947, 102) action matrix
+2014-09-09 21:28:31,047 : INFO : orthonormalizing (83947, 102) action matrix
+2014-09-09 21:28:38,423 : INFO : 2nd phase: running dense svd on (102, 20000) matrix
+2014-09-09 21:28:39,953 : INFO : computing the final decomposition
+2014-09-09 21:28:39,978 : INFO : keeping 2 factors (discarding 87.084% of energy spectrum)
+2014-09-09 21:28:40,089 : INFO : processed documents up to #20000
+2014-09-09 21:28:40,137 : INFO : topic #0(14.517): -0.432*"truce" + -0.262*"ends," + -0.259*"rises" + -0.238*"toll" + -0.235*"death" + -0.227*"phil" + -0.225*"cnn's" + -0.215*"falls" + -0.213*"black" + -0.212*"ends"
+2014-09-09 21:28:40,145 : INFO : topic #1(14.358): 0.307*"bubka," + 0.303*"famous" + 0.300*"sergey" + 0.297*"sportsmen," + 0.294*"head:" + 0.294*"end:" + 0.281*"urged" + 0.280*"olympic" + 0.250*"end" + 0.238*"violence"
+2014-09-09 21:28:40,956 : INFO : preparing a new chunk of documents
+2014-09-09 21:28:41,159 : INFO : using 100 extra samples and 2 power iterations
+2014-09-09 21:28:41,160 : INFO : 1st phase: constructing (83947, 102) action matrix
+2014-09-09 21:28:41,395 : INFO : orthonormalizing (83947, 102) action matrix
+2014-09-09 21:28:52,761 : INFO : 2nd phase: running dense svd on (102, 20000) matrix
+2014-09-09 21:28:54,252 : INFO : computing the final decomposition
+2014-09-09 21:28:54,253 : INFO : keeping 2 factors (discarding 92.202% of energy spectrum)
+2014-09-09 21:28:54,331 : INFO : merging projections: (83947, 2) + (83947, 2)
+2014-09-09 21:28:54,376 : INFO : keeping 2 factors (discarding 32.224% of energy spectrum)
+2014-09-09 21:28:54,413 : INFO : processed documents up to #40000
+2014-09-09 21:28:54,422 : INFO : topic #0(14.803): 0.416*"truce" + 0.245*"ends," + 0.243*"rises" + 0.229*"ukraine" + 0.227*"death" + 0.227*"toll" + 0.212*"phil" + 0.210*"cnn's" + 0.202*"falls" + 0.199*"black"
+2014-09-09 21:28:54,429 : INFO : topic #1(14.358): 0.304*"bubka," + 0.300*"famous" + 0.298*"sergey" + 0.295*"sportsmen," + 0.292*"head:" + 0.291*"end:" + 0.279*"urged" + 0.278*"olympic" + 0.247*"end" + 0.236*"violence"
+2014-09-09 21:28:55,168 : INFO : preparing a new chunk of documents
+2014-09-09 21:28:55,318 : INFO : using 100 extra samples and 2 power iterations
+2014-09-09 21:28:55,318 : INFO : 1st phase: constructing (83947, 102) action matrix
+2014-09-09 21:28:55,505 : INFO : orthonormalizing (83947, 102) action matrix
+2014-09-09 21:29:09,994 : INFO : 2nd phase: running dense svd on (102, 15102) matrix
+2014-09-09 21:29:11,026 : INFO : computing the final decomposition
+2014-09-09 21:29:11,026 : INFO : keeping 2 factors (discarding 92.970% of energy spectrum)
+2014-09-09 21:29:11,105 : INFO : merging projections: (83947, 2) + (83947, 2)
+2014-09-09 21:29:11,127 : INFO : keeping 2 factors (discarding 24.519% of energy spectrum)
+2014-09-09 21:29:11,163 : INFO : processed documents up to #55102
+2014-09-09 21:29:11,172 : INFO : topic #0(15.366): 0.391*"truce" + 0.341*"ukraine" + 0.227*"death" + 0.226*"toll" + 0.225*"rises" + 0.224*"ends," + 0.194*"phil" + 0.193*"cnn's" + 0.185*"falls" + 0.183*"black"
+2014-09-09 21:29:11,181 : INFO : topic #1(14.358): 0.305*"bubka," + 0.300*"famous" + 0.298*"sergey" + 0.295*"sportsmen," + 0.292*"head:" + 0.292*"end:" + 0.279*"urged" + 0.278*"olympic" + 0.248*"end" + 0.237*"violence"
+2014-09-09 21:29:11,233 : INFO : topic #0(15.366): 0.391*"truce" + 0.341*"ukraine" + 0.227*"death" + 0.226*"toll" + 0.225*"rises" + 0.224*"ends," + 0.194*"phil" + 0.193*"cnn's" + 0.185*"falls" + 0.183*"black"
+2014-09-09 21:29:11,242 : INFO : topic #1(14.358): 0.305*"bubka," + 0.300*"famous" + 0.298*"sergey" + 0.295*"sportsmen," + 0.292*"head:" + 0.292*"end:" + 0.279*"urged" + 0.278*"olympic" + 0.248*"end" + 0.237*"violence"
+2014-09-09 21:36:47,101 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-09-09 21:36:48,139 : INFO : adding document #10000 to Dictionary(22373 unique tokens: [u'(photos)', u'sowell', u'http://t.co/grg1m2alxd', u'hanging', u'localized']...)

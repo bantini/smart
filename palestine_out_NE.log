@@ -1,0 +1,142 @@
+2014-08-26 10:06:10,547 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-08-26 10:06:10,877 : INFO : adding document #10000 to Dictionary(3126 unique tokens: [u'SIS', u'LIFE', u'NYS', u'Nuseirat', u'NYT']...)
+2014-08-26 10:06:11,178 : INFO : adding document #20000 to Dictionary(5217 unique tokens: [u'Adolescente', u'SIS', u'LIFE', u'NYS', u'FelipeColombo']...)
+2014-08-26 10:06:11,525 : INFO : adding document #30000 to Dictionary(6852 unique tokens: [u'Poetry', u'Abbas', u'GaianCollective', u'Lebenszeichen', u'Ronald']...)
+2014-08-26 10:06:11,844 : INFO : adding document #40000 to Dictionary(8366 unique tokens: [u'Poetry', u'Abbas', u'GaianCollective', u'ReutersUS', u'Lebenszeichen']...)
+2014-08-26 10:06:12,142 : INFO : adding document #50000 to Dictionary(9669 unique tokens: [u'Poetry', u'Abbas', u'GaianCollective', u'Until', u'ReutersUS']...)
+2014-08-26 10:06:12,413 : INFO : adding document #60000 to Dictionary(10640 unique tokens: [u'Poetry', u'Abbas', u'GaianCollective', u'PacoMeloRoca', u'Until']...)
+2014-08-26 10:06:12,484 : INFO : built Dictionary(10934 unique tokens: [u'Poetry', u'Abbas', u'GaianCollective', u'PacoMeloRoca', u'Until']...) from 62405 documents (total 93479 corpus positions)
+2014-08-26 10:06:12,484 : INFO : saving Dictionary object under /Users/nilayan/Project/data/palestine.dict, separately None
+2014-08-26 11:50:09,734 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-08-26 11:50:10,084 : INFO : adding document #10000 to Dictionary(3126 unique tokens: [u'SIS', u'LIFE', u'NYS', u'Nuseirat', u'NYT']...)
+2014-08-26 11:50:10,390 : INFO : adding document #20000 to Dictionary(5217 unique tokens: [u'Adolescente', u'SIS', u'LIFE', u'NYS', u'FelipeColombo']...)
+2014-08-26 11:50:10,709 : INFO : adding document #30000 to Dictionary(6852 unique tokens: [u'Poetry', u'Abbas', u'GaianCollective', u'Lebenszeichen', u'Ronald']...)
+2014-08-26 11:50:11,027 : INFO : adding document #40000 to Dictionary(8366 unique tokens: [u'Poetry', u'Abbas', u'GaianCollective', u'ReutersUS', u'Lebenszeichen']...)
+2014-08-26 11:50:11,317 : INFO : adding document #50000 to Dictionary(9669 unique tokens: [u'Poetry', u'Abbas', u'GaianCollective', u'Until', u'ReutersUS']...)
+2014-08-26 11:50:11,571 : INFO : adding document #60000 to Dictionary(10640 unique tokens: [u'Poetry', u'Abbas', u'GaianCollective', u'PacoMeloRoca', u'Until']...)
+2014-08-26 11:50:11,644 : INFO : built Dictionary(10934 unique tokens: [u'Poetry', u'Abbas', u'GaianCollective', u'PacoMeloRoca', u'Until']...) from 62405 documents (total 93479 corpus positions)
+2014-08-26 11:50:11,645 : INFO : saving Dictionary object under /Users/nilayan/Project/data/palestine.dict, separately None
+2014-08-26 11:50:13,480 : INFO : collecting document frequencies
+2014-08-26 11:50:13,481 : INFO : PROGRESS: processing document #0
+2014-08-26 11:50:13,492 : INFO : PROGRESS: processing document #10000
+2014-08-26 11:50:13,504 : INFO : PROGRESS: processing document #20000
+2014-08-26 11:50:13,516 : INFO : PROGRESS: processing document #30000
+2014-08-26 11:50:13,528 : INFO : PROGRESS: processing document #40000
+2014-08-26 11:50:13,540 : INFO : PROGRESS: processing document #50000
+2014-08-26 11:50:13,550 : INFO : PROGRESS: processing document #60000
+2014-08-26 11:50:13,554 : INFO : calculating IDF weights for 62405 documents and 10933 features (91569 matrix non-zeros)
+2014-08-26 11:50:13,566 : INFO : storing corpus in Matrix Market format to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-08-26 11:50:13,587 : INFO : saving sparse matrix to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-08-26 11:50:13,588 : INFO : PROGRESS: saving document #0
+2014-08-26 11:50:13,624 : INFO : PROGRESS: saving document #1000
+2014-08-26 11:50:13,662 : INFO : PROGRESS: saving document #2000
+2014-08-26 11:50:13,699 : INFO : PROGRESS: saving document #3000
+2014-08-26 11:50:13,735 : INFO : PROGRESS: saving document #4000
+2014-08-26 11:50:13,772 : INFO : PROGRESS: saving document #5000
+2014-08-26 11:50:13,810 : INFO : PROGRESS: saving document #6000
+2014-08-26 11:50:13,844 : INFO : PROGRESS: saving document #7000
+2014-08-26 11:50:13,908 : INFO : PROGRESS: saving document #8000
+2014-08-26 11:50:13,944 : INFO : PROGRESS: saving document #9000
+2014-08-26 11:50:13,983 : INFO : PROGRESS: saving document #10000
+2014-08-26 11:50:14,018 : INFO : PROGRESS: saving document #11000
+2014-08-26 11:50:14,050 : INFO : PROGRESS: saving document #12000
+2014-08-26 11:50:14,084 : INFO : PROGRESS: saving document #13000
+2014-08-26 11:50:14,118 : INFO : PROGRESS: saving document #14000
+2014-08-26 11:50:14,154 : INFO : PROGRESS: saving document #15000
+2014-08-26 11:50:14,191 : INFO : PROGRESS: saving document #16000
+2014-08-26 11:50:14,227 : INFO : PROGRESS: saving document #17000
+2014-08-26 11:50:14,264 : INFO : PROGRESS: saving document #18000
+2014-08-26 11:50:14,297 : INFO : PROGRESS: saving document #19000
+2014-08-26 11:50:14,330 : INFO : PROGRESS: saving document #20000
+2014-08-26 11:50:14,367 : INFO : PROGRESS: saving document #21000
+2014-08-26 11:50:14,403 : INFO : PROGRESS: saving document #22000
+2014-08-26 11:50:14,437 : INFO : PROGRESS: saving document #23000
+2014-08-26 11:50:14,473 : INFO : PROGRESS: saving document #24000
+2014-08-26 11:50:14,519 : INFO : PROGRESS: saving document #25000
+2014-08-26 11:50:14,560 : INFO : PROGRESS: saving document #26000
+2014-08-26 11:50:14,599 : INFO : PROGRESS: saving document #27000
+2014-08-26 11:50:14,639 : INFO : PROGRESS: saving document #28000
+2014-08-26 11:50:14,675 : INFO : PROGRESS: saving document #29000
+2014-08-26 11:50:14,714 : INFO : PROGRESS: saving document #30000
+2014-08-26 11:50:14,770 : INFO : PROGRESS: saving document #31000
+2014-08-26 11:50:14,809 : INFO : PROGRESS: saving document #32000
+2014-08-26 11:50:14,852 : INFO : PROGRESS: saving document #33000
+2014-08-26 11:50:14,885 : INFO : PROGRESS: saving document #34000
+2014-08-26 11:50:14,919 : INFO : PROGRESS: saving document #35000
+2014-08-26 11:50:14,959 : INFO : PROGRESS: saving document #36000
+2014-08-26 11:50:14,997 : INFO : PROGRESS: saving document #37000
+2014-08-26 11:50:15,036 : INFO : PROGRESS: saving document #38000
+2014-08-26 11:50:15,069 : INFO : PROGRESS: saving document #39000
+2014-08-26 11:50:15,106 : INFO : PROGRESS: saving document #40000
+2014-08-26 11:50:15,140 : INFO : PROGRESS: saving document #41000
+2014-08-26 11:50:15,178 : INFO : PROGRESS: saving document #42000
+2014-08-26 11:50:15,216 : INFO : PROGRESS: saving document #43000
+2014-08-26 11:50:15,254 : INFO : PROGRESS: saving document #44000
+2014-08-26 11:50:15,287 : INFO : PROGRESS: saving document #45000
+2014-08-26 11:50:15,327 : INFO : PROGRESS: saving document #46000
+2014-08-26 11:50:15,362 : INFO : PROGRESS: saving document #47000
+2014-08-26 11:50:15,395 : INFO : PROGRESS: saving document #48000
+2014-08-26 11:50:15,427 : INFO : PROGRESS: saving document #49000
+2014-08-26 11:50:15,457 : INFO : PROGRESS: saving document #50000
+2014-08-26 11:50:15,486 : INFO : PROGRESS: saving document #51000
+2014-08-26 11:50:15,512 : INFO : PROGRESS: saving document #52000
+2014-08-26 11:50:15,537 : INFO : PROGRESS: saving document #53000
+2014-08-26 11:50:15,563 : INFO : PROGRESS: saving document #54000
+2014-08-26 11:50:15,587 : INFO : PROGRESS: saving document #55000
+2014-08-26 11:50:15,616 : INFO : PROGRESS: saving document #56000
+2014-08-26 11:50:15,650 : INFO : PROGRESS: saving document #57000
+2014-08-26 11:50:15,676 : INFO : PROGRESS: saving document #58000
+2014-08-26 11:50:15,704 : INFO : PROGRESS: saving document #59000
+2014-08-26 11:50:15,732 : INFO : PROGRESS: saving document #60000
+2014-08-26 11:50:15,791 : INFO : PROGRESS: saving document #61000
+2014-08-26 11:50:15,826 : INFO : PROGRESS: saving document #62000
+2014-08-26 11:50:15,841 : INFO : saved 62405x10934 matrix, density=0.013% (91569/682336270)
+2014-08-26 11:50:15,878 : INFO : saving MmCorpus index to /Users/nilayan/Project/data/tweetcorpus.mm.index
+2014-08-26 11:50:15,906 : INFO : using serial LSI version on this node
+2014-08-26 11:50:15,906 : INFO : updating model with new documents
+2014-08-26 11:50:16,295 : INFO : preparing a new chunk of documents
+2014-08-26 11:50:16,452 : INFO : using 100 extra samples and 2 power iterations
+2014-08-26 11:50:16,456 : INFO : 1st phase: constructing (10934, 102) action matrix
+2014-08-26 11:50:16,664 : INFO : orthonormalizing (10934, 102) action matrix
+2014-08-26 11:50:17,359 : INFO : 2nd phase: running dense svd on (102, 20000) matrix
+2014-08-26 11:50:19,071 : INFO : computing the final decomposition
+2014-08-26 11:50:19,102 : INFO : keeping 2 factors (discarding 66.155% of energy spectrum)
+2014-08-26 11:50:19,152 : INFO : processed documents up to #20000
+2014-08-26 11:50:19,192 : INFO : topic #0(41.571): 0.994*"Israel" + 0.093*"Gaza" + 0.024*"Hamas" + 0.021*"US" + 0.019*"Palestine" + 0.013*"Cuomo" + 0.012*"Obama" + 0.012*"Palestinian" + 0.012*"Israeli" + 0.010*"White"
+2014-08-26 11:50:19,193 : INFO : topic #1(29.205): 0.992*"Gaza" + -0.095*"Israel" + 0.063*"Israeli" + 0.025*"Ferguson" + 0.022*"Status" + 0.021*"Hamas" + 0.017*"Palestinian" + 0.014*"EU" + 0.013*"Palestine" + 0.011*"Dutch"
+2014-08-26 11:50:19,700 : INFO : preparing a new chunk of documents
+2014-08-26 11:50:19,806 : INFO : using 100 extra samples and 2 power iterations
+2014-08-26 11:50:19,810 : INFO : 1st phase: constructing (10934, 102) action matrix
+2014-08-26 11:50:19,977 : INFO : orthonormalizing (10934, 102) action matrix
+2014-08-26 11:50:20,655 : INFO : 2nd phase: running dense svd on (102, 20000) matrix
+2014-08-26 11:50:22,177 : INFO : computing the final decomposition
+2014-08-26 11:50:22,177 : INFO : keeping 2 factors (discarding 67.922% of energy spectrum)
+2014-08-26 11:50:22,188 : INFO : merging projections: (10934, 2) + (10934, 2)
+2014-08-26 11:50:22,206 : INFO : keeping 2 factors (discarding 0.088% of energy spectrum)
+2014-08-26 11:50:22,207 : INFO : processed documents up to #40000
+2014-08-26 11:50:22,208 : INFO : topic #0(58.004): 0.994*"Israel" + 0.094*"Gaza" + 0.025*"Hamas" + 0.022*"US" + 0.018*"Palestine" + 0.015*"Obama" + 0.013*"Israeli" + 0.012*"Palestinian" + 0.008*"White" + 0.007*"Cuomo"
+2014-08-26 11:50:22,209 : INFO : topic #1(41.227): 0.989*"Gaza" + -0.097*"Israel" + 0.074*"Israeli" + 0.037*"Dutch" + 0.037*"EU" + 0.023*"Palestinian" + 0.022*"Hamas" + 0.020*"Ferguson" + 0.018*"Status" + 0.015*"Palestine"
+2014-08-26 11:50:22,595 : INFO : preparing a new chunk of documents
+2014-08-26 11:50:22,698 : INFO : using 100 extra samples and 2 power iterations
+2014-08-26 11:50:22,698 : INFO : 1st phase: constructing (10934, 102) action matrix
+2014-08-26 11:50:22,870 : INFO : orthonormalizing (10934, 102) action matrix
+2014-08-26 11:50:23,783 : INFO : 2nd phase: running dense svd on (102, 20000) matrix
+2014-08-26 11:50:25,278 : INFO : computing the final decomposition
+2014-08-26 11:50:25,278 : INFO : keeping 2 factors (discarding 60.472% of energy spectrum)
+2014-08-26 11:50:25,289 : INFO : merging projections: (10934, 2) + (10934, 2)
+2014-08-26 11:50:25,291 : INFO : keeping 2 factors (discarding 0.106% of energy spectrum)
+2014-08-26 11:50:25,291 : INFO : processed documents up to #60000
+2014-08-26 11:50:25,292 : INFO : topic #0(72.662): 0.992*"Israel" + 0.114*"Gaza" + 0.031*"Hamas" + 0.021*"US" + 0.016*"Netanyahu" + 0.014*"Israeli" + 0.014*"Palestine" + 0.012*"Palestinian" + 0.010*"Obama" + 0.006*"Ferguson"
+2014-08-26 11:50:25,293 : INFO : topic #1(50.698): 0.987*"Gaza" + -0.117*"Israel" + 0.089*"Israeli" + 0.032*"Hamas" + 0.024*"Dutch" + 0.024*"EU" + 0.020*"Palestinian" + 0.016*"Ferguson" + 0.012*"Status" + 0.010*"Palestine"
+2014-08-26 11:50:25,351 : INFO : preparing a new chunk of documents
+2014-08-26 11:50:25,363 : INFO : using 100 extra samples and 2 power iterations
+2014-08-26 11:50:25,367 : INFO : 1st phase: constructing (10934, 102) action matrix
+2014-08-26 11:50:25,388 : INFO : orthonormalizing (10934, 102) action matrix
+2014-08-26 11:50:26,295 : INFO : 2nd phase: running dense svd on (102, 2405) matrix
+2014-08-26 11:50:26,357 : INFO : computing the final decomposition
+2014-08-26 11:50:26,357 : INFO : keeping 2 factors (discarding 54.158% of energy spectrum)
+2014-08-26 11:50:26,369 : INFO : merging projections: (10934, 2) + (10934, 2)
+2014-08-26 11:50:26,370 : INFO : keeping 2 factors (discarding 0.079% of energy spectrum)
+2014-08-26 11:50:26,371 : INFO : processed documents up to #62405
+2014-08-26 11:50:26,372 : INFO : topic #0(75.597): 0.993*"Israel" + 0.109*"Gaza" + 0.030*"Hamas" + 0.020*"US" + 0.015*"Netanyahu" + 0.014*"Israeli" + 0.013*"Palestine" + 0.012*"Palestinian" + 0.009*"Obama" + 0.007*"Ferguson"
+2014-08-26 11:50:26,373 : INFO : topic #1(51.719): 0.987*"Gaza" + -0.112*"Israel" + 0.097*"Israeli" + 0.035*"Hamas" + 0.024*"Dutch" + 0.023*"EU" + 0.020*"Palestinian" + 0.016*"Ferguson" + 0.011*"Status" + 0.010*"Palestine"

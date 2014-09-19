@@ -1,4 +1,5 @@
 import json
+import time
 from os.path import join
 from collections import defaultdict
 
@@ -9,9 +10,10 @@ class Tweet:
 
 def tweetReader(f):
 	listOfId = defaultdict(long)
-	path = "/Users/nilayan/Downloads/D"
-	with open(join(path,f),"r") as r:
+	path = "/Users/nilayan/Project/data"
+	with open(join("/Users/nilayan/Downloads/D",f),"r") as r:
 		counter = 0
+		out_file = "ukr.txt"
 		for line in r:
 			#print line
 			try:
@@ -22,37 +24,47 @@ def tweetReader(f):
 						pass
 					else:
 						text = json_data["retweeted_status"]["text"]
-						created_at = json_data["retweeted_status"]["created_at"]
-						tweetObject = Tweet(text,created_at)
-						with open(join(path,"palestine_tweets.txt"),"a") as w:
-							w.write("%s\n"%(text))
-						listOfId[id] = tweetObject
-						if counter>50000:
-							print counter
-							break
-						else:
-							print "Old"
-							print counter
-							counter+=1
+						text = text.encode("UTF-8")
+						#created_at = json_data["retweeted_status"]["created_at"]
+						ts = time.strftime('%Y-%m-%d %H:%M:%S', time.strptime(json_data["retweeted_status"]["created_at"],'%a %b %d %H:%M:%S +0000 %Y'))	
+						#tweetObject = Tweet(text,created_at)
+						with open(join(path,out_file),"a") as w:
+							print "%s,%s\n"%(ts,text)
+							w.write("%s,%s\n"%(ts,text))
+							listOfId[id] = True
+							"""
+							if counter>50000:
+								print counter
+								break
+							else:
+								print "Old"
+								print counter
+								counter+=1
+							"""
 				except KeyError:
 					text = json_data["text"]
+					ts = time.strftime('%Y-%m-%d %H:%M:%S', time.strptime(json_data["created_at"],'%a %b %d %H:%M:%S +0000 %Y'))
+					text = text.encode("UTF-8")
 					try:
-						id = json_data["id"]
+						_id = json_data["id"]
 						if listOfId[id]:
 							pass
 						else:
-							with open(join(path,"palestine_tweets.txt"),"a") as w:
-                                                        	w.write("%s\n"%(text))
-						created_at = json_data["created_at"]
-						tweetObject = Tweet(text,created_at)
-						if counter>50000:
-							print "New"
-							print counter
-							break
-						else:
-							print "New"
-							print counter
-							counter+=1
+							listOfId[id] = True
+							with open(join(path,out_file),"a") as w:
+								w.write("%s,%s\n"%(ts,text))
+							#created_at = json_data["created_at"]
+							#tweetObject = Tweet(text,created_at)
+							"""
+							if counter>50000:
+								print "New"
+								print counter
+								break
+							else:
+								print "New"
+								print counter
+								counter+=1
+							"""
 					except Exception,e:
 						print "Inner loop exception:"
 						print e
@@ -63,7 +75,7 @@ def tweetReader(f):
 				pass
 
 def main():
-	f = "palestine_full.txt"
+	f = "ukraine_full.txt"
 	tweetReader(f)
 
 if __name__ == "__main__":

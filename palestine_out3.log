@@ -1,0 +1,137 @@
+2014-08-26 08:46:14,805 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-08-26 08:46:15,784 : INFO : adding document #10000 to Dictionary(25465 unique tokens: [u'http://t.co/r1lj5mv3lm', u'sanagustin', u'hanging', u'see...i', u'http://t.co/ysw9rqpzlm']...)
+2014-08-26 08:46:16,698 : INFO : adding document #20000 to Dictionary(42768 unique tokens: [u'http://t.co/r1lj5mv3lm', u'sanagustin', u'hanging', u'see...i', u'http://t.co/ysw9rqpzlm']...)
+2014-08-26 08:46:17,659 : INFO : adding document #30000 to Dictionary(57463 unique tokens: [u'http://t.co/r1lj5mv3lm', u'story!:', u'sanagustin', u'digitaal', u'http://t.co/jhru6cmymq']...)
+2014-08-26 08:46:18,597 : INFO : adding document #40000 to Dictionary(71214 unique tokens: [u'http://t.co/r1lj5mv3lm', u'http://t.co/xw3fjj7bpp', u'story!:', u'sanagustin', u'digitaal']...)
+2014-08-26 08:46:19,515 : INFO : adding document #50000 to Dictionary(84011 unique tokens: [u'http://t.co/voygkvthsf', u'http://t.co/r1lj5mv3lm', u'http://t.co/xw3fjj7bpp', u'story!:', u"#giants'"]...)
+2014-08-26 08:46:20,381 : INFO : adding document #60000 to Dictionary(95527 unique tokens: [u'gai', u'http://t.co/xw3fjj7bpp', u'sowell', u'sanagustin', u'digitaal']...)
+2014-08-26 08:46:20,645 : INFO : built Dictionary(98318 unique tokens: [u'gai', u'http://t.co/xw3fjj7bpp', u'sowell', u'sanagustin', u'http://t.co/uc1z2tbfmo']...) from 62405 documents (total 517915 corpus positions)
+2014-08-26 08:46:20,645 : INFO : saving Dictionary object under /Users/nilayan/Project/data/palestine.dict, separately None
+2014-08-26 08:46:26,794 : INFO : collecting document frequencies
+2014-08-26 08:46:26,794 : INFO : PROGRESS: processing document #0
+2014-08-26 08:46:26,845 : INFO : PROGRESS: processing document #10000
+2014-08-26 08:46:26,884 : INFO : PROGRESS: processing document #20000
+2014-08-26 08:46:26,925 : INFO : PROGRESS: processing document #30000
+2014-08-26 08:46:26,965 : INFO : PROGRESS: processing document #40000
+2014-08-26 08:46:27,023 : INFO : PROGRESS: processing document #50000
+2014-08-26 08:46:27,073 : INFO : PROGRESS: processing document #60000
+2014-08-26 08:46:27,090 : INFO : calculating IDF weights for 62405 documents and 98317 features (508052 matrix non-zeros)
+2014-08-26 08:46:27,206 : INFO : storing corpus in Matrix Market format to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-08-26 08:46:27,214 : INFO : saving sparse matrix to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-08-26 08:46:27,215 : INFO : PROGRESS: saving document #0
+2014-08-26 08:46:27,336 : INFO : PROGRESS: saving document #1000
+2014-08-26 08:46:27,454 : INFO : PROGRESS: saving document #2000
+2014-08-26 08:46:27,622 : INFO : PROGRESS: saving document #3000
+2014-08-26 08:46:27,755 : INFO : PROGRESS: saving document #4000
+2014-08-26 08:46:27,880 : INFO : PROGRESS: saving document #5000
+2014-08-26 08:46:27,997 : INFO : PROGRESS: saving document #6000
+2014-08-26 08:46:28,116 : INFO : PROGRESS: saving document #7000
+2014-08-26 08:46:28,234 : INFO : PROGRESS: saving document #8000
+2014-08-26 08:46:28,355 : INFO : PROGRESS: saving document #9000
+2014-08-26 08:46:28,472 : INFO : PROGRESS: saving document #10000
+2014-08-26 08:46:28,597 : INFO : PROGRESS: saving document #11000
+2014-08-26 08:46:28,699 : INFO : PROGRESS: saving document #12000
+2014-08-26 08:46:28,803 : INFO : PROGRESS: saving document #13000
+2014-08-26 08:46:28,920 : INFO : PROGRESS: saving document #14000
+2014-08-26 08:46:29,060 : INFO : PROGRESS: saving document #15000
+2014-08-26 08:46:29,172 : INFO : PROGRESS: saving document #16000
+2014-08-26 08:46:29,289 : INFO : PROGRESS: saving document #17000
+2014-08-26 08:46:29,403 : INFO : PROGRESS: saving document #18000
+2014-08-26 08:46:29,509 : INFO : PROGRESS: saving document #19000
+2014-08-26 08:46:29,625 : INFO : PROGRESS: saving document #20000
+2014-08-26 08:46:29,737 : INFO : PROGRESS: saving document #21000
+2014-08-26 08:46:29,841 : INFO : PROGRESS: saving document #22000
+2014-08-26 08:46:29,951 : INFO : PROGRESS: saving document #23000
+2014-08-26 08:46:30,066 : INFO : PROGRESS: saving document #24000
+2014-08-26 08:46:30,183 : INFO : PROGRESS: saving document #25000
+2014-08-26 08:46:30,316 : INFO : PROGRESS: saving document #26000
+2014-08-26 08:46:30,439 : INFO : PROGRESS: saving document #27000
+2014-08-26 08:46:30,562 : INFO : PROGRESS: saving document #28000
+2014-08-26 08:46:30,688 : INFO : PROGRESS: saving document #29000
+2014-08-26 08:46:30,806 : INFO : PROGRESS: saving document #30000
+2014-08-26 08:46:30,924 : INFO : PROGRESS: saving document #31000
+2014-08-26 08:46:31,050 : INFO : PROGRESS: saving document #32000
+2014-08-26 08:46:31,176 : INFO : PROGRESS: saving document #33000
+2014-08-26 08:46:31,283 : INFO : PROGRESS: saving document #34000
+2014-08-26 08:46:31,398 : INFO : PROGRESS: saving document #35000
+2014-08-26 08:46:31,518 : INFO : PROGRESS: saving document #36000
+2014-08-26 08:46:31,649 : INFO : PROGRESS: saving document #37000
+2014-08-26 08:46:31,763 : INFO : PROGRESS: saving document #38000
+2014-08-26 08:46:31,872 : INFO : PROGRESS: saving document #39000
+2014-08-26 08:46:31,979 : INFO : PROGRESS: saving document #40000
+2014-08-26 08:46:32,090 : INFO : PROGRESS: saving document #41000
+2014-08-26 08:46:32,207 : INFO : PROGRESS: saving document #42000
+2014-08-26 08:46:32,352 : INFO : PROGRESS: saving document #43000
+2014-08-26 08:46:32,471 : INFO : PROGRESS: saving document #44000
+2014-08-26 08:46:32,604 : INFO : PROGRESS: saving document #45000
+2014-08-26 08:46:32,721 : INFO : PROGRESS: saving document #46000
+2014-08-26 08:46:32,839 : INFO : PROGRESS: saving document #47000
+2014-08-26 08:46:32,942 : INFO : PROGRESS: saving document #48000
+2014-08-26 08:46:33,045 : INFO : PROGRESS: saving document #49000
+2014-08-26 08:46:33,150 : INFO : PROGRESS: saving document #50000
+2014-08-26 08:46:33,263 : INFO : PROGRESS: saving document #51000
+2014-08-26 08:46:33,367 : INFO : PROGRESS: saving document #52000
+2014-08-26 08:46:33,462 : INFO : PROGRESS: saving document #53000
+2014-08-26 08:46:33,562 : INFO : PROGRESS: saving document #54000
+2014-08-26 08:46:33,662 : INFO : PROGRESS: saving document #55000
+2014-08-26 08:46:33,765 : INFO : PROGRESS: saving document #56000
+2014-08-26 08:46:33,874 : INFO : PROGRESS: saving document #57000
+2014-08-26 08:46:33,972 : INFO : PROGRESS: saving document #58000
+2014-08-26 08:46:34,070 : INFO : PROGRESS: saving document #59000
+2014-08-26 08:46:34,178 : INFO : PROGRESS: saving document #60000
+2014-08-26 08:46:34,311 : INFO : PROGRESS: saving document #61000
+2014-08-26 08:46:34,438 : INFO : PROGRESS: saving document #62000
+2014-08-26 08:46:34,497 : INFO : saved 62405x98318 matrix, density=0.008% (508052/6135534790)
+2014-08-26 08:46:34,501 : INFO : saving MmCorpus index to /Users/nilayan/Project/data/tweetcorpus.mm.index
+2014-08-26 08:46:34,613 : INFO : using serial LSI version on this node
+2014-08-26 08:46:34,613 : INFO : updating model with new documents
+2014-08-26 08:46:35,357 : INFO : preparing a new chunk of documents
+2014-08-26 08:46:35,614 : INFO : using 100 extra samples and 2 power iterations
+2014-08-26 08:46:35,614 : INFO : 1st phase: constructing (98318, 103) action matrix
+2014-08-26 08:46:35,913 : INFO : orthonormalizing (98318, 103) action matrix
+2014-08-26 08:46:44,780 : INFO : 2nd phase: running dense svd on (103, 20000) matrix
+2014-08-26 08:46:46,467 : INFO : computing the final decomposition
+2014-08-26 08:46:46,505 : INFO : keeping 3 factors (discarding 85.434% of energy spectrum)
+2014-08-26 08:46:46,680 : INFO : processed documents up to #20000
+2014-08-26 08:46:46,736 : INFO : topic #0(12.279): 0.712*"#hot" + 0.702*"#london" + 0.014*"#gaza" + 0.006*"#palestine" + 0.005*"#gazaunderattack" + 0.002*"#israel" + 0.002*"#prayforgaza" + 0.002*"stands" + 0.002*"boxes" + 0.002*"#icc4israel"
+2014-08-26 08:46:46,743 : INFO : topic #1(11.195): -0.590*"#gaza" + -0.265*"wraps" + -0.264*"visiting" + -0.263*"cuomo" + -0.260*"trip" + -0.233*"#gazaunderattack" + -0.178*"cuomo," + -0.178*"m." + -0.178*"tunnels:" + -0.178*"gov."
+2014-08-26 08:46:46,750 : INFO : topic #2(11.115): -0.626*"#gaza" + 0.257*"wraps" + 0.254*"visiting" + 0.254*"cuomo" + 0.252*"trip" + -0.249*"#gazaunderattack" + 0.173*"cuomo," + 0.173*"m." + 0.173*"tunnels:" + 0.172*"gov."
+2014-08-26 08:46:47,694 : INFO : preparing a new chunk of documents
+2014-08-26 08:46:47,903 : INFO : using 100 extra samples and 2 power iterations
+2014-08-26 08:46:47,903 : INFO : 1st phase: constructing (98318, 103) action matrix
+2014-08-26 08:46:48,144 : INFO : orthonormalizing (98318, 103) action matrix
+2014-08-26 08:47:01,453 : INFO : 2nd phase: running dense svd on (103, 20000) matrix
+2014-08-26 08:47:03,186 : INFO : computing the final decomposition
+2014-08-26 08:47:03,187 : INFO : keeping 3 factors (discarding 82.633% of energy spectrum)
+2014-08-26 08:47:03,286 : INFO : merging projections: (98318, 3) + (98318, 3)
+2014-08-26 08:47:03,339 : INFO : keeping 3 factors (discarding 13.251% of energy spectrum)
+2014-08-26 08:47:03,385 : INFO : processed documents up to #40000
+2014-08-26 08:47:03,395 : INFO : topic #0(21.023): 0.713*"#hot" + 0.702*"#london" + 0.003*"#gaza" + 0.002*"#palestine" + 0.001*"boxes" + 0.001*"#baloch" + 0.001*"#14augustblackday" + 0.001*"http://t.co/jxadj0gjzg" + 0.001*"#gazaunderattack" + 0.001*"#israel"
+2014-08-26 08:47:03,404 : INFO : topic #1(15.509): 0.878*"#gaza" + 0.294*"#gazaunderattack" + 0.195*"#palestine" + 0.117*"#icc4israel" + 0.097*"#israel" + 0.080*"#givebackourfreedom" + 0.080*"#stayhuman" + 0.072*"#freepalestine" + 0.066*"#ajagaza" + 0.060*"#prayforgaza"
+2014-08-26 08:47:03,413 : INFO : topic #2(12.492): -0.320*"dipindahkan" + -0.320*"piala" + -0.320*"konflik" + -0.308*"davis" + -0.299*"dari" + -0.299*"ke" + -0.253*"gaza," + -0.204*"keamanan" + -0.202*"florida:" + -0.201*"menjadi"
+2014-08-26 08:47:04,193 : INFO : preparing a new chunk of documents
+2014-08-26 08:47:04,392 : INFO : using 100 extra samples and 2 power iterations
+2014-08-26 08:47:04,392 : INFO : 1st phase: constructing (98318, 103) action matrix
+2014-08-26 08:47:04,645 : INFO : orthonormalizing (98318, 103) action matrix
+2014-08-26 08:47:22,312 : INFO : 2nd phase: running dense svd on (103, 20000) matrix
+2014-08-26 08:47:23,995 : INFO : computing the final decomposition
+2014-08-26 08:47:23,996 : INFO : keeping 3 factors (discarding 63.958% of energy spectrum)
+2014-08-26 08:47:24,095 : INFO : merging projections: (98318, 3) + (98318, 3)
+2014-08-26 08:47:24,124 : INFO : keeping 3 factors (discarding 21.086% of energy spectrum)
+2014-08-26 08:47:24,170 : INFO : processed documents up to #60000
+2014-08-26 08:47:24,181 : INFO : topic #0(34.503): 1.000*"-" + 0.008*"#gaza" + 0.004*"#gazaunderattack" + 0.004*"gaza" + 0.003*"israel" + 0.003*"fighting" + 0.003*"erupts," + 0.003*"orders" + 0.003*"cairo" + 0.003*"negotiators"
+2014-08-26 08:47:24,191 : INFO : topic #1(21.024): 0.713*"#hot" + 0.702*"#london" + 0.008*"#gazaunderattack" + 0.007*"#gaza" + 0.003*"#palestine" + 0.001*"#icc4israel" + 0.001*"#israel" + 0.001*"boxes" + 0.001*"#14augustblackday" + 0.001*"#baloch"
+2014-08-26 08:47:24,201 : INFO : topic #2(19.554): 0.811*"#gazaunderattack" + 0.522*"#gaza" + 0.126*"#icc4israel" + 0.109*"#palestine" + 0.081*"#prayforgaza" + 0.081*"#ajagaza" + 0.056*"#israel" + 0.043*"#freepalestine" + 0.040*"#givebackourfreedom" + 0.040*"#stayhuman"
+2014-08-26 08:47:24,348 : INFO : preparing a new chunk of documents
+2014-08-26 08:47:24,374 : INFO : using 100 extra samples and 2 power iterations
+2014-08-26 08:47:24,374 : INFO : 1st phase: constructing (98318, 103) action matrix
+2014-08-26 08:47:24,413 : INFO : orthonormalizing (98318, 103) action matrix
+2014-08-26 08:47:42,576 : INFO : 2nd phase: running dense svd on (103, 2405) matrix
+2014-08-26 08:47:42,757 : INFO : computing the final decomposition
+2014-08-26 08:47:42,757 : INFO : keeping 3 factors (discarding 67.231% of energy spectrum)
+2014-08-26 08:47:42,857 : INFO : merging projections: (98318, 3) + (98318, 3)
+2014-08-26 08:47:42,888 : INFO : keeping 3 factors (discarding 8.023% of energy spectrum)
+2014-08-26 08:47:42,934 : INFO : processed documents up to #62405
+2014-08-26 08:47:42,945 : INFO : topic #0(34.503): 1.000*"-" + 0.009*"#gaza" + 0.004*"#gazaunderattack" + 0.004*"gaza" + 0.003*"israel" + 0.003*"fighting" + 0.003*"erupts," + 0.003*"orders" + 0.003*"cairo" + 0.003*"negotiators"
+2014-08-26 08:47:42,956 : INFO : topic #1(21.024): 0.712*"#hot" + 0.701*"#london" + 0.025*"#gazaunderattack" + 0.017*"#gaza" + 0.004*"#palestine" + 0.004*"#icc4israel" + 0.003*"#prayforgaza" + 0.002*"#israel" + 0.002*"#ajagaza" + 0.002*"#freepalestine"
+2014-08-26 08:47:42,966 : INFO : topic #2(20.536): 0.820*"#gazaunderattack" + 0.511*"#gaza" + 0.130*"#icc4israel" + 0.100*"#palestine" + 0.081*"#prayforgaza" + 0.074*"#ajagaza" + 0.054*"#israel" + 0.042*"#freepalestine" + 0.038*"gaza" + 0.036*"#givebackourfreedom"

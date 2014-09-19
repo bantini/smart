@@ -2,7 +2,6 @@
 
 import logging
 import NE
-import csv
 from collections import defaultdict
 from gensim import corpora,models,similarities
 from os.path import join 
@@ -19,22 +18,18 @@ def stopWordReader(f,path):
 
 def dictionaryCreator(tweets):
 	dictionary = corpora.Dictionary(tweets)
-	dictionary.save("/Users/nilayan/Project/data/ukraine_1m2_5.dict")
+	dictionary.save("/Users/nilayan/Project/data/ukraine.dict")
 	return dictionary
 
 def lsi():
-	logging.basicConfig(file = "../data/u_1m2_5_out.log",format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+	logging.basicConfig(filename="ukraine_10k_lda.log",format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 	documents = []
 	path = "/Users/nilayan/Project/dicts"
 	f = "englishST.txt"
 	stopWords = stopWordReader(f,path)	
-	with open(join("/Users/nilayan/Project/data","ukr_50k.txt"),"r") as reader:
-		csv_reader = csv.reader(reader)
-		for row in reader:
-			line = row[1]
-			print line
+	with open(join(path,"tweets.txt"),"r") as reader:
+		for line in reader:
 			if len(line)>1:
-				print line
 				documents.append(line)
 				#documents.append(NE.namedEntityExtractor(line))
 	tweets = [[word for word in document.lower().split() if word not in stopWords]for document in documents]
@@ -44,8 +39,8 @@ def lsi():
 	#corpus = [dictionary.doc2bow(document) for document in documents]
 	tfidf = models.TfidfModel(corpus)
 	corpus_tfidf = tfidf[corpus]
-	corpora.MmCorpus.serialize("/Users/nilayan/Project/data/tweetcorpus_1m2_5.mm",corpus)
-	lsi = models.LsiModel(corpus_tfidf,id2word = dictionary,num_topics = 5)
+	corpora.MmCorpus.serialize("/Users/nilayan/Project/data/tweetcorpus.mm",corpus)
+	lsi = models.LdaModel(corpus_tfidf,id2word = dictionary,num_topics = 2)
 	lsi.print_topics(2)
 	#print lsi
 #def main():

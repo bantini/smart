@@ -1,0 +1,1223 @@
+2014-09-09 21:37:54,313 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-09-09 21:37:55,375 : INFO : adding document #10000 to Dictionary(22373 unique tokens: [u'(photos)', u'sowell', u'http://t.co/grg1m2alxd', u'hanging', u'localized']...)
+2014-09-09 21:37:56,304 : INFO : adding document #20000 to Dictionary(38236 unique tokens: [u'represent..', u'(photos)', u'sowell', u'cesse', u'http://t.co/grg1m2alxd']...)
+2014-09-09 21:37:57,257 : INFO : adding document #30000 to Dictionary(52475 unique tokens: [u'https://t.co/c5r7bwuyfg', u'represent..', u'(photos)', u'sowell', u'gt3s.']...)
+2014-09-09 21:37:58,210 : INFO : adding document #40000 to Dictionary(65398 unique tokens: [u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)', u'sowell']...)
+2014-09-09 21:37:59,179 : INFO : adding document #50000 to Dictionary(78201 unique tokens: [u'#sportsnews', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)']...)
+2014-09-09 21:37:59,659 : INFO : built Dictionary(83947 unique tokens: [u'#sportsnews', u'minefield.', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..']...) from 55102 documents (total 481466 corpus positions)
+2014-09-09 21:37:59,660 : INFO : saving Dictionary object under /Users/nilayan/Project/data/ukraine.dict, separately None
+2014-09-09 21:38:05,015 : INFO : collecting document frequencies
+2014-09-09 21:38:05,015 : INFO : PROGRESS: processing document #0
+2014-09-09 21:38:05,060 : INFO : PROGRESS: processing document #10000
+2014-09-09 21:38:05,101 : INFO : PROGRESS: processing document #20000
+2014-09-09 21:38:05,140 : INFO : PROGRESS: processing document #30000
+2014-09-09 21:38:05,179 : INFO : PROGRESS: processing document #40000
+2014-09-09 21:38:05,219 : INFO : PROGRESS: processing document #50000
+2014-09-09 21:38:05,243 : INFO : calculating IDF weights for 55102 documents and 83946 features (472644 matrix non-zeros)
+2014-09-09 21:38:05,328 : INFO : storing corpus in Matrix Market format to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-09 21:38:05,329 : INFO : saving sparse matrix to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-09 21:38:05,329 : INFO : PROGRESS: saving document #0
+2014-09-09 21:38:05,450 : INFO : PROGRESS: saving document #1000
+2014-09-09 21:38:05,561 : INFO : PROGRESS: saving document #2000
+2014-09-09 21:38:05,676 : INFO : PROGRESS: saving document #3000
+2014-09-09 21:38:05,800 : INFO : PROGRESS: saving document #4000
+2014-09-09 21:38:05,921 : INFO : PROGRESS: saving document #5000
+2014-09-09 21:38:06,048 : INFO : PROGRESS: saving document #6000
+2014-09-09 21:38:06,191 : INFO : PROGRESS: saving document #7000
+2014-09-09 21:38:06,330 : INFO : PROGRESS: saving document #8000
+2014-09-09 21:38:06,458 : INFO : PROGRESS: saving document #9000
+2014-09-09 21:38:06,590 : INFO : PROGRESS: saving document #10000
+2014-09-09 21:38:06,708 : INFO : PROGRESS: saving document #11000
+2014-09-09 21:38:06,821 : INFO : PROGRESS: saving document #12000
+2014-09-09 21:38:06,941 : INFO : PROGRESS: saving document #13000
+2014-09-09 21:38:07,056 : INFO : PROGRESS: saving document #14000
+2014-09-09 21:38:07,176 : INFO : PROGRESS: saving document #15000
+2014-09-09 21:38:07,293 : INFO : PROGRESS: saving document #16000
+2014-09-09 21:38:07,401 : INFO : PROGRESS: saving document #17000
+2014-09-09 21:38:07,505 : INFO : PROGRESS: saving document #18000
+2014-09-09 21:38:07,609 : INFO : PROGRESS: saving document #19000
+2014-09-09 21:38:07,711 : INFO : PROGRESS: saving document #20000
+2014-09-09 21:38:07,845 : INFO : PROGRESS: saving document #21000
+2014-09-09 21:38:07,998 : INFO : PROGRESS: saving document #22000
+2014-09-09 21:38:08,162 : INFO : PROGRESS: saving document #23000
+2014-09-09 21:38:08,307 : INFO : PROGRESS: saving document #24000
+2014-09-09 21:38:08,424 : INFO : PROGRESS: saving document #25000
+2014-09-09 21:38:08,544 : INFO : PROGRESS: saving document #26000
+2014-09-09 21:38:08,664 : INFO : PROGRESS: saving document #27000
+2014-09-09 21:38:08,780 : INFO : PROGRESS: saving document #28000
+2014-09-09 21:38:08,898 : INFO : PROGRESS: saving document #29000
+2014-09-09 21:38:09,016 : INFO : PROGRESS: saving document #30000
+2014-09-09 21:38:09,127 : INFO : PROGRESS: saving document #31000
+2014-09-09 21:38:09,237 : INFO : PROGRESS: saving document #32000
+2014-09-09 21:38:09,351 : INFO : PROGRESS: saving document #33000
+2014-09-09 21:38:09,465 : INFO : PROGRESS: saving document #34000
+2014-09-09 21:38:09,582 : INFO : PROGRESS: saving document #35000
+2014-09-09 21:38:09,699 : INFO : PROGRESS: saving document #36000
+2014-09-09 21:38:09,871 : INFO : PROGRESS: saving document #37000
+2014-09-09 21:38:09,993 : INFO : PROGRESS: saving document #38000
+2014-09-09 21:38:10,109 : INFO : PROGRESS: saving document #39000
+2014-09-09 21:38:10,228 : INFO : PROGRESS: saving document #40000
+2014-09-09 21:38:10,345 : INFO : PROGRESS: saving document #41000
+2014-09-09 21:38:10,459 : INFO : PROGRESS: saving document #42000
+2014-09-09 21:38:10,575 : INFO : PROGRESS: saving document #43000
+2014-09-09 21:38:10,689 : INFO : PROGRESS: saving document #44000
+2014-09-09 21:38:10,812 : INFO : PROGRESS: saving document #45000
+2014-09-09 21:38:10,924 : INFO : PROGRESS: saving document #46000
+2014-09-09 21:38:11,040 : INFO : PROGRESS: saving document #47000
+2014-09-09 21:38:11,162 : INFO : PROGRESS: saving document #48000
+2014-09-09 21:38:11,281 : INFO : PROGRESS: saving document #49000
+2014-09-09 21:38:11,396 : INFO : PROGRESS: saving document #50000
+2014-09-09 21:38:11,525 : INFO : PROGRESS: saving document #51000
+2014-09-09 21:38:11,642 : INFO : PROGRESS: saving document #52000
+2014-09-09 21:38:11,756 : INFO : PROGRESS: saving document #53000
+2014-09-09 21:38:11,870 : INFO : PROGRESS: saving document #54000
+2014-09-09 21:38:11,983 : INFO : PROGRESS: saving document #55000
+2014-09-09 21:38:11,997 : INFO : saved 55102x83947 matrix, density=0.010% (472644/4625647594)
+2014-09-09 21:38:11,997 : INFO : saving MmCorpus index to /Users/nilayan/Project/data/tweetcorpus.mm.index
+2014-09-09 21:38:12,029 : INFO : using symmetric alpha at 0.5
+2014-09-09 21:38:12,029 : INFO : using serial LDA version on this node
+2014-09-09 21:38:12,135 : INFO : running online LDA training, 2 topics, 1 passes over the supplied corpus of 55102 documents, updating model once every 2000 documents, evaluating perplexity every 20000 documents, iterating 50x with a convergence threshold of 0.001000
+2014-09-09 21:38:12,223 : INFO : PROGRESS: pass 0, at document #2000/55102
+2014-09-09 21:38:19,662 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:19,748 : INFO : topic #0 (0.500): 0.008*#ukraine + 0.008*ukraine + 0.004*#euromaidan + 0.003*#kiev + 0.003*eu + 0.003*people + 0.003*- + 0.002*ukraine. + 0.002*pray + 0.002*sanctions
+2014-09-09 21:38:19,753 : INFO : topic #1 (0.500): 0.007*ukraine + 0.006*#ukraine + 0.004*mps + 0.004*amidst + 0.003*scuffle + 0.003*parliament, + 0.003*brawled + 0.003*country's + 0.003*clashes: + 0.003*vi...
+2014-09-09 21:38:19,754 : INFO : topic diff=1.908890, rho=1.000000
+2014-09-09 21:38:19,846 : INFO : PROGRESS: pass 0, at document #4000/55102
+2014-09-09 21:38:26,002 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:26,049 : INFO : topic #0 (0.500): 0.010*truce + 0.008*rises + 0.008*ukraine + 0.007*ends, + 0.007*#ukraine + 0.007*death + 0.006*ends + 0.006*toll + 0.006*falls + 0.005*bloodshed.
+2014-09-09 21:38:26,053 : INFO : topic #1 (0.500): 0.007*ukraine + 0.005*#ukraine + 0.003*truce + 0.003*black + 0.003*toll + 0.003*ends, + 0.003*death + 0.002*rises + 0.002*- + 0.002*#kiev
+2014-09-09 21:38:26,054 : INFO : topic diff=0.303060, rho=0.707107
+2014-09-09 21:38:26,148 : INFO : PROGRESS: pass 0, at document #6000/55102
+2014-09-09 21:38:30,952 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:31,005 : INFO : topic #0 (0.500): 0.010*truce + 0.007*ukraine + 0.007*#ukraine + 0.006*rises + 0.006*ends, + 0.006*death + 0.005*toll + 0.005*ukraine: + 0.005*ends + 0.005*falls
+2014-09-09 21:38:31,011 : INFO : topic #1 (0.500): 0.006*ukraine + 0.004*#ukraine + 0.003*end + 0.003*violence + 0.003*olympic + 0.003*sergey + 0.002*- + 0.002*famous + 0.002*sportsmen, + 0.002*bubka,
+2014-09-09 21:38:31,012 : INFO : topic diff=0.300063, rho=0.577350
+2014-09-09 21:38:31,111 : INFO : PROGRESS: pass 0, at document #8000/55102
+2014-09-09 21:38:34,722 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:34,773 : INFO : topic #0 (0.500): 0.008*truce + 0.006*ukraine + 0.005*#ukraine + 0.004*rises + 0.004*death + 0.004*unable + 0.004*toll + 0.004*night + 0.004*ends, + 0.004*kiev
+2014-09-09 21:38:34,778 : INFO : topic #1 (0.500): 0.008*el + 0.006*de + 0.006*en + 0.005*famous + 0.005*sergey + 0.005*bubka, + 0.005*sportsmen, + 0.005*end + 0.005*violence + 0.005*head:
+2014-09-09 21:38:34,779 : INFO : topic diff=0.294971, rho=0.500000
+2014-09-09 21:38:34,874 : INFO : PROGRESS: pass 0, at document #10000/55102
+2014-09-09 21:38:38,064 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:38,115 : INFO : topic #0 (0.500): 0.006*truce + 0.006*ukraine + 0.005*#ukraine + 0.005*unable + 0.004*on: + 0.004*shaky + 0.004*aid + 0.004*fired + 0.004*medics + 0.004*night
+2014-09-09 21:38:38,121 : INFO : topic #1 (0.500): 0.007*el + 0.006*de + 0.006*en + 0.006*bubka, + 0.006*sergey + 0.005*famous + 0.005*head: + 0.005*end: + 0.005*olympic + 0.005*sportsmen,
+2014-09-09 21:38:38,123 : INFO : topic diff=0.259378, rho=0.447214
+2014-09-09 21:38:38,212 : INFO : PROGRESS: pass 0, at document #12000/55102
+2014-09-09 21:38:41,364 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:41,416 : INFO : topic #0 (0.500): 0.007*#ukraine + 0.006*ukraine + 0.004*truce + 0.004*#kiev + 0.004*kiev + 0.003*aid + 0.003*medics + 0.003*fired + 0.003*- + 0.003*unable
+2014-09-09 21:38:41,421 : INFO : topic #1 (0.500): 0.006*de + 0.006*en + 0.006*el + 0.005*kiev + 0.004*violence + 0.004*sergey + 0.004*bubka, + 0.004*olympic + 0.004*la + 0.003*famous
+2014-09-09 21:38:41,422 : INFO : topic diff=0.253663, rho=0.408248
+2014-09-09 21:38:41,512 : INFO : PROGRESS: pass 0, at document #14000/55102
+2014-09-09 21:38:44,644 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:44,697 : INFO : topic #0 (0.500): 0.006*#ukraine + 0.006*ukraine + 0.004*#kiev + 0.004*kiev + 0.003*#euromaidan + 0.003*truce + 0.003*- + 0.003*people + 0.003*protesters + 0.002*medics
+2014-09-09 21:38:44,703 : INFO : topic #1 (0.500): 0.005*de + 0.005*en + 0.005*kiev + 0.004*el + 0.003*violence + 0.003*ukraine + 0.003*la + 0.003*valencia + 0.002*olympic + 0.002*sergey
+2014-09-09 21:38:44,704 : INFO : topic diff=0.235866, rho=0.377964
+2014-09-09 21:38:44,792 : INFO : PROGRESS: pass 0, at document #16000/55102
+2014-09-09 21:38:47,772 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:47,822 : INFO : topic #0 (0.500): 0.007*#ukraine + 0.006*ukraine + 0.004*#kiev + 0.004*#euromaidan + 0.003*kiev + 0.003*- + 0.003*people + 0.003*protesters + 0.003*truce + 0.002*ukraine.
+2014-09-09 21:38:47,827 : INFO : topic #1 (0.500): 0.005*de + 0.005*en + 0.004*kiev + 0.003*el + 0.003*la + 0.003*ukraine + 0.003*violence + 0.002*valencia + 0.002*los + 0.002*#ukraine
+2014-09-09 21:38:47,828 : INFO : topic diff=0.238961, rho=0.353553
+2014-09-09 21:38:47,913 : INFO : PROGRESS: pass 0, at document #18000/55102
+2014-09-09 21:38:50,536 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:50,589 : INFO : topic #0 (0.500): 0.007*#ukraine + 0.006*ukraine + 0.004*#kiev + 0.003*people + 0.003*#euromaidan + 0.003*- + 0.003*worst + 0.003*reporter: + 0.003*kiev + 0.003*day
+2014-09-09 21:38:50,595 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*de + 0.004*en + 0.003*ukraine + 0.003*el + 0.003*la + 0.002*violence + 0.002*los + 0.002*valencia + 0.002*#ukraine
+2014-09-09 21:38:50,596 : INFO : topic diff=0.208002, rho=0.333333
+2014-09-09 21:38:54,310 : INFO : -11.030 per-word bound, 2091.7 perplexity estimate based on a held-out corpus of 2000 documents with 4658 words
+2014-09-09 21:38:54,310 : INFO : PROGRESS: pass 0, at document #20000/55102
+2014-09-09 21:38:56,720 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:56,775 : INFO : topic #0 (0.500): 0.007*#ukraine + 0.006*ukraine + 0.005*reporter: + 0.005*worst + 0.004*day + 0.004*gunbattle + 0.004*close + 0.004*rattled + 0.004*walls. + 0.004*kiev:
+2014-09-09 21:38:56,781 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*en + 0.004*de + 0.003*ukraine + 0.002*la + 0.002*el + 0.002*violence + 0.002*los + 0.002*#ukraine + 0.002*kiev,
+2014-09-09 21:38:56,783 : INFO : topic diff=0.191291, rho=0.316228
+2014-09-09 21:38:56,869 : INFO : PROGRESS: pass 0, at document #22000/55102
+2014-09-09 21:38:59,480 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:38:59,535 : INFO : topic #0 (0.500): 0.007*#ukraine + 0.006*ukraine + 0.004*reporter: + 0.004*worst + 0.004*#kiev + 0.004*day + 0.004*eu + 0.004*gunbattle + 0.004*close + 0.004*rattled
+2014-09-09 21:38:59,541 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*en + 0.004*de + 0.003*ukraine + 0.002*la + 0.002*el + 0.002*kiev, + 0.002*los + 0.002*#kiev + 0.002*#ukraine
+2014-09-09 21:38:59,542 : INFO : topic diff=0.204858, rho=0.301511
+2014-09-09 21:38:59,632 : INFO : PROGRESS: pass 0, at document #24000/55102
+2014-09-09 21:39:02,149 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:02,204 : INFO : topic #0 (0.500): 0.007*#ukraine + 0.007*ukraine + 0.004*#kiev + 0.004*day + 0.004*- + 0.004*eu + 0.003*#euromaidan + 0.003*kiev + 0.003*sanctions + 0.003*worst
+2014-09-09 21:39:02,210 : INFO : topic #1 (0.500): 0.004*en + 0.004*kiev + 0.004*de + 0.003*ukraine + 0.002*la + 0.002*#kiev + 0.002*kiev, + 0.002*los + 0.002*el + 0.002*#ukraine
+2014-09-09 21:39:02,211 : INFO : topic diff=0.195475, rho=0.288675
+2014-09-09 21:39:02,301 : INFO : PROGRESS: pass 0, at document #26000/55102
+2014-09-09 21:39:04,917 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:04,970 : INFO : topic #0 (0.500): 0.007*ukraine + 0.007*#ukraine + 0.004*- + 0.004*#kiev + 0.004*kiev + 0.004*#euromaidan + 0.003*eu + 0.003*sanctions + 0.003*day + 0.003*protesters
+2014-09-09 21:39:04,976 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*en + 0.004*de + 0.003*ukraine + 0.002*la + 0.002*#kiev + 0.002*kiev, + 0.002*violence + 0.001*#ukraine + 0.001*el
+2014-09-09 21:39:04,977 : INFO : topic diff=0.197155, rho=0.277350
+2014-09-09 21:39:05,068 : INFO : PROGRESS: pass 0, at document #28000/55102
+2014-09-09 21:39:07,578 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:07,634 : INFO : topic #0 (0.500): 0.007*ukraine + 0.007*#ukraine + 0.004*- + 0.004*#kiev + 0.004*kiev + 0.003*#euromaidan + 0.003*eu + 0.003*sanctions + 0.003*protesters + 0.003*day
+2014-09-09 21:39:07,641 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*en + 0.004*de + 0.003*ukraine + 0.002*la + 0.002*#kiev + 0.002*kiev, + 0.001*- + 0.001*el + 0.001*#ukraine
+2014-09-09 21:39:07,642 : INFO : topic diff=0.189517, rho=0.267261
+2014-09-09 21:39:07,729 : INFO : PROGRESS: pass 0, at document #30000/55102
+2014-09-09 21:39:10,240 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:10,296 : INFO : topic #0 (0.500): 0.007*ukraine + 0.007*#ukraine + 0.004*- + 0.004*#kiev + 0.004*kiev + 0.003*#euromaidan + 0.003*protesters + 0.003*sanctions + 0.003*eu + 0.003*people
+2014-09-09 21:39:10,303 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*en + 0.004*de + 0.003*ukraine + 0.002*la + 0.002*#kiev + 0.002*kiev, + 0.002*- + 0.001*se + 0.001*#ukraine
+2014-09-09 21:39:10,304 : INFO : topic diff=0.186335, rho=0.258199
+2014-09-09 21:39:10,391 : INFO : PROGRESS: pass 0, at document #32000/55102
+2014-09-09 21:39:12,776 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:12,829 : INFO : topic #0 (0.500): 0.008*ukraine + 0.007*#ukraine + 0.004*- + 0.004*#kiev + 0.004*kiev + 0.003*#euromaidan + 0.003*people + 0.003*protesters + 0.003*sanctions + 0.002*eu
+2014-09-09 21:39:12,837 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*en + 0.004*de + 0.003*ukraine + 0.002*la + 0.002*kiev, + 0.002*#kiev + 0.002*- + 0.001*#ukraine + 0.001*kiev.
+2014-09-09 21:39:12,838 : INFO : topic diff=0.174847, rho=0.250000
+2014-09-09 21:39:12,926 : INFO : PROGRESS: pass 0, at document #34000/55102
+2014-09-09 21:39:15,324 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:15,378 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*- + 0.004*#kiev + 0.004*kiev + 0.003*#euromaidan + 0.003*people + 0.003*protesters + 0.002*sanctions + 0.002*happening
+2014-09-09 21:39:15,386 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*de + 0.003*en + 0.003*ukraine + 0.002*la + 0.002*#kiev + 0.002*kiev, + 0.001*- + 0.001*kiev. + 0.001*#ukraine
+2014-09-09 21:39:15,387 : INFO : topic diff=0.177236, rho=0.242536
+2014-09-09 21:39:15,477 : INFO : PROGRESS: pass 0, at document #36000/55102
+2014-09-09 21:39:17,732 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:17,785 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*people + 0.004*#kiev + 0.004*- + 0.004*kiev + 0.003*police + 0.003*protesters + 0.003*clashes + 0.003*#euromaidan
+2014-09-09 21:39:17,793 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*de + 0.004*en + 0.003*ukraine + 0.002*la + 0.002*#kiev + 0.002*kiev, + 0.001*kiev. + 0.001*- + 0.001*crisis
+2014-09-09 21:39:17,794 : INFO : topic diff=0.171502, rho=0.235702
+2014-09-09 21:39:17,886 : INFO : PROGRESS: pass 0, at document #38000/55102
+2014-09-09 21:39:20,239 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:20,296 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*#kiev + 0.004*kiev + 0.004*people + 0.004*- + 0.003*protesters + 0.003*police + 0.003*#euromaidan + 0.003*clashes
+2014-09-09 21:39:20,303 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*de + 0.003*en + 0.003*ukraine + 0.002*white + 0.002*la + 0.002*house: + 0.002*kiev, + 0.002*#kiev + 0.001*kiev.
+2014-09-09 21:39:20,304 : INFO : topic diff=0.178133, rho=0.229416
+2014-09-09 21:39:24,066 : INFO : -11.095 per-word bound, 2187.0 perplexity estimate based on a held-out corpus of 2000 documents with 5261 words
+2014-09-09 21:39:24,067 : INFO : PROGRESS: pass 0, at document #40000/55102
+2014-09-09 21:39:26,403 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:26,457 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*#kiev + 0.004*kiev + 0.004*- + 0.003*people + 0.003*protesters + 0.003*#euromaidan + 0.003*police + 0.002*sanctions
+2014-09-09 21:39:26,465 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*de + 0.003*en + 0.003*ukraine + 0.002*la + 0.002*valencia + 0.002*white + 0.002*house: + 0.002*kiev, + 0.002*#kiev
+2014-09-09 21:39:26,466 : INFO : topic diff=0.172512, rho=0.223607
+2014-09-09 21:39:26,555 : INFO : PROGRESS: pass 0, at document #42000/55102
+2014-09-09 21:39:28,915 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:28,971 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.004*- + 0.003*protesters + 0.003*people + 0.003*#euromaidan + 0.002*ukraine. + 0.002*police
+2014-09-09 21:39:28,979 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*de + 0.003*en + 0.003*ukraine + 0.002*valencia + 0.002*la + 0.002*white + 0.002*kiev, + 0.002*taklukkan + 0.002*2-0
+2014-09-09 21:39:28,980 : INFO : topic diff=0.168183, rho=0.218218
+2014-09-09 21:39:29,067 : INFO : PROGRESS: pass 0, at document #44000/55102
+2014-09-09 21:39:31,399 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:31,456 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.003*- + 0.003*protesters + 0.003*people + 0.003*#euromaidan + 0.002*police + 0.002*ukraine.
+2014-09-09 21:39:31,464 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*de + 0.003*en + 0.003*ukraine + 0.002*la + 0.002*valencia + 0.002*taklukkan + 0.002*kiev, + 0.002*#kiev + 0.002*white
+2014-09-09 21:39:31,465 : INFO : topic diff=0.168668, rho=0.213201
+2014-09-09 21:39:31,553 : INFO : PROGRESS: pass 0, at document #46000/55102
+2014-09-09 21:39:33,830 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:33,887 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.003*- + 0.003*people + 0.003*protesters + 0.003*police + 0.002*#euromaidan + 0.002*ukraine.
+2014-09-09 21:39:33,895 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*de + 0.003*en + 0.003*ukraine + 0.002*la + 0.002*kiev, + 0.002*#kiev + 0.002*valencia + 0.001*white + 0.001*kiev.
+2014-09-09 21:39:33,896 : INFO : topic diff=0.168471, rho=0.208514
+2014-09-09 21:39:33,988 : INFO : PROGRESS: pass 0, at document #48000/55102
+2014-09-09 21:39:36,291 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:36,346 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.003*- + 0.003*people + 0.003*protesters + 0.003*police + 0.003*#euromaidan + 0.002*ukraine.
+2014-09-09 21:39:36,354 : INFO : topic #1 (0.500): 0.004*kiev + 0.003*de + 0.003*en + 0.003*ukraine + 0.002*la + 0.002*valencia + 0.002*kiev, + 0.002*#kiev + 0.001*crisis + 0.001*el
+2014-09-09 21:39:36,356 : INFO : topic diff=0.162426, rho=0.204124
+2014-09-09 21:39:36,444 : INFO : PROGRESS: pass 0, at document #50000/55102
+2014-09-09 21:39:38,772 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:38,830 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.004*- + 0.003*people + 0.003*protesters + 0.003*#euromaidan + 0.003*police + 0.002*ukraine.
+2014-09-09 21:39:38,838 : INFO : topic #1 (0.500): 0.004*kiev + 0.003*de + 0.003*en + 0.002*ukraine + 0.002*la + 0.002*kiev, + 0.002*valencia + 0.002*#kiev + 0.002*crisis + 0.001*el
+2014-09-09 21:39:38,839 : INFO : topic diff=0.164502, rho=0.200000
+2014-09-09 21:39:38,929 : INFO : PROGRESS: pass 0, at document #52000/55102
+2014-09-09 21:39:41,139 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:41,197 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.004*- + 0.003*people + 0.003*ukraine. + 0.003*protesters + 0.003*#euromaidan + 0.002*police
+2014-09-09 21:39:41,206 : INFO : topic #1 (0.500): 0.004*kiev + 0.003*de + 0.003*en + 0.002*ukraine + 0.002*la + 0.002*#bbcqt + 0.002*kiev, + 0.002*valencia + 0.002*#kiev + 0.001*crisis
+2014-09-09 21:39:41,207 : INFO : topic diff=0.155322, rho=0.196116
+2014-09-09 21:39:41,296 : INFO : PROGRESS: pass 0, at document #54000/55102
+2014-09-09 21:39:43,518 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:39:43,574 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.004*- + 0.003*people + 0.003*ukraine. + 0.003*protesters + 0.003*#euromaidan + 0.002*police
+2014-09-09 21:39:43,582 : INFO : topic #1 (0.500): 0.004*kiev + 0.003*de + 0.003*en + 0.002*ukraine + 0.002*#bbcqt + 0.002*la + 0.002*valencia + 0.002*kiev, + 0.002*#kiev + 0.002*di
+2014-09-09 21:39:43,583 : INFO : topic diff=0.154066, rho=0.192450
+2014-09-09 21:39:45,544 : INFO : -10.772 per-word bound, 1748.6 perplexity estimate based on a held-out corpus of 1102 documents with 2847 words
+2014-09-09 21:39:45,544 : INFO : PROGRESS: pass 0, at document #55102/55102
+2014-09-09 21:39:46,727 : INFO : merging changes from 1102 documents into a model of 55102 documents
+2014-09-09 21:39:46,785 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*#ukraine + 0.004*kiev + 0.003*- + 0.003*#kiev + 0.003*ukraine: + 0.003*police + 0.003*people + 0.003*protesters + 0.003*ukraine.
+2014-09-09 21:39:46,794 : INFO : topic #1 (0.500): 0.004*kiev + 0.003*de + 0.003*en + 0.002*valencia + 0.002*ukraine + 0.002*la + 0.002*#bbcqt + 0.002*100 + 0.002*kiev, + 0.002*di
+2014-09-09 21:39:46,795 : INFO : topic diff=0.127602, rho=0.188982
+2014-09-09 21:48:11,632 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-09-09 21:48:12,684 : INFO : adding document #10000 to Dictionary(22373 unique tokens: [u'(photos)', u'sowell', u'http://t.co/grg1m2alxd', u'hanging', u'localized']...)
+2014-09-09 21:48:13,618 : INFO : adding document #20000 to Dictionary(38236 unique tokens: [u'represent..', u'(photos)', u'sowell', u'cesse', u'http://t.co/grg1m2alxd']...)
+2014-09-09 21:48:14,576 : INFO : adding document #30000 to Dictionary(52475 unique tokens: [u'https://t.co/c5r7bwuyfg', u'represent..', u'(photos)', u'sowell', u'gt3s.']...)
+2014-09-09 21:48:15,513 : INFO : adding document #40000 to Dictionary(65398 unique tokens: [u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)', u'sowell']...)
+2014-09-09 21:48:16,476 : INFO : adding document #50000 to Dictionary(78201 unique tokens: [u'#sportsnews', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)']...)
+2014-09-09 21:48:16,957 : INFO : built Dictionary(83947 unique tokens: [u'#sportsnews', u'minefield.', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..']...) from 55102 documents (total 481466 corpus positions)
+2014-09-09 21:48:16,957 : INFO : saving Dictionary object under /Users/nilayan/Project/data/ukraine.dict, separately None
+2014-09-09 21:48:22,281 : INFO : collecting document frequencies
+2014-09-09 21:48:22,281 : INFO : PROGRESS: processing document #0
+2014-09-09 21:48:22,329 : INFO : PROGRESS: processing document #10000
+2014-09-09 21:48:22,367 : INFO : PROGRESS: processing document #20000
+2014-09-09 21:48:22,409 : INFO : PROGRESS: processing document #30000
+2014-09-09 21:48:22,448 : INFO : PROGRESS: processing document #40000
+2014-09-09 21:48:22,490 : INFO : PROGRESS: processing document #50000
+2014-09-09 21:48:22,514 : INFO : calculating IDF weights for 55102 documents and 83946 features (472644 matrix non-zeros)
+2014-09-09 21:48:22,599 : INFO : storing corpus in Matrix Market format to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-09 21:48:22,600 : INFO : saving sparse matrix to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-09 21:48:22,600 : INFO : PROGRESS: saving document #0
+2014-09-09 21:48:22,727 : INFO : PROGRESS: saving document #1000
+2014-09-09 21:48:22,843 : INFO : PROGRESS: saving document #2000
+2014-09-09 21:48:22,956 : INFO : PROGRESS: saving document #3000
+2014-09-09 21:48:23,084 : INFO : PROGRESS: saving document #4000
+2014-09-09 21:48:23,207 : INFO : PROGRESS: saving document #5000
+2014-09-09 21:48:23,333 : INFO : PROGRESS: saving document #6000
+2014-09-09 21:48:23,475 : INFO : PROGRESS: saving document #7000
+2014-09-09 21:48:23,617 : INFO : PROGRESS: saving document #8000
+2014-09-09 21:48:23,748 : INFO : PROGRESS: saving document #9000
+2014-09-09 21:48:23,896 : INFO : PROGRESS: saving document #10000
+2014-09-09 21:48:24,014 : INFO : PROGRESS: saving document #11000
+2014-09-09 21:48:24,128 : INFO : PROGRESS: saving document #12000
+2014-09-09 21:48:24,247 : INFO : PROGRESS: saving document #13000
+2014-09-09 21:48:24,363 : INFO : PROGRESS: saving document #14000
+2014-09-09 21:48:24,483 : INFO : PROGRESS: saving document #15000
+2014-09-09 21:48:24,601 : INFO : PROGRESS: saving document #16000
+2014-09-09 21:48:24,709 : INFO : PROGRESS: saving document #17000
+2014-09-09 21:48:24,812 : INFO : PROGRESS: saving document #18000
+2014-09-09 21:48:24,915 : INFO : PROGRESS: saving document #19000
+2014-09-09 21:48:25,016 : INFO : PROGRESS: saving document #20000
+2014-09-09 21:48:25,151 : INFO : PROGRESS: saving document #21000
+2014-09-09 21:48:25,282 : INFO : PROGRESS: saving document #22000
+2014-09-09 21:48:25,443 : INFO : PROGRESS: saving document #23000
+2014-09-09 21:48:25,606 : INFO : PROGRESS: saving document #24000
+2014-09-09 21:48:25,786 : INFO : PROGRESS: saving document #25000
+2014-09-09 21:48:26,050 : INFO : PROGRESS: saving document #26000
+2014-09-09 21:48:26,216 : INFO : PROGRESS: saving document #27000
+2014-09-09 21:48:26,376 : INFO : PROGRESS: saving document #28000
+2014-09-09 21:48:26,506 : INFO : PROGRESS: saving document #29000
+2014-09-09 21:48:26,624 : INFO : PROGRESS: saving document #30000
+2014-09-09 21:48:26,736 : INFO : PROGRESS: saving document #31000
+2014-09-09 21:48:26,846 : INFO : PROGRESS: saving document #32000
+2014-09-09 21:48:26,961 : INFO : PROGRESS: saving document #33000
+2014-09-09 21:48:27,074 : INFO : PROGRESS: saving document #34000
+2014-09-09 21:48:27,188 : INFO : PROGRESS: saving document #35000
+2014-09-09 21:48:27,305 : INFO : PROGRESS: saving document #36000
+2014-09-09 21:48:27,426 : INFO : PROGRESS: saving document #37000
+2014-09-09 21:48:27,547 : INFO : PROGRESS: saving document #38000
+2014-09-09 21:48:27,663 : INFO : PROGRESS: saving document #39000
+2014-09-09 21:48:27,783 : INFO : PROGRESS: saving document #40000
+2014-09-09 21:48:27,900 : INFO : PROGRESS: saving document #41000
+2014-09-09 21:48:28,020 : INFO : PROGRESS: saving document #42000
+2014-09-09 21:48:28,139 : INFO : PROGRESS: saving document #43000
+2014-09-09 21:48:28,253 : INFO : PROGRESS: saving document #44000
+2014-09-09 21:48:28,376 : INFO : PROGRESS: saving document #45000
+2014-09-09 21:48:28,488 : INFO : PROGRESS: saving document #46000
+2014-09-09 21:48:28,603 : INFO : PROGRESS: saving document #47000
+2014-09-09 21:48:28,726 : INFO : PROGRESS: saving document #48000
+2014-09-09 21:48:28,844 : INFO : PROGRESS: saving document #49000
+2014-09-09 21:48:28,957 : INFO : PROGRESS: saving document #50000
+2014-09-09 21:48:29,070 : INFO : PROGRESS: saving document #51000
+2014-09-09 21:48:29,186 : INFO : PROGRESS: saving document #52000
+2014-09-09 21:48:29,302 : INFO : PROGRESS: saving document #53000
+2014-09-09 21:48:29,416 : INFO : PROGRESS: saving document #54000
+2014-09-09 21:48:29,529 : INFO : PROGRESS: saving document #55000
+2014-09-09 21:48:29,542 : INFO : saved 55102x83947 matrix, density=0.010% (472644/4625647594)
+2014-09-09 21:48:29,542 : INFO : saving MmCorpus index to /Users/nilayan/Project/data/tweetcorpus.mm.index
+2014-09-09 21:48:29,575 : INFO : using symmetric alpha at 0.5
+2014-09-09 21:48:29,575 : INFO : using serial LDA version on this node
+2014-09-09 21:48:29,617 : INFO : running online LDA training, 2 topics, 1 passes over the supplied corpus of 55102 documents, updating model once every 2000 documents, evaluating perplexity every 20000 documents, iterating 50x with a convergence threshold of 0.001000
+2014-09-09 21:48:29,704 : INFO : PROGRESS: pass 0, at document #2000/55102
+2014-09-09 21:48:37,097 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:48:37,178 : INFO : topic #0 (0.500): 0.009*ukraine + 0.006*#ukraine + 0.003*#euromaidan + 0.003*people + 0.003*sanctions + 0.002*#kiev + 0.002*- + 0.002*scuffle + 0.002*ukraine, + 0.002*eu
+2014-09-09 21:48:37,182 : INFO : topic #1 (0.500): 0.008*#ukraine + 0.006*ukraine + 0.004*amidst + 0.003*mps + 0.003*parliament, + 0.003*scuffle + 0.003*brawled + 0.003*clashes: + 0.003*vi... + 0.003*eu
+2014-09-09 21:48:37,183 : INFO : topic diff=1.909204, rho=1.000000
+2014-09-09 21:48:37,274 : INFO : PROGRESS: pass 0, at document #4000/55102
+2014-09-09 21:48:43,351 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:48:43,402 : INFO : topic #0 (0.500): 0.009*ukraine + 0.008*truce + 0.006*toll + 0.006*ends, + 0.005*rises + 0.005*death + 0.005*#ukraine + 0.004*ends + 0.004*falls + 0.004*bloodshed.
+2014-09-09 21:48:43,407 : INFO : topic #1 (0.500): 0.008*#ukraine + 0.006*truce + 0.005*ukraine + 0.005*rises + 0.005*ends, + 0.004*death + 0.004*falls + 0.004*ukraine: + 0.004*toll + 0.004*ends
+2014-09-09 21:48:43,408 : INFO : topic diff=0.289676, rho=0.707107
+2014-09-09 21:48:43,503 : INFO : PROGRESS: pass 0, at document #6000/55102
+2014-09-09 21:48:48,454 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:48:48,503 : INFO : topic #0 (0.500): 0.008*ukraine + 0.007*truce + 0.004*ends, + 0.004*toll + 0.004*rises + 0.004*death + 0.004*#ukraine + 0.003*cnn's + 0.003*ends + 0.003*falls
+2014-09-09 21:48:48,508 : INFO : topic #1 (0.500): 0.007*#ukraine + 0.005*ukraine + 0.004*truce + 0.004*- + 0.003*ukraine: + 0.003*#kiev + 0.003*rises + 0.003*death + 0.003*ukraine. + 0.002*#euromaidan
+2014-09-09 21:48:48,509 : INFO : topic diff=0.261996, rho=0.577350
+2014-09-09 21:48:48,606 : INFO : PROGRESS: pass 0, at document #8000/55102
+2014-09-09 21:48:52,647 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:48:52,700 : INFO : topic #0 (0.500): 0.006*ukraine + 0.006*el + 0.006*truce + 0.006*famous + 0.006*bubka, + 0.006*sergey + 0.006*sportsmen, + 0.005*urged + 0.005*head: + 0.005*end:
+2014-09-09 21:48:52,705 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.005*kiev + 0.004*ukraine + 0.004*#kiev + 0.004*valencia + 0.003*- + 0.003*los + 0.003*el + 0.003*al + 0.003*dinamo
+2014-09-09 21:48:52,706 : INFO : topic diff=0.262594, rho=0.500000
+2014-09-09 21:48:52,797 : INFO : PROGRESS: pass 0, at document #10000/55102
+2014-09-09 21:48:56,194 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:48:56,244 : INFO : topic #0 (0.500): 0.006*bubka, + 0.006*sergey + 0.006*famous + 0.006*ukraine + 0.006*head: + 0.006*end: + 0.006*olympic + 0.006*sportsmen, + 0.005*violence + 0.005*truce
+2014-09-09 21:48:56,249 : INFO : topic #1 (0.500): 0.005*kiev + 0.005*#ukraine + 0.004*#kiev + 0.004*ukraine + 0.003*los + 0.003*valencia + 0.003*- + 0.003*dinamo + 0.003*al + 0.002*de
+2014-09-09 21:48:56,250 : INFO : topic diff=0.263207, rho=0.447214
+2014-09-09 21:48:56,339 : INFO : PROGRESS: pass 0, at document #12000/55102
+2014-09-09 21:48:59,676 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:48:59,728 : INFO : topic #0 (0.500): 0.006*ukraine + 0.005*en + 0.004*violence + 0.004*bubka, + 0.004*sergey + 0.004*de + 0.004*truce + 0.004*olympic + 0.004*famous + 0.004*head:
+2014-09-09 21:48:59,733 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.004*#kiev + 0.004*- + 0.004*ukraine + 0.003*valencia + 0.002*los + 0.002*de + 0.002*protesters + 0.002*#euromaidan
+2014-09-09 21:48:59,734 : INFO : topic diff=0.254757, rho=0.408248
+2014-09-09 21:48:59,821 : INFO : PROGRESS: pass 0, at document #14000/55102
+2014-09-09 21:49:03,121 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:03,172 : INFO : topic #0 (0.500): 0.006*ukraine + 0.004*en + 0.003*violence + 0.003*de + 0.003*kiev + 0.003*truce + 0.003*ukraine's + 0.003*el + 0.003*olympic + 0.003*bubka,
+2014-09-09 21:49:03,178 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.004*#kiev + 0.004*- + 0.004*ukraine + 0.003*#euromaidan + 0.002*protesters + 0.002*valencia + 0.002*de + 0.002*los
+2014-09-09 21:49:03,179 : INFO : topic diff=0.236614, rho=0.377964
+2014-09-09 21:49:03,266 : INFO : PROGRESS: pass 0, at document #16000/55102
+2014-09-09 21:49:06,437 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:06,491 : INFO : topic #0 (0.500): 0.006*ukraine + 0.003*en + 0.003*violence + 0.003*de + 0.003*kiev + 0.003*truce + 0.002*ukraine's + 0.002*#ukraine + 0.002*pray + 0.002*el
+2014-09-09 21:49:06,497 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.004*#kiev + 0.004*- + 0.003*ukraine + 0.003*#euromaidan + 0.003*protesters + 0.002*ukraine. + 0.002*eu + 0.002*de
+2014-09-09 21:49:06,498 : INFO : topic diff=0.230477, rho=0.353553
+2014-09-09 21:49:06,582 : INFO : PROGRESS: pass 0, at document #18000/55102
+2014-09-09 21:49:09,397 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:09,450 : INFO : topic #0 (0.500): 0.006*ukraine + 0.003*worst + 0.003*reporter: + 0.003*close + 0.003*en + 0.003*rattled + 0.003*walls. + 0.002*violence + 0.002*de + 0.002*kiev
+2014-09-09 21:49:09,456 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.005*#kiev + 0.004*- + 0.003*ukraine + 0.003*eu + 0.003*day + 0.003*sanctions + 0.003*protesters + 0.003*#euromaidan
+2014-09-09 21:49:09,457 : INFO : topic diff=0.208004, rho=0.333333
+2014-09-09 21:49:13,371 : INFO : -11.072 per-word bound, 2152.8 perplexity estimate based on a held-out corpus of 2000 documents with 4658 words
+2014-09-09 21:49:13,371 : INFO : PROGRESS: pass 0, at document #20000/55102
+2014-09-09 21:49:16,008 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:16,061 : INFO : topic #0 (0.500): 0.006*ukraine + 0.005*worst + 0.005*reporter: + 0.005*close + 0.005*rattled + 0.005*walls. + 0.003*gunbattle + 0.003*en + 0.002*day + 0.002*pray
+2014-09-09 21:49:16,067 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.004*- + 0.004*ukraine + 0.003*eu + 0.003*sanctions + 0.003*unrest: + 0.003*day + 0.003*kiev:
+2014-09-09 21:49:16,068 : INFO : topic diff=0.194836, rho=0.316228
+2014-09-09 21:49:16,154 : INFO : PROGRESS: pass 0, at document #22000/55102
+2014-09-09 21:49:18,953 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:19,006 : INFO : topic #0 (0.500): 0.006*ukraine + 0.005*worst + 0.005*reporter: + 0.004*close + 0.004*rattled + 0.004*walls. + 0.003*gunbattle + 0.003*en + 0.002*pray + 0.002*day
+2014-09-09 21:49:19,012 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*#kiev + 0.005*kiev + 0.004*eu + 0.004*ukraine + 0.004*sanctions + 0.004*- + 0.003*unrest: + 0.003*protesters + 0.002*#euromaidan
+2014-09-09 21:49:19,013 : INFO : topic diff=0.210517, rho=0.301511
+2014-09-09 21:49:19,102 : INFO : PROGRESS: pass 0, at document #24000/55102
+2014-09-09 21:49:21,774 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:21,828 : INFO : topic #0 (0.500): 0.006*ukraine + 0.004*worst + 0.004*reporter: + 0.003*close + 0.003*rattled + 0.003*walls. + 0.003*en + 0.003*gunbattle + 0.002*pray + 0.002*#ukraine
+2014-09-09 21:49:21,834 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.005*#kiev + 0.004*- + 0.004*sanctions + 0.004*ukraine + 0.004*eu + 0.003*protesters + 0.003*unrest: + 0.003*#euromaidan
+2014-09-09 21:49:21,835 : INFO : topic diff=0.202103, rho=0.288675
+2014-09-09 21:49:21,921 : INFO : PROGRESS: pass 0, at document #26000/55102
+2014-09-09 21:49:24,636 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:24,692 : INFO : topic #0 (0.500): 0.007*ukraine + 0.003*worst + 0.003*reporter: + 0.003*en + 0.003*close + 0.002*rattled + 0.002*walls. + 0.002*violence + 0.002*pray + 0.002*kiev
+2014-09-09 21:49:24,699 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.004*#kiev + 0.004*- + 0.004*ukraine + 0.004*sanctions + 0.003*eu + 0.003*#euromaidan + 0.003*protesters + 0.002*unrest:
+2014-09-09 21:49:24,700 : INFO : topic diff=0.198574, rho=0.277350
+2014-09-09 21:49:24,787 : INFO : PROGRESS: pass 0, at document #28000/55102
+2014-09-09 21:49:27,442 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:27,496 : INFO : topic #0 (0.500): 0.006*ukraine + 0.003*en + 0.002*worst + 0.002*kiev + 0.002*de + 0.002*#ukraine + 0.002*reporter: + 0.002*pray + 0.002*violence + 0.002*close
+2014-09-09 21:49:27,502 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.006*kiev + 0.004*#kiev + 0.004*- + 0.004*ukraine + 0.003*sanctions + 0.003*eu + 0.003*#euromaidan + 0.003*protesters + 0.002*news
+2014-09-09 21:49:27,503 : INFO : topic diff=0.197348, rho=0.267261
+2014-09-09 21:49:27,590 : INFO : PROGRESS: pass 0, at document #30000/55102
+2014-09-09 21:49:30,194 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:30,248 : INFO : topic #0 (0.500): 0.007*ukraine + 0.003*en + 0.002*pray + 0.002*de + 0.002*kiev + 0.002*#ukraine + 0.002*violence + 0.002*truce + 0.002*worst + 0.002*ukraine,
+2014-09-09 21:49:30,255 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.004*#kiev + 0.004*- + 0.004*ukraine + 0.003*sanctions + 0.003*#euromaidan + 0.003*eu + 0.003*protesters + 0.002*news
+2014-09-09 21:49:30,256 : INFO : topic diff=0.191631, rho=0.258199
+2014-09-09 21:49:30,343 : INFO : PROGRESS: pass 0, at document #32000/55102
+2014-09-09 21:49:32,884 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:32,941 : INFO : topic #0 (0.500): 0.007*ukraine + 0.002*en + 0.002*pray + 0.002*#ukraine + 0.002*de + 0.002*kiev + 0.002*ukraine, + 0.002*violence + 0.001*people + 0.001*truce
+2014-09-09 21:49:32,948 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.005*#kiev + 0.004*ukraine + 0.004*- + 0.003*sanctions + 0.003*protesters + 0.003*#euromaidan + 0.002*eu + 0.002*&amp;
+2014-09-09 21:49:32,949 : INFO : topic diff=0.179539, rho=0.250000
+2014-09-09 21:49:33,036 : INFO : PROGRESS: pass 0, at document #34000/55102
+2014-09-09 21:49:35,565 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:35,621 : INFO : topic #0 (0.500): 0.007*ukraine + 0.002*pray + 0.002*ukraine, + 0.002*en + 0.002*#ukraine + 0.002*kiev + 0.002*de + 0.002*violence + 0.001*war + 0.001*people
+2014-09-09 21:49:35,629 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.005*ukraine + 0.005*#kiev + 0.004*- + 0.003*sanctions + 0.003*protesters + 0.003*#euromaidan + 0.002*&amp; + 0.002*eu
+2014-09-09 21:49:35,630 : INFO : topic diff=0.178000, rho=0.242536
+2014-09-09 21:49:35,720 : INFO : PROGRESS: pass 0, at document #36000/55102
+2014-09-09 21:49:38,154 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:38,210 : INFO : topic #0 (0.500): 0.008*ukraine + 0.002*en + 0.002*ukraine, + 0.002*pray + 0.002*#ukraine + 0.002*kiev + 0.002*de + 0.002*obama + 0.002*war + 0.002*violence
+2014-09-09 21:49:38,218 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.005*ukraine + 0.004*#kiev + 0.004*- + 0.003*police + 0.003*protesters + 0.003*clashes + 0.003*people + 0.003*sanctions
+2014-09-09 21:49:38,219 : INFO : topic diff=0.177683, rho=0.235702
+2014-09-09 21:49:38,308 : INFO : PROGRESS: pass 0, at document #38000/55102
+2014-09-09 21:49:40,802 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:40,857 : INFO : topic #0 (0.500): 0.008*ukraine + 0.002*pray + 0.002*en + 0.002*ukraine, + 0.002*#ukraine + 0.002*de + 0.002*kiev + 0.002*obama + 0.002*truce + 0.002*ukraine.
+2014-09-09 21:49:40,864 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.004*ukraine + 0.004*#kiev + 0.004*- + 0.003*sanctions + 0.003*protesters + 0.003*police + 0.003*people + 0.003*clashes
+2014-09-09 21:49:40,865 : INFO : topic diff=0.183122, rho=0.229416
+2014-09-09 21:49:44,956 : INFO : -11.131 per-word bound, 2242.1 perplexity estimate based on a held-out corpus of 2000 documents with 5261 words
+2014-09-09 21:49:44,956 : INFO : PROGRESS: pass 0, at document #40000/55102
+2014-09-09 21:49:47,729 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:47,793 : INFO : topic #0 (0.500): 0.007*ukraine + 0.002*pray + 0.002*en + 0.002*ukraine, + 0.002*#ukraine + 0.002*kiev + 0.002*de + 0.002*obama + 0.002*truce + 0.002*ukraine.
+2014-09-09 21:49:47,801 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.004*#kiev + 0.004*ukraine + 0.004*- + 0.003*protesters + 0.003*sanctions + 0.003*police + 0.002*people + 0.002*clashes
+2014-09-09 21:49:47,802 : INFO : topic diff=0.174524, rho=0.223607
+2014-09-09 21:49:47,962 : INFO : PROGRESS: pass 0, at document #42000/55102
+2014-09-09 21:49:51,817 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:51,894 : INFO : topic #0 (0.500): 0.007*ukraine + 0.002*pray + 0.002*en + 0.002*#ukraine + 0.002*ukraine, + 0.002*obama + 0.002*kiev + 0.002*de + 0.002*ukraine. + 0.002*war
+2014-09-09 21:49:51,903 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.004*#kiev + 0.004*ukraine + 0.004*- + 0.003*protesters + 0.003*sanctions + 0.002*police + 0.002*people + 0.002*#euromaidan
+2014-09-09 21:49:51,904 : INFO : topic diff=0.171453, rho=0.218218
+2014-09-09 21:49:51,993 : INFO : PROGRESS: pass 0, at document #44000/55102
+2014-09-09 21:49:54,694 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:54,760 : INFO : topic #0 (0.500): 0.007*ukraine + 0.002*en + 0.002*#ukraine + 0.002*pray + 0.002*ukraine, + 0.002*obama + 0.002*kiev + 0.002*de + 0.002*ukraine. + 0.001*violence
+2014-09-09 21:49:54,769 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.004*ukraine + 0.004*#kiev + 0.004*- + 0.003*protesters + 0.003*sanctions + 0.003*police + 0.002*eu + 0.002*people
+2014-09-09 21:49:54,770 : INFO : topic diff=0.173186, rho=0.213201
+2014-09-09 21:49:54,860 : INFO : PROGRESS: pass 0, at document #46000/55102
+2014-09-09 21:49:57,716 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:49:57,771 : INFO : topic #0 (0.500): 0.008*ukraine + 0.002*en + 0.002*#ukraine + 0.002*pray + 0.002*ukraine, + 0.002*obama + 0.002*kiev + 0.002*civil + 0.002*de + 0.002*ukraine.
+2014-09-09 21:49:57,780 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.004*#kiev + 0.004*ukraine + 0.004*- + 0.003*protesters + 0.003*police + 0.003*sanctions + 0.002*people + 0.002*video
+2014-09-09 21:49:57,781 : INFO : topic diff=0.174569, rho=0.208514
+2014-09-09 21:49:57,873 : INFO : PROGRESS: pass 0, at document #48000/55102
+2014-09-09 21:50:01,349 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:50:01,427 : INFO : topic #0 (0.500): 0.008*ukraine + 0.002*#ukraine + 0.002*ukraine, + 0.002*en + 0.002*pray + 0.002*obama + 0.002*civil + 0.002*ukraine. + 0.002*kiev + 0.002*de
+2014-09-09 21:50:01,436 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.005*#kiev + 0.004*ukraine + 0.004*- + 0.003*protesters + 0.003*police + 0.003*sanctions + 0.002*people + 0.002*video:
+2014-09-09 21:50:01,438 : INFO : topic diff=0.167398, rho=0.204124
+2014-09-09 21:50:01,595 : INFO : PROGRESS: pass 0, at document #50000/55102
+2014-09-09 21:50:04,346 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:50:04,404 : INFO : topic #0 (0.500): 0.007*ukraine + 0.002*#ukraine + 0.002*ukraine, + 0.002*pray + 0.002*en + 0.002*ukraine. + 0.002*civil + 0.002*obama + 0.002*kiev + 0.002*de
+2014-09-09 21:50:04,415 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.005*#kiev + 0.004*ukraine + 0.004*- + 0.003*protesters + 0.003*police + 0.003*sanctions + 0.002*people + 0.002*#euromaidan
+2014-09-09 21:50:04,416 : INFO : topic diff=0.168898, rho=0.200000
+2014-09-09 21:50:04,504 : INFO : PROGRESS: pass 0, at document #52000/55102
+2014-09-09 21:50:07,714 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:50:07,771 : INFO : topic #0 (0.500): 0.008*ukraine + 0.002*#ukraine + 0.002*pray + 0.002*ukraine. + 0.002*#bbcqt + 0.002*ukraine, + 0.002*civil + 0.002*en + 0.002*obama + 0.002*kiev
+2014-09-09 21:50:07,780 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.005*#kiev + 0.004*ukraine + 0.004*- + 0.003*protesters + 0.003*police + 0.002*sanctions + 0.002*people + 0.002*#euromaidan
+2014-09-09 21:50:07,781 : INFO : topic diff=0.160629, rho=0.196116
+2014-09-09 21:50:07,867 : INFO : PROGRESS: pass 0, at document #54000/55102
+2014-09-09 21:50:10,421 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-09 21:50:10,480 : INFO : topic #0 (0.500): 0.008*ukraine + 0.002*#ukraine + 0.002*#bbcqt + 0.002*ukraine. + 0.002*ukraine, + 0.002*pray + 0.002*civil + 0.002*obama + 0.002*war + 0.002*en
+2014-09-09 21:50:10,491 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.005*#kiev + 0.004*ukraine + 0.004*- + 0.003*protesters + 0.002*police + 0.002*sanctions + 0.002*#euromaidan + 0.002*people
+2014-09-09 21:50:10,492 : INFO : topic diff=0.157642, rho=0.192450
+2014-09-09 21:50:13,018 : INFO : -10.817 per-word bound, 1803.6 perplexity estimate based on a held-out corpus of 1102 documents with 2847 words
+2014-09-09 21:50:13,019 : INFO : PROGRESS: pass 0, at document #55102/55102
+2014-09-09 21:50:14,410 : INFO : merging changes from 1102 documents into a model of 55102 documents
+2014-09-09 21:50:14,466 : INFO : topic #0 (0.500): 0.007*ukraine + 0.003*... + 0.002*ukraine. + 0.002*#ukraine + 0.002*ukraine, + 0.002*pray + 0.002*#bbcqt + 0.002*obama + 0.002*officers + 0.002*war
+2014-09-09 21:50:14,477 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.004*#kiev + 0.004*ukraine + 0.004*- + 0.003*police + 0.003*protesters + 0.003*ukraine: + 0.002*images + 0.002*killed
+2014-09-09 21:50:14,479 : INFO : topic diff=0.132230, rho=0.188982
+2014-09-09 21:50:14,490 : INFO : topic #0 (0.500): 0.007*ukraine + 0.003*... + 0.002*ukraine. + 0.002*#ukraine + 0.002*ukraine, + 0.002*pray + 0.002*#bbcqt + 0.002*obama + 0.002*officers + 0.002*war
+2014-09-09 21:50:14,499 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.004*#kiev + 0.004*ukraine + 0.004*- + 0.003*police + 0.003*protesters + 0.003*ukraine: + 0.002*images + 0.002*killed
+2014-09-12 18:10:39,423 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-09-12 18:10:40,469 : INFO : adding document #10000 to Dictionary(22373 unique tokens: [u'(photos)', u'sowell', u'http://t.co/grg1m2alxd', u'hanging', u'localized']...)
+2014-09-12 18:10:41,376 : INFO : adding document #20000 to Dictionary(38236 unique tokens: [u'represent..', u'(photos)', u'sowell', u'cesse', u'http://t.co/grg1m2alxd']...)
+2014-09-12 18:10:42,300 : INFO : adding document #30000 to Dictionary(52475 unique tokens: [u'https://t.co/c5r7bwuyfg', u'represent..', u'(photos)', u'sowell', u'gt3s.']...)
+2014-09-12 18:10:43,233 : INFO : adding document #40000 to Dictionary(65398 unique tokens: [u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)', u'sowell']...)
+2014-09-12 18:10:44,221 : INFO : adding document #50000 to Dictionary(78201 unique tokens: [u'#sportsnews', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)']...)
+2014-09-12 18:10:44,692 : INFO : built Dictionary(83947 unique tokens: [u'#sportsnews', u'minefield.', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..']...) from 55102 documents (total 481466 corpus positions)
+2014-09-12 18:10:44,692 : INFO : saving Dictionary object under /Users/nilayan/Project/data/ukraine.dict, separately None
+2014-09-12 18:10:49,909 : INFO : collecting document frequencies
+2014-09-12 18:10:49,922 : INFO : PROGRESS: processing document #0
+2014-09-12 18:10:49,972 : INFO : PROGRESS: processing document #10000
+2014-09-12 18:10:50,009 : INFO : PROGRESS: processing document #20000
+2014-09-12 18:10:50,048 : INFO : PROGRESS: processing document #30000
+2014-09-12 18:10:50,087 : INFO : PROGRESS: processing document #40000
+2014-09-12 18:10:50,127 : INFO : PROGRESS: processing document #50000
+2014-09-12 18:10:50,150 : INFO : calculating IDF weights for 55102 documents and 83946 features (472644 matrix non-zeros)
+2014-09-12 18:10:50,234 : INFO : storing corpus in Matrix Market format to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-12 18:10:50,245 : INFO : saving sparse matrix to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-12 18:10:50,245 : INFO : PROGRESS: saving document #0
+2014-09-12 18:10:50,370 : INFO : PROGRESS: saving document #1000
+2014-09-12 18:10:50,483 : INFO : PROGRESS: saving document #2000
+2014-09-12 18:10:50,596 : INFO : PROGRESS: saving document #3000
+2014-09-12 18:10:50,723 : INFO : PROGRESS: saving document #4000
+2014-09-12 18:10:50,846 : INFO : PROGRESS: saving document #5000
+2014-09-12 18:10:50,976 : INFO : PROGRESS: saving document #6000
+2014-09-12 18:10:51,115 : INFO : PROGRESS: saving document #7000
+2014-09-12 18:10:51,255 : INFO : PROGRESS: saving document #8000
+2014-09-12 18:10:51,386 : INFO : PROGRESS: saving document #9000
+2014-09-12 18:10:51,524 : INFO : PROGRESS: saving document #10000
+2014-09-12 18:10:51,645 : INFO : PROGRESS: saving document #11000
+2014-09-12 18:10:51,759 : INFO : PROGRESS: saving document #12000
+2014-09-12 18:10:51,878 : INFO : PROGRESS: saving document #13000
+2014-09-12 18:10:51,994 : INFO : PROGRESS: saving document #14000
+2014-09-12 18:10:52,114 : INFO : PROGRESS: saving document #15000
+2014-09-12 18:10:52,234 : INFO : PROGRESS: saving document #16000
+2014-09-12 18:10:52,343 : INFO : PROGRESS: saving document #17000
+2014-09-12 18:10:52,446 : INFO : PROGRESS: saving document #18000
+2014-09-12 18:10:52,549 : INFO : PROGRESS: saving document #19000
+2014-09-12 18:10:52,650 : INFO : PROGRESS: saving document #20000
+2014-09-12 18:10:52,779 : INFO : PROGRESS: saving document #21000
+2014-09-12 18:10:52,896 : INFO : PROGRESS: saving document #22000
+2014-09-12 18:10:53,014 : INFO : PROGRESS: saving document #23000
+2014-09-12 18:10:53,129 : INFO : PROGRESS: saving document #24000
+2014-09-12 18:10:53,245 : INFO : PROGRESS: saving document #25000
+2014-09-12 18:10:53,362 : INFO : PROGRESS: saving document #26000
+2014-09-12 18:10:53,496 : INFO : PROGRESS: saving document #27000
+2014-09-12 18:10:53,630 : INFO : PROGRESS: saving document #28000
+2014-09-12 18:10:53,775 : INFO : PROGRESS: saving document #29000
+2014-09-12 18:10:53,924 : INFO : PROGRESS: saving document #30000
+2014-09-12 18:10:54,049 : INFO : PROGRESS: saving document #31000
+2014-09-12 18:10:54,158 : INFO : PROGRESS: saving document #32000
+2014-09-12 18:10:54,272 : INFO : PROGRESS: saving document #33000
+2014-09-12 18:10:54,385 : INFO : PROGRESS: saving document #34000
+2014-09-12 18:10:54,501 : INFO : PROGRESS: saving document #35000
+2014-09-12 18:10:54,624 : INFO : PROGRESS: saving document #36000
+2014-09-12 18:10:54,749 : INFO : PROGRESS: saving document #37000
+2014-09-12 18:10:54,876 : INFO : PROGRESS: saving document #38000
+2014-09-12 18:10:55,009 : INFO : PROGRESS: saving document #39000
+2014-09-12 18:10:55,129 : INFO : PROGRESS: saving document #40000
+2014-09-12 18:10:55,246 : INFO : PROGRESS: saving document #41000
+2014-09-12 18:10:55,361 : INFO : PROGRESS: saving document #42000
+2014-09-12 18:10:55,477 : INFO : PROGRESS: saving document #43000
+2014-09-12 18:10:55,590 : INFO : PROGRESS: saving document #44000
+2014-09-12 18:10:55,713 : INFO : PROGRESS: saving document #45000
+2014-09-12 18:10:55,825 : INFO : PROGRESS: saving document #46000
+2014-09-12 18:10:55,941 : INFO : PROGRESS: saving document #47000
+2014-09-12 18:10:56,064 : INFO : PROGRESS: saving document #48000
+2014-09-12 18:10:56,182 : INFO : PROGRESS: saving document #49000
+2014-09-12 18:10:56,297 : INFO : PROGRESS: saving document #50000
+2014-09-12 18:10:56,410 : INFO : PROGRESS: saving document #51000
+2014-09-12 18:10:56,527 : INFO : PROGRESS: saving document #52000
+2014-09-12 18:10:56,641 : INFO : PROGRESS: saving document #53000
+2014-09-12 18:10:56,755 : INFO : PROGRESS: saving document #54000
+2014-09-12 18:10:56,880 : INFO : PROGRESS: saving document #55000
+2014-09-12 18:10:56,893 : INFO : saved 55102x83947 matrix, density=0.010% (472644/4625647594)
+2014-09-12 18:10:56,893 : INFO : saving MmCorpus index to /Users/nilayan/Project/data/tweetcorpus.mm.index
+2014-09-12 18:10:56,925 : INFO : using symmetric alpha at 0.5
+2014-09-12 18:10:56,925 : INFO : using serial LDA version on this node
+2014-09-12 18:10:57,038 : INFO : running online LDA training, 2 topics, 1 passes over the supplied corpus of 55102 documents, updating model once every 2000 documents, evaluating perplexity every 20000 documents, iterating 50x with a convergence threshold of 0.001000
+2014-09-12 18:10:57,134 : INFO : PROGRESS: pass 0, at document #2000/55102
+2014-09-12 18:11:04,518 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:04,616 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.003*amidst + 0.003*brawled + 0.003*scuffle + 0.003*mps + 0.003*parliament, + 0.003*vi... + 0.003*country's + 0.003*#kiev
+2014-09-12 18:11:04,621 : INFO : topic #1 (0.500): 0.007*#ukraine + 0.007*ukraine + 0.003*#euromaidan + 0.003*people + 0.003*sanctions + 0.003*- + 0.003*#kiev + 0.002*eu + 0.002*scuffle + 0.002*mps
+2014-09-12 18:11:04,622 : INFO : topic diff=1.909327, rho=1.000000
+2014-09-12 18:11:04,710 : INFO : PROGRESS: pass 0, at document #4000/55102
+2014-09-12 18:11:10,855 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:10,904 : INFO : topic #0 (0.500): 0.009*truce + 0.008*ukraine + 0.007*rises + 0.007*ends, + 0.007*toll + 0.007*death + 0.005*ends + 0.005*falls + 0.005*#ukraine + 0.004*bloodshed.
+2014-09-12 18:11:10,909 : INFO : topic #1 (0.500): 0.007*#ukraine + 0.007*ukraine + 0.005*truce + 0.004*ends, + 0.004*kiev's + 0.003*ukraine: + 0.003*black + 0.003*rises + 0.003*#euromaidan + 0.003*death
+2014-09-12 18:11:10,910 : INFO : topic diff=0.257694, rho=0.707107
+2014-09-12 18:11:11,002 : INFO : PROGRESS: pass 0, at document #6000/55102
+2014-09-12 18:11:15,890 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:15,941 : INFO : topic #0 (0.500): 0.008*truce + 0.007*ukraine + 0.006*rises + 0.005*toll + 0.005*ends, + 0.005*death + 0.005*ends + 0.005*falls + 0.004*cnn's + 0.004*#ukraine
+2014-09-12 18:11:15,946 : INFO : topic #1 (0.500): 0.007*#ukraine + 0.006*ukraine + 0.003*truce + 0.003*- + 0.003*#euromaidan + 0.003*#kiev + 0.003*violence + 0.003*ukraine's + 0.003*ukraine: + 0.003*olympic
+2014-09-12 18:11:15,947 : INFO : topic diff=0.268528, rho=0.577350
+2014-09-12 18:11:16,044 : INFO : PROGRESS: pass 0, at document #8000/55102
+2014-09-12 18:11:20,319 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:20,370 : INFO : topic #0 (0.500): 0.007*truce + 0.006*ukraine + 0.004*death + 0.004*toll + 0.004*rises + 0.004*ends, + 0.003*kiev + 0.003*cnn's + 0.003*phil + 0.003*#ukraine
+2014-09-12 18:11:20,374 : INFO : topic #1 (0.500): 0.008*el + 0.006*de + 0.005*en + 0.005*famous + 0.005*ukraine's + 0.005*bubka, + 0.005*kiev + 0.004*sportsmen, + 0.004*ukraine + 0.004*violence
+2014-09-12 18:11:20,375 : INFO : topic diff=0.324191, rho=0.500000
+2014-09-12 18:11:20,468 : INFO : PROGRESS: pass 0, at document #10000/55102
+2014-09-12 18:11:23,906 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:23,957 : INFO : topic #0 (0.500): 0.006*ukraine + 0.005*truce + 0.004*kiev + 0.003*#ukraine + 0.003*toll + 0.003*death + 0.002*on: + 0.002*rises + 0.002*- + 0.002*ends,
+2014-09-12 18:11:23,962 : INFO : topic #1 (0.500): 0.006*el + 0.006*de + 0.005*bubka, + 0.005*olympic + 0.005*kiev + 0.005*sergey + 0.005*famous + 0.005*head: + 0.005*end: + 0.005*en
+2014-09-12 18:11:23,963 : INFO : topic diff=0.260883, rho=0.447214
+2014-09-12 18:11:24,050 : INFO : PROGRESS: pass 0, at document #12000/55102
+2014-09-12 18:11:27,434 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:27,483 : INFO : topic #0 (0.500): 0.006*ukraine + 0.004*#ukraine + 0.003*kiev + 0.003*truce + 0.003*- + 0.002*#kiev + 0.002*ukraine. + 0.002*death + 0.002*toll + 0.002*sanctions
+2014-09-12 18:11:27,489 : INFO : topic #1 (0.500): 0.005*de + 0.005*el + 0.005*kiev + 0.005*#ukraine + 0.005*en + 0.004*violence + 0.004*ukraine's + 0.004*ukraine + 0.004*#kiev + 0.004*olympic
+2014-09-12 18:11:27,490 : INFO : topic diff=0.260548, rho=0.408248
+2014-09-12 18:11:27,577 : INFO : PROGRESS: pass 0, at document #14000/55102
+2014-09-12 18:11:30,835 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:30,886 : INFO : topic #0 (0.500): 0.006*ukraine + 0.004*#ukraine + 0.003*kiev + 0.003*- + 0.002*truce + 0.002*sanctions + 0.002*#kiev + 0.002*ukraine. + 0.002*pray + 0.002*eu
+2014-09-12 18:11:30,892 : INFO : topic #1 (0.500): 0.005*kiev + 0.005*de + 0.005*#ukraine + 0.004*el + 0.004*en + 0.004*#kiev + 0.003*ukraine + 0.003*violence + 0.003*ukraine's + 0.003*la
+2014-09-12 18:11:30,893 : INFO : topic diff=0.248622, rho=0.377964
+2014-09-12 18:11:30,984 : INFO : PROGRESS: pass 0, at document #16000/55102
+2014-09-12 18:11:34,223 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:34,274 : INFO : topic #0 (0.500): 0.006*ukraine + 0.004*#ukraine + 0.003*kiev + 0.003*- + 0.002*ukraine. + 0.002*sanctions + 0.002*eu + 0.002*truce + 0.002*pray + 0.002*#kiev
+2014-09-12 18:11:34,280 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.005*kiev + 0.004*de + 0.004*#kiev + 0.004*en + 0.003*el + 0.003*ukraine + 0.003*violence + 0.003*#euromaidan + 0.003*la
+2014-09-12 18:11:34,281 : INFO : topic diff=0.235929, rho=0.353553
+2014-09-12 18:11:34,363 : INFO : PROGRESS: pass 0, at document #18000/55102
+2014-09-12 18:11:37,064 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:37,115 : INFO : topic #0 (0.500): 0.006*ukraine + 0.004*#ukraine + 0.003*reporter: + 0.003*worst + 0.003*day + 0.003*sanctions + 0.003*gunbattle + 0.003*close + 0.003*rattled + 0.003*eu
+2014-09-12 18:11:37,121 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.005*kiev + 0.004*#kiev + 0.004*de + 0.003*en + 0.003*people + 0.003*protesters + 0.003*ukraine + 0.003*#euromaidan + 0.002*el
+2014-09-12 18:11:37,122 : INFO : topic diff=0.208732, rho=0.333333
+2014-09-12 18:11:40,971 : INFO : -11.057 per-word bound, 2129.9 perplexity estimate based on a held-out corpus of 2000 documents with 4658 words
+2014-09-12 18:11:40,971 : INFO : PROGRESS: pass 0, at document #20000/55102
+2014-09-12 18:11:43,550 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:43,601 : INFO : topic #0 (0.500): 0.006*ukraine + 0.005*reporter: + 0.005*worst + 0.005*day + 0.004*gunbattle + 0.004*close + 0.004*rattled + 0.004*walls. + 0.004*sanctions + 0.003*#ukraine
+2014-09-12 18:11:43,607 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*kiev + 0.004*#kiev + 0.003*de + 0.003*en + 0.003*people + 0.003*protesters + 0.003*ukraine + 0.003*#euromaidan + 0.002*-
+2014-09-12 18:11:43,608 : INFO : topic diff=0.194709, rho=0.316228
+2014-09-12 18:11:43,695 : INFO : PROGRESS: pass 0, at document #22000/55102
+2014-09-12 18:11:46,441 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:46,494 : INFO : topic #0 (0.500): 0.007*ukraine + 0.004*reporter: + 0.004*worst + 0.004*day + 0.004*sanctions + 0.004*close + 0.004*gunbattle + 0.004*rattled + 0.004*walls. + 0.004*eu
+2014-09-12 18:11:46,500 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.004*#kiev + 0.004*kiev + 0.003*de + 0.003*en + 0.003*protesters + 0.003*#euromaidan + 0.003*ukraine + 0.002*people + 0.002*ukraine's
+2014-09-12 18:11:46,501 : INFO : topic diff=0.212829, rho=0.301511
+2014-09-12 18:11:46,588 : INFO : PROGRESS: pass 0, at document #24000/55102
+2014-09-12 18:11:49,299 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:49,351 : INFO : topic #0 (0.500): 0.007*ukraine + 0.004*sanctions + 0.004*day + 0.004*eu + 0.003*reporter: + 0.003*worst + 0.003*#ukraine + 0.003*- + 0.003*unrest: + 0.003*gunbattle
+2014-09-12 18:11:49,358 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.004*#kiev + 0.004*kiev + 0.004*en + 0.003*de + 0.003*protesters + 0.003*#euromaidan + 0.003*ukraine + 0.002*people + 0.002*police
+2014-09-12 18:11:49,359 : INFO : topic diff=0.199797, rho=0.288675
+2014-09-12 18:11:49,446 : INFO : PROGRESS: pass 0, at document #26000/55102
+2014-09-12 18:11:52,070 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:52,123 : INFO : topic #0 (0.500): 0.008*ukraine + 0.004*sanctions + 0.003*- + 0.003*eu + 0.003*#ukraine + 0.003*day + 0.003*kiev + 0.003*unrest: + 0.003*imposed + 0.003*worst
+2014-09-12 18:11:52,129 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.004*#kiev + 0.003*en + 0.003*de + 0.003*#euromaidan + 0.003*protesters + 0.002*ukraine + 0.002*people + 0.002*la
+2014-09-12 18:11:52,130 : INFO : topic diff=0.198817, rho=0.277350
+2014-09-12 18:11:52,218 : INFO : PROGRESS: pass 0, at document #28000/55102
+2014-09-12 18:11:54,893 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:54,947 : INFO : topic #0 (0.500): 0.008*ukraine + 0.004*sanctions + 0.003*- + 0.003*eu + 0.003*kiev + 0.003*#ukraine + 0.003*day + 0.002*imposed + 0.002*governor + 0.002*handcuffed
+2014-09-12 18:11:54,954 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.004*#kiev + 0.003*en + 0.003*de + 0.003*#euromaidan + 0.003*protesters + 0.002*ukraine + 0.002*people + 0.002*-
+2014-09-12 18:11:54,955 : INFO : topic diff=0.199386, rho=0.267261
+2014-09-12 18:11:55,045 : INFO : PROGRESS: pass 0, at document #30000/55102
+2014-09-12 18:11:57,645 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:11:57,698 : INFO : topic #0 (0.500): 0.008*ukraine + 0.004*sanctions + 0.004*- + 0.003*kiev + 0.003*#ukraine + 0.003*eu + 0.002*day + 0.002*imposed + 0.002*&amp; + 0.002*pray
+2014-09-12 18:11:57,705 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.004*#kiev + 0.003*en + 0.003*de + 0.003*#euromaidan + 0.003*protesters + 0.002*ukraine + 0.002*- + 0.002*people
+2014-09-12 18:11:57,707 : INFO : topic diff=0.190259, rho=0.258199
+2014-09-12 18:11:57,792 : INFO : PROGRESS: pass 0, at document #32000/55102
+2014-09-12 18:12:00,360 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:00,414 : INFO : topic #0 (0.500): 0.009*ukraine + 0.004*- + 0.003*sanctions + 0.003*#ukraine + 0.003*kiev + 0.002*eu + 0.002*ukraine. + 0.002*happening + 0.002*&amp; + 0.002*day
+2014-09-12 18:12:00,421 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.005*#kiev + 0.003*de + 0.003*en + 0.003*protesters + 0.003*#euromaidan + 0.003*ukraine + 0.002*people + 0.002*-
+2014-09-12 18:12:00,422 : INFO : topic diff=0.178573, rho=0.250000
+2014-09-12 18:12:00,509 : INFO : PROGRESS: pass 0, at document #34000/55102
+2014-09-12 18:12:02,969 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:03,023 : INFO : topic #0 (0.500): 0.009*ukraine + 0.004*- + 0.003*sanctions + 0.003*#ukraine + 0.003*kiev + 0.002*ukraine. + 0.002*eu + 0.002*ukraine, + 0.002*&amp; + 0.002*happening
+2014-09-12 18:12:03,031 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.005*kiev + 0.005*#kiev + 0.003*de + 0.003*en + 0.003*protesters + 0.003*#euromaidan + 0.003*ukraine + 0.002*people + 0.002*police
+2014-09-12 18:12:03,031 : INFO : topic diff=0.179130, rho=0.242536
+2014-09-12 18:12:03,119 : INFO : PROGRESS: pass 0, at document #36000/55102
+2014-09-12 18:12:05,612 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:05,666 : INFO : topic #0 (0.500): 0.009*ukraine + 0.003*- + 0.003*sanctions + 0.003*#ukraine + 0.003*kiev + 0.003*bbc + 0.003*clashes + 0.002*video: + 0.002*insanity: + 0.002*descent
+2014-09-12 18:12:05,673 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.005*kiev + 0.005*#kiev + 0.003*de + 0.003*police + 0.003*protesters + 0.003*en + 0.003*people + 0.003*ukraine + 0.002*#euromaidan
+2014-09-12 18:12:05,674 : INFO : topic diff=0.176240, rho=0.235702
+2014-09-12 18:12:05,764 : INFO : PROGRESS: pass 0, at document #38000/55102
+2014-09-12 18:12:08,225 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:08,280 : INFO : topic #0 (0.500): 0.009*ukraine + 0.004*sanctions + 0.003*- + 0.003*#ukraine + 0.003*kiev + 0.002*ukraine. + 0.002*clashes + 0.002*ukraine: + 0.002*happening + 0.002*bbc
+2014-09-12 18:12:08,287 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.005*kiev + 0.005*#kiev + 0.003*de + 0.003*protesters + 0.003*en + 0.003*police + 0.003*people + 0.002*#euromaidan + 0.002*ukraine
+2014-09-12 18:12:08,288 : INFO : topic diff=0.181564, rho=0.229416
+2014-09-12 18:12:12,175 : INFO : -11.129 per-word bound, 2239.3 perplexity estimate based on a held-out corpus of 2000 documents with 5261 words
+2014-09-12 18:12:12,175 : INFO : PROGRESS: pass 0, at document #40000/55102
+2014-09-12 18:12:14,637 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:14,691 : INFO : topic #0 (0.500): 0.009*ukraine + 0.004*sanctions + 0.003*- + 0.003*#ukraine + 0.003*kiev + 0.002*ukraine. + 0.002*happening + 0.002*eu + 0.002*ukraine: + 0.002*clashes
+2014-09-12 18:12:14,699 : INFO : topic #1 (0.500): 0.005*kiev + 0.005*#ukraine + 0.005*#kiev + 0.003*protesters + 0.003*de + 0.003*en + 0.003*police + 0.002*#euromaidan + 0.002*people + 0.002*ukraine
+2014-09-12 18:12:14,700 : INFO : topic diff=0.173319, rho=0.223607
+2014-09-12 18:12:14,788 : INFO : PROGRESS: pass 0, at document #42000/55102
+2014-09-12 18:12:17,230 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:17,285 : INFO : topic #0 (0.500): 0.009*ukraine + 0.003*sanctions + 0.003*- + 0.003*#ukraine + 0.003*kiev + 0.002*ukraine. + 0.002*happening + 0.002*eu + 0.002*violence + 0.002*&amp;
+2014-09-12 18:12:17,293 : INFO : topic #1 (0.500): 0.005*kiev + 0.005*#ukraine + 0.005*#kiev + 0.004*protesters + 0.003*de + 0.003*en + 0.003*police + 0.003*#euromaidan + 0.002*people + 0.002*ukraine
+2014-09-12 18:12:17,295 : INFO : topic diff=0.172725, rho=0.218218
+2014-09-12 18:12:17,382 : INFO : PROGRESS: pass 0, at document #44000/55102
+2014-09-12 18:12:19,857 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:19,912 : INFO : topic #0 (0.500): 0.009*ukraine + 0.003*- + 0.003*sanctions + 0.003*#ukraine + 0.003*kiev + 0.002*ukraine. + 0.002*eu + 0.002*happening + 0.002*violence + 0.002*ukraine,
+2014-09-12 18:12:19,920 : INFO : topic #1 (0.500): 0.005*kiev + 0.005*#ukraine + 0.005*#kiev + 0.004*protesters + 0.003*de + 0.003*en + 0.003*police + 0.002*#euromaidan + 0.002*people + 0.002*ukraine
+2014-09-12 18:12:19,921 : INFO : topic diff=0.172396, rho=0.213201
+2014-09-12 18:12:20,009 : INFO : PROGRESS: pass 0, at document #46000/55102
+2014-09-12 18:12:22,400 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:22,454 : INFO : topic #0 (0.500): 0.009*ukraine + 0.003*- + 0.003*sanctions + 0.003*#ukraine + 0.003*kiev + 0.002*ukraine. + 0.002*video: + 0.002*eu + 0.002*happening + 0.002*violence
+2014-09-12 18:12:22,462 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.005*#kiev + 0.003*protesters + 0.003*de + 0.003*police + 0.003*en + 0.002*#euromaidan + 0.002*video + 0.002*people
+2014-09-12 18:12:22,463 : INFO : topic diff=0.171882, rho=0.208514
+2014-09-12 18:12:22,553 : INFO : PROGRESS: pass 0, at document #48000/55102
+2014-09-12 18:12:24,990 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:25,045 : INFO : topic #0 (0.500): 0.009*ukraine + 0.003*- + 0.003*sanctions + 0.003*#ukraine + 0.003*kiev + 0.002*ukraine. + 0.002*violence + 0.002*video: + 0.002*eu + 0.002*happening
+2014-09-12 18:12:25,053 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#kiev + 0.005*#ukraine + 0.003*protesters + 0.003*de + 0.003*police + 0.003*en + 0.002*#euromaidan + 0.002*people + 0.002*video
+2014-09-12 18:12:25,054 : INFO : topic diff=0.166430, rho=0.204124
+2014-09-12 18:12:25,142 : INFO : PROGRESS: pass 0, at document #50000/55102
+2014-09-12 18:12:27,505 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:27,561 : INFO : topic #0 (0.500): 0.009*ukraine + 0.003*- + 0.003*sanctions + 0.003*kiev + 0.003*#ukraine + 0.003*ukraine. + 0.002*violence + 0.002*crisis + 0.002*eu + 0.002*happening
+2014-09-12 18:12:27,570 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.005*#kiev + 0.003*protesters + 0.003*de + 0.003*police + 0.003*en + 0.003*#euromaidan + 0.002*people + 0.002*kiev.
+2014-09-12 18:12:27,571 : INFO : topic diff=0.166788, rho=0.200000
+2014-09-12 18:12:27,658 : INFO : PROGRESS: pass 0, at document #52000/55102
+2014-09-12 18:12:30,007 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:30,063 : INFO : topic #0 (0.500): 0.009*ukraine + 0.003*- + 0.003*ukraine. + 0.003*#ukraine + 0.003*kiev + 0.003*sanctions + 0.002*crisis + 0.002*happening + 0.002*violence + 0.002*eu
+2014-09-12 18:12:30,071 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.005*#kiev + 0.003*protesters + 0.003*de + 0.003*police + 0.003*en + 0.002*#euromaidan + 0.002*people + 0.002*kiev.
+2014-09-12 18:12:30,072 : INFO : topic diff=0.158673, rho=0.196116
+2014-09-12 18:12:30,159 : INFO : PROGRESS: pass 0, at document #54000/55102
+2014-09-12 18:12:32,493 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:12:32,549 : INFO : topic #0 (0.500): 0.009*ukraine + 0.003*- + 0.003*ukraine. + 0.003*#ukraine + 0.003*kiev + 0.003*sanctions + 0.002*crisis + 0.002*happening + 0.002*violence + 0.002*ukraine,
+2014-09-12 18:12:32,558 : INFO : topic #1 (0.500): 0.006*kiev + 0.005*#ukraine + 0.005*#kiev + 0.003*protesters + 0.003*de + 0.003*police + 0.003*en + 0.002*#euromaidan + 0.002*kiev. + 0.002*people
+2014-09-12 18:12:32,559 : INFO : topic diff=0.156919, rho=0.192450
+2014-09-12 18:12:34,567 : INFO : -10.804 per-word bound, 1787.5 perplexity estimate based on a held-out corpus of 1102 documents with 2847 words
+2014-09-12 18:12:34,567 : INFO : PROGRESS: pass 0, at document #55102/55102
+2014-09-12 18:12:35,797 : INFO : merging changes from 1102 documents into a model of 55102 documents
+2014-09-12 18:12:35,852 : INFO : topic #0 (0.500): 0.009*ukraine + 0.004*... + 0.003*- + 0.003*ukraine. + 0.003*#ukraine + 0.003*kiev + 0.002*sanctions + 0.002*violence + 0.002*ukraine: + 0.002*happening
+2014-09-12 18:12:35,861 : INFO : topic #1 (0.500): 0.006*kiev + 0.004*#ukraine + 0.004*#kiev + 0.003*police + 0.003*protesters + 0.003*de + 0.003*spectacular + 0.003*en + 0.003*battle + 0.003*100
+2014-09-12 18:12:35,862 : INFO : topic diff=0.132060, rho=0.188982
+2014-09-12 18:12:35,873 : INFO : topic #0 (0.500): 0.009*ukraine + 0.004*... + 0.003*- + 0.003*ukraine. + 0.003*#ukraine + 0.003*kiev + 0.002*sanctions + 0.002*violence + 0.002*ukraine: + 0.002*happening
+2014-09-12 18:12:35,882 : INFO : topic #1 (0.500): 0.006*kiev + 0.004*#ukraine + 0.004*#kiev + 0.003*police + 0.003*protesters + 0.003*de + 0.003*spectacular + 0.003*en + 0.003*battle + 0.003*100
+2014-09-12 18:13:45,845 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-09-12 18:13:46,865 : INFO : adding document #10000 to Dictionary(22373 unique tokens: [u'(photos)', u'sowell', u'http://t.co/grg1m2alxd', u'hanging', u'localized']...)
+2014-09-12 18:13:47,759 : INFO : adding document #20000 to Dictionary(38236 unique tokens: [u'represent..', u'(photos)', u'sowell', u'cesse', u'http://t.co/grg1m2alxd']...)
+2014-09-12 18:13:48,696 : INFO : adding document #30000 to Dictionary(52475 unique tokens: [u'https://t.co/c5r7bwuyfg', u'represent..', u'(photos)', u'sowell', u'gt3s.']...)
+2014-09-12 18:13:49,622 : INFO : adding document #40000 to Dictionary(65398 unique tokens: [u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)', u'sowell']...)
+2014-09-12 18:13:50,564 : INFO : adding document #50000 to Dictionary(78201 unique tokens: [u'#sportsnews', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)']...)
+2014-09-12 18:13:51,035 : INFO : built Dictionary(83947 unique tokens: [u'#sportsnews', u'minefield.', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..']...) from 55102 documents (total 481466 corpus positions)
+2014-09-12 18:13:51,036 : INFO : saving Dictionary object under /Users/nilayan/Project/data/ukraine.dict, separately None
+2014-09-12 18:13:56,169 : INFO : collecting document frequencies
+2014-09-12 18:13:56,170 : INFO : PROGRESS: processing document #0
+2014-09-12 18:13:56,215 : INFO : PROGRESS: processing document #10000
+2014-09-12 18:13:56,253 : INFO : PROGRESS: processing document #20000
+2014-09-12 18:13:56,293 : INFO : PROGRESS: processing document #30000
+2014-09-12 18:13:56,333 : INFO : PROGRESS: processing document #40000
+2014-09-12 18:13:56,373 : INFO : PROGRESS: processing document #50000
+2014-09-12 18:13:56,398 : INFO : calculating IDF weights for 55102 documents and 83946 features (472644 matrix non-zeros)
+2014-09-12 18:13:56,481 : INFO : storing corpus in Matrix Market format to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-12 18:13:56,482 : INFO : saving sparse matrix to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-12 18:13:56,482 : INFO : PROGRESS: saving document #0
+2014-09-12 18:13:56,604 : INFO : PROGRESS: saving document #1000
+2014-09-12 18:13:56,718 : INFO : PROGRESS: saving document #2000
+2014-09-12 18:13:56,830 : INFO : PROGRESS: saving document #3000
+2014-09-12 18:13:56,958 : INFO : PROGRESS: saving document #4000
+2014-09-12 18:13:57,080 : INFO : PROGRESS: saving document #5000
+2014-09-12 18:13:57,207 : INFO : PROGRESS: saving document #6000
+2014-09-12 18:13:57,346 : INFO : PROGRESS: saving document #7000
+2014-09-12 18:13:57,487 : INFO : PROGRESS: saving document #8000
+2014-09-12 18:13:57,614 : INFO : PROGRESS: saving document #9000
+2014-09-12 18:13:57,743 : INFO : PROGRESS: saving document #10000
+2014-09-12 18:13:57,860 : INFO : PROGRESS: saving document #11000
+2014-09-12 18:13:57,975 : INFO : PROGRESS: saving document #12000
+2014-09-12 18:13:58,093 : INFO : PROGRESS: saving document #13000
+2014-09-12 18:13:58,208 : INFO : PROGRESS: saving document #14000
+2014-09-12 18:13:58,326 : INFO : PROGRESS: saving document #15000
+2014-09-12 18:13:58,444 : INFO : PROGRESS: saving document #16000
+2014-09-12 18:13:58,552 : INFO : PROGRESS: saving document #17000
+2014-09-12 18:13:58,655 : INFO : PROGRESS: saving document #18000
+2014-09-12 18:13:58,758 : INFO : PROGRESS: saving document #19000
+2014-09-12 18:13:58,859 : INFO : PROGRESS: saving document #20000
+2014-09-12 18:13:58,987 : INFO : PROGRESS: saving document #21000
+2014-09-12 18:13:59,131 : INFO : PROGRESS: saving document #22000
+2014-09-12 18:13:59,282 : INFO : PROGRESS: saving document #23000
+2014-09-12 18:13:59,418 : INFO : PROGRESS: saving document #24000
+2014-09-12 18:13:59,533 : INFO : PROGRESS: saving document #25000
+2014-09-12 18:13:59,649 : INFO : PROGRESS: saving document #26000
+2014-09-12 18:13:59,769 : INFO : PROGRESS: saving document #27000
+2014-09-12 18:13:59,883 : INFO : PROGRESS: saving document #28000
+2014-09-12 18:14:00,001 : INFO : PROGRESS: saving document #29000
+2014-09-12 18:14:00,195 : INFO : PROGRESS: saving document #30000
+2014-09-12 18:14:00,425 : INFO : PROGRESS: saving document #31000
+2014-09-12 18:14:00,535 : INFO : PROGRESS: saving document #32000
+2014-09-12 18:14:00,649 : INFO : PROGRESS: saving document #33000
+2014-09-12 18:14:00,763 : INFO : PROGRESS: saving document #34000
+2014-09-12 18:14:00,878 : INFO : PROGRESS: saving document #35000
+2014-09-12 18:14:00,996 : INFO : PROGRESS: saving document #36000
+2014-09-12 18:14:01,118 : INFO : PROGRESS: saving document #37000
+2014-09-12 18:14:01,238 : INFO : PROGRESS: saving document #38000
+2014-09-12 18:14:01,354 : INFO : PROGRESS: saving document #39000
+2014-09-12 18:14:01,476 : INFO : PROGRESS: saving document #40000
+2014-09-12 18:14:01,594 : INFO : PROGRESS: saving document #41000
+2014-09-12 18:14:01,709 : INFO : PROGRESS: saving document #42000
+2014-09-12 18:14:01,824 : INFO : PROGRESS: saving document #43000
+2014-09-12 18:14:01,938 : INFO : PROGRESS: saving document #44000
+2014-09-12 18:14:02,061 : INFO : PROGRESS: saving document #45000
+2014-09-12 18:14:02,173 : INFO : PROGRESS: saving document #46000
+2014-09-12 18:14:02,290 : INFO : PROGRESS: saving document #47000
+2014-09-12 18:14:02,413 : INFO : PROGRESS: saving document #48000
+2014-09-12 18:14:02,530 : INFO : PROGRESS: saving document #49000
+2014-09-12 18:14:02,644 : INFO : PROGRESS: saving document #50000
+2014-09-12 18:14:02,758 : INFO : PROGRESS: saving document #51000
+2014-09-12 18:14:02,875 : INFO : PROGRESS: saving document #52000
+2014-09-12 18:14:02,990 : INFO : PROGRESS: saving document #53000
+2014-09-12 18:14:03,104 : INFO : PROGRESS: saving document #54000
+2014-09-12 18:14:03,216 : INFO : PROGRESS: saving document #55000
+2014-09-12 18:14:03,230 : INFO : saved 55102x83947 matrix, density=0.010% (472644/4625647594)
+2014-09-12 18:14:03,230 : INFO : saving MmCorpus index to /Users/nilayan/Project/data/tweetcorpus.mm.index
+2014-09-12 18:14:03,264 : INFO : using symmetric alpha at 0.5
+2014-09-12 18:14:03,264 : INFO : using serial LDA version on this node
+2014-09-12 18:14:03,308 : INFO : running online LDA training, 2 topics, 1 passes over the supplied corpus of 55102 documents, updating model once every 2000 documents, evaluating perplexity every 20000 documents, iterating 50x with a convergence threshold of 0.001000
+2014-09-12 18:14:03,393 : INFO : PROGRESS: pass 0, at document #2000/55102
+2014-09-12 18:14:10,682 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:10,766 : INFO : topic #0 (0.500): 0.009*ukraine + 0.007*#ukraine + 0.004*mps + 0.004*amidst + 0.004*country's + 0.004*scuffle + 0.004*vi... + 0.003*parliament, + 0.003*brawled + 0.003*clashes:
+2014-09-12 18:14:10,771 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.006*ukraine + 0.004*#euromaidan + 0.003*#kiev + 0.003*eu + 0.003*- + 0.002*sanctions + 0.002*ukraine. + 0.002*people + 0.002*ukraine,
+2014-09-12 18:14:10,772 : INFO : topic diff=1.908054, rho=1.000000
+2014-09-12 18:14:10,863 : INFO : PROGRESS: pass 0, at document #4000/55102
+2014-09-12 18:14:16,913 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:16,963 : INFO : topic #0 (0.500): 0.009*ukraine + 0.007*truce + 0.007*#ukraine + 0.006*rises + 0.006*toll + 0.006*ends, + 0.006*death + 0.005*black + 0.004*ukraine: + 0.004*ends
+2014-09-12 18:14:16,967 : INFO : topic #1 (0.500): 0.006*truce + 0.006*#ukraine + 0.005*ukraine + 0.005*ends, + 0.005*falls + 0.004*rises + 0.004*death + 0.004*toll + 0.003*ends + 0.003*bloodshed.
+2014-09-12 18:14:16,968 : INFO : topic diff=0.303540, rho=0.707107
+2014-09-12 18:14:17,058 : INFO : PROGRESS: pass 0, at document #6000/55102
+2014-09-12 18:14:21,735 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:21,786 : INFO : topic #0 (0.500): 0.009*ukraine + 0.007*truce + 0.006*#ukraine + 0.005*rises + 0.005*toll + 0.005*death + 0.005*ends, + 0.005*ukraine: + 0.004*black + 0.004*ends
+2014-09-12 18:14:21,791 : INFO : topic #1 (0.500): 0.005*ukraine + 0.005*#ukraine + 0.004*truce + 0.003*ukraine's + 0.003*violence + 0.003*sportsmen, + 0.003*famous + 0.003*sergey + 0.003*bubka, + 0.003*head:
+2014-09-12 18:14:21,792 : INFO : topic diff=0.266692, rho=0.577350
+2014-09-12 18:14:21,888 : INFO : PROGRESS: pass 0, at document #8000/55102
+2014-09-12 18:14:25,850 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:25,900 : INFO : topic #0 (0.500): 0.007*ukraine + 0.006*truce + 0.005*kiev + 0.005*#ukraine + 0.004*toll + 0.004*rises + 0.003*death + 0.003*on: + 0.003*chaos. + 0.003*black
+2014-09-12 18:14:25,905 : INFO : topic #1 (0.500): 0.007*el + 0.006*de + 0.006*en + 0.006*famous + 0.006*bubka, + 0.006*sergey + 0.005*ukraine's + 0.005*sportsmen, + 0.005*urged + 0.005*violence
+2014-09-12 18:14:25,906 : INFO : topic diff=0.276782, rho=0.500000
+2014-09-12 18:14:25,997 : INFO : PROGRESS: pass 0, at document #10000/55102
+2014-09-12 18:14:29,425 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:29,473 : INFO : topic #0 (0.500): 0.007*ukraine + 0.005*truce + 0.005*kiev + 0.005*#ukraine + 0.004*on: + 0.004*aid + 0.004*medics + 0.004*fired + 0.004*shaky + 0.003*night
+2014-09-12 18:14:29,479 : INFO : topic #1 (0.500): 0.006*el + 0.006*bubka, + 0.006*sergey + 0.006*de + 0.006*en + 0.006*famous + 0.006*head: + 0.006*violence + 0.006*end: + 0.006*ukraine's
+2014-09-12 18:14:29,479 : INFO : topic diff=0.248217, rho=0.447214
+2014-09-12 18:14:29,565 : INFO : PROGRESS: pass 0, at document #12000/55102
+2014-09-12 18:14:32,749 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:32,799 : INFO : topic #0 (0.500): 0.007*ukraine + 0.006*#ukraine + 0.005*kiev + 0.004*truce + 0.003*aid + 0.003*medics + 0.003*fired + 0.003*on: + 0.003*#kiev + 0.003*people
+2014-09-12 18:14:32,804 : INFO : topic #1 (0.500): 0.006*de + 0.006*en + 0.005*el + 0.005*violence + 0.004*ukraine's + 0.004*bubka, + 0.004*sergey + 0.004*olympic + 0.004*famous + 0.004*kiev
+2014-09-12 18:14:32,805 : INFO : topic diff=0.247099, rho=0.408248
+2014-09-12 18:14:32,891 : INFO : PROGRESS: pass 0, at document #14000/55102
+2014-09-12 18:14:36,036 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:36,088 : INFO : topic #0 (0.500): 0.007*ukraine + 0.006*#ukraine + 0.005*kiev + 0.003*#kiev + 0.003*truce + 0.003*people + 0.003*- + 0.003*protesters + 0.002*#euromaidan + 0.002*medics
+2014-09-12 18:14:36,093 : INFO : topic #1 (0.500): 0.005*de + 0.005*en + 0.004*el + 0.004*violence + 0.004*kiev + 0.003*ukraine's + 0.003*la + 0.003*ukraine + 0.003*#kiev + 0.003*#ukraine
+2014-09-12 18:14:36,094 : INFO : topic diff=0.242027, rho=0.377964
+2014-09-12 18:14:36,182 : INFO : PROGRESS: pass 0, at document #16000/55102
+2014-09-12 18:14:39,197 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:39,249 : INFO : topic #0 (0.500): 0.006*ukraine + 0.006*#ukraine + 0.004*kiev + 0.003*#kiev + 0.003*people + 0.003*protesters + 0.003*- + 0.002*truce + 0.002*ukraine. + 0.002*#euromaidan
+2014-09-12 18:14:39,255 : INFO : topic #1 (0.500): 0.005*de + 0.004*en + 0.003*kiev + 0.003*violence + 0.003*el + 0.003*la + 0.003*ukraine + 0.003*ukraine's + 0.003*#kiev + 0.003*#ukraine
+2014-09-12 18:14:39,255 : INFO : topic diff=0.234631, rho=0.353553
+2014-09-12 18:14:39,336 : INFO : PROGRESS: pass 0, at document #18000/55102
+2014-09-12 18:14:41,977 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:42,029 : INFO : topic #0 (0.500): 0.006*#ukraine + 0.006*ukraine + 0.004*kiev + 0.003*day + 0.003*people + 0.003*#kiev + 0.003*reporter: + 0.003*worst + 0.003*kiev: + 0.003*gunbattle
+2014-09-12 18:14:42,034 : INFO : topic #1 (0.500): 0.004*en + 0.004*de + 0.003*kiev + 0.003*eu + 0.003*sanctions + 0.003*ukraine + 0.003*violence + 0.003*#kiev + 0.003*#ukraine + 0.003*unrest:
+2014-09-12 18:14:42,035 : INFO : topic diff=0.206416, rho=0.333333
+2014-09-12 18:14:45,734 : INFO : -11.042 per-word bound, 2108.1 perplexity estimate based on a held-out corpus of 2000 documents with 4658 words
+2014-09-12 18:14:45,734 : INFO : PROGRESS: pass 0, at document #20000/55102
+2014-09-12 18:14:48,185 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:48,236 : INFO : topic #0 (0.500): 0.006*#ukraine + 0.006*ukraine + 0.005*reporter: + 0.005*worst + 0.005*day + 0.004*gunbattle + 0.004*rattled + 0.004*close + 0.004*kiev: + 0.004*walls.
+2014-09-12 18:14:48,242 : INFO : topic #1 (0.500): 0.004*eu + 0.004*sanctions + 0.004*en + 0.004*de + 0.003*unrest: + 0.003*ukraine + 0.003*kiev + 0.003*imposed + 0.003*#ukraine + 0.003*#kiev
+2014-09-12 18:14:48,243 : INFO : topic diff=0.193268, rho=0.316228
+2014-09-12 18:14:48,329 : INFO : PROGRESS: pass 0, at document #22000/55102
+2014-09-12 18:14:50,963 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:51,016 : INFO : topic #0 (0.500): 0.006*#ukraine + 0.006*ukraine + 0.004*day + 0.004*reporter: + 0.004*worst + 0.004*kiev: + 0.004*gunbattle + 0.004*close + 0.004*rattled + 0.004*kiev
+2014-09-12 18:14:51,022 : INFO : topic #1 (0.500): 0.004*eu + 0.004*sanctions + 0.004*en + 0.004*unrest: + 0.003*de + 0.003*ukraine + 0.003*kiev + 0.003*imposed + 0.003*#ukraine + 0.002*#kiev
+2014-09-12 18:14:51,023 : INFO : topic diff=0.206852, rho=0.301511
+2014-09-12 18:14:51,109 : INFO : PROGRESS: pass 0, at document #24000/55102
+2014-09-12 18:14:53,683 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:53,736 : INFO : topic #0 (0.500): 0.006*#ukraine + 0.006*ukraine + 0.004*kiev + 0.004*day + 0.003*#kiev + 0.003*reporter: + 0.003*worst + 0.003*protesters + 0.003*kiev: + 0.003*-
+2014-09-12 18:14:53,742 : INFO : topic #1 (0.500): 0.004*sanctions + 0.004*en + 0.004*eu + 0.004*de + 0.003*ukraine + 0.003*kiev + 0.003*unrest: + 0.003*imposed + 0.003*#ukraine + 0.002*#kiev
+2014-09-12 18:14:53,743 : INFO : topic diff=0.197713, rho=0.288675
+2014-09-12 18:14:53,829 : INFO : PROGRESS: pass 0, at document #26000/55102
+2014-09-12 18:14:56,472 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:56,524 : INFO : topic #0 (0.500): 0.007*ukraine + 0.006*#ukraine + 0.004*kiev + 0.003*day + 0.003*#kiev + 0.003*protesters + 0.003*- + 0.003*#euromaidan + 0.003*people + 0.003*kiev:
+2014-09-12 18:14:56,531 : INFO : topic #1 (0.500): 0.004*sanctions + 0.004*en + 0.004*kiev + 0.004*eu + 0.003*de + 0.003*ukraine + 0.003*imposed + 0.003*unrest: + 0.003*violence + 0.002*-
+2014-09-12 18:14:56,532 : INFO : topic diff=0.194832, rho=0.277350
+2014-09-12 18:14:56,619 : INFO : PROGRESS: pass 0, at document #28000/55102
+2014-09-12 18:14:59,217 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:14:59,270 : INFO : topic #0 (0.500): 0.006*ukraine + 0.006*#ukraine + 0.004*kiev + 0.003*#kiev + 0.003*- + 0.003*protesters + 0.003*day + 0.003*#euromaidan + 0.003*people + 0.002*news
+2014-09-12 18:14:59,277 : INFO : topic #1 (0.500): 0.004*sanctions + 0.004*en + 0.004*kiev + 0.004*de + 0.003*ukraine + 0.003*eu + 0.003*- + 0.003*imposed + 0.002*violence + 0.002*#ukraine
+2014-09-12 18:14:59,278 : INFO : topic diff=0.193182, rho=0.267261
+2014-09-12 18:14:59,365 : INFO : PROGRESS: pass 0, at document #30000/55102
+2014-09-12 18:15:01,843 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:01,895 : INFO : topic #0 (0.500): 0.007*ukraine + 0.006*#ukraine + 0.004*kiev + 0.003*#kiev + 0.003*- + 0.003*protesters + 0.003*#euromaidan + 0.003*people + 0.002*day + 0.002*truce
+2014-09-12 18:15:01,903 : INFO : topic #1 (0.500): 0.004*en + 0.004*kiev + 0.004*sanctions + 0.004*de + 0.003*ukraine + 0.003*eu + 0.003*- + 0.002*imposed + 0.002*#kiev + 0.002*la
+2014-09-12 18:15:01,904 : INFO : topic diff=0.189867, rho=0.258199
+2014-09-12 18:15:01,991 : INFO : PROGRESS: pass 0, at document #32000/55102
+2014-09-12 18:15:04,470 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:04,526 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.003*- + 0.003*protesters + 0.003*people + 0.003*#euromaidan + 0.002*happening + 0.002*police
+2014-09-12 18:15:04,533 : INFO : topic #1 (0.500): 0.004*en + 0.004*de + 0.004*kiev + 0.004*sanctions + 0.003*ukraine + 0.003*eu + 0.003*- + 0.002*#kiev + 0.002*#ukraine + 0.002*la
+2014-09-12 18:15:04,534 : INFO : topic diff=0.178307, rho=0.250000
+2014-09-12 18:15:04,621 : INFO : PROGRESS: pass 0, at document #34000/55102
+2014-09-12 18:15:07,066 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:07,136 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.003*- + 0.003*people + 0.003*protesters + 0.002*#euromaidan + 0.002*happening + 0.002*ukraine.
+2014-09-12 18:15:07,146 : INFO : topic #1 (0.500): 0.004*sanctions + 0.004*kiev + 0.003*de + 0.003*en + 0.003*ukraine + 0.003*- + 0.002*eu + 0.002*#kiev + 0.002*pray + 0.002*#ukraine
+2014-09-12 18:15:07,149 : INFO : topic diff=0.179460, rho=0.242536
+2014-09-12 18:15:07,239 : INFO : PROGRESS: pass 0, at document #36000/55102
+2014-09-12 18:15:09,702 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:09,756 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*people + 0.003*#kiev + 0.003*police + 0.003*- + 0.003*protesters + 0.003*clashes + 0.002*video:
+2014-09-12 18:15:09,764 : INFO : topic #1 (0.500): 0.004*de + 0.004*en + 0.003*kiev + 0.003*ukraine + 0.003*sanctions + 0.002*eu + 0.002*- + 0.002*#kiev + 0.002*obama + 0.002*la
+2014-09-12 18:15:09,765 : INFO : topic diff=0.175803, rho=0.235702
+2014-09-12 18:15:09,860 : INFO : PROGRESS: pass 0, at document #38000/55102
+2014-09-12 18:15:12,427 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:12,481 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.004*people + 0.003*protesters + 0.003*- + 0.003*police + 0.002*clashes + 0.002*ukraine.
+2014-09-12 18:15:12,489 : INFO : topic #1 (0.500): 0.004*sanctions + 0.004*de + 0.003*kiev + 0.003*en + 0.003*ukraine + 0.002*eu + 0.002*- + 0.002*pray + 0.002*la + 0.002*obama
+2014-09-12 18:15:12,490 : INFO : topic diff=0.180100, rho=0.229416
+2014-09-12 18:15:16,534 : INFO : -11.108 per-word bound, 2206.5 perplexity estimate based on a held-out corpus of 2000 documents with 5261 words
+2014-09-12 18:15:16,555 : INFO : PROGRESS: pass 0, at document #40000/55102
+2014-09-12 18:15:19,345 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:19,402 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.003*people + 0.003*protesters + 0.003*- + 0.003*police + 0.002*#euromaidan + 0.002*ukraine.
+2014-09-12 18:15:19,411 : INFO : topic #1 (0.500): 0.004*sanctions + 0.004*de + 0.004*kiev + 0.003*en + 0.003*ukraine + 0.002*eu + 0.002*- + 0.002*pray + 0.002*la + 0.002*obama
+2014-09-12 18:15:19,412 : INFO : topic diff=0.172484, rho=0.223607
+2014-09-12 18:15:19,524 : INFO : PROGRESS: pass 0, at document #42000/55102
+2014-09-12 18:15:22,226 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:22,287 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.003*protesters + 0.003*people + 0.003*- + 0.002*police + 0.002*ukraine. + 0.002*#euromaidan
+2014-09-12 18:15:22,296 : INFO : topic #1 (0.500): 0.004*sanctions + 0.004*de + 0.004*kiev + 0.003*en + 0.003*ukraine + 0.002*eu + 0.002*- + 0.002*obama + 0.002*pray + 0.002*valencia
+2014-09-12 18:15:22,317 : INFO : topic diff=0.169156, rho=0.218218
+2014-09-12 18:15:22,424 : INFO : PROGRESS: pass 0, at document #44000/55102
+2014-09-12 18:15:25,669 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:25,768 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.003*protesters + 0.003*people + 0.003*- + 0.002*police + 0.002*#euromaidan + 0.002*ukraine.
+2014-09-12 18:15:25,778 : INFO : topic #1 (0.500): 0.004*de + 0.004*sanctions + 0.004*kiev + 0.003*en + 0.003*ukraine + 0.002*eu + 0.002*la + 0.002*obama + 0.002*- + 0.002*pray
+2014-09-12 18:15:25,782 : INFO : topic diff=0.170601, rho=0.213201
+2014-09-12 18:15:25,929 : INFO : PROGRESS: pass 0, at document #46000/55102
+2014-09-12 18:15:28,772 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:28,836 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.004*kiev + 0.004*#kiev + 0.003*people + 0.003*protesters + 0.003*- + 0.003*police + 0.002*ukraine. + 0.002*#euromaidan
+2014-09-12 18:15:28,848 : INFO : topic #1 (0.500): 0.004*kiev + 0.004*sanctions + 0.003*de + 0.003*en + 0.003*ukraine + 0.002*la + 0.002*eu + 0.002*obama + 0.002*- + 0.002*pray
+2014-09-12 18:15:28,849 : INFO : topic diff=0.170010, rho=0.208514
+2014-09-12 18:15:28,947 : INFO : PROGRESS: pass 0, at document #48000/55102
+2014-09-12 18:15:31,422 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:31,481 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.005*kiev + 0.004*#kiev + 0.003*people + 0.003*protesters + 0.003*- + 0.003*police + 0.002*#euromaidan + 0.002*ukraine.
+2014-09-12 18:15:31,490 : INFO : topic #1 (0.500): 0.004*kiev + 0.003*sanctions + 0.003*de + 0.003*en + 0.003*ukraine + 0.002*la + 0.002*eu + 0.002*valencia + 0.002*obama + 0.002*-
+2014-09-12 18:15:31,492 : INFO : topic diff=0.164785, rho=0.204124
+2014-09-12 18:15:31,588 : INFO : PROGRESS: pass 0, at document #50000/55102
+2014-09-12 18:15:34,419 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:34,508 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*#ukraine + 0.005*kiev + 0.004*#kiev + 0.003*people + 0.003*- + 0.003*protesters + 0.003*police + 0.002*#euromaidan + 0.002*ukraine.
+2014-09-12 18:15:34,517 : INFO : topic #1 (0.500): 0.004*kiev + 0.003*de + 0.003*sanctions + 0.003*en + 0.003*ukraine + 0.002*la + 0.002*eu + 0.002*- + 0.002*crisis + 0.002*obama
+2014-09-12 18:15:34,519 : INFO : topic diff=0.165137, rho=0.200000
+2014-09-12 18:15:34,615 : INFO : PROGRESS: pass 0, at document #52000/55102
+2014-09-12 18:15:37,434 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:37,521 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*#ukraine + 0.005*kiev + 0.004*#kiev + 0.003*people + 0.003*- + 0.003*protesters + 0.003*ukraine. + 0.002*police + 0.002*#euromaidan
+2014-09-12 18:15:37,530 : INFO : topic #1 (0.500): 0.003*kiev + 0.003*de + 0.003*sanctions + 0.003*en + 0.003*ukraine + 0.002*la + 0.002*ukraine? + 0.002*pray + 0.002*eu + 0.002*crisis
+2014-09-12 18:15:37,531 : INFO : topic diff=0.157170, rho=0.196116
+2014-09-12 18:15:37,670 : INFO : PROGRESS: pass 0, at document #54000/55102
+2014-09-12 18:15:41,463 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:15:41,565 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*#ukraine + 0.005*kiev + 0.004*#kiev + 0.003*people + 0.003*- + 0.003*protesters + 0.003*ukraine. + 0.002*#euromaidan + 0.002*police
+2014-09-12 18:15:41,587 : INFO : topic #1 (0.500): 0.003*kiev + 0.003*de + 0.003*sanctions + 0.003*en + 0.003*ukraine + 0.002*la + 0.002*pray + 0.002*crisis + 0.002*ukraine? + 0.002*obama
+2014-09-12 18:15:41,588 : INFO : topic diff=0.155204, rho=0.192450
+2014-09-12 18:15:44,534 : INFO : -10.790 per-word bound, 1770.6 perplexity estimate based on a held-out corpus of 1102 documents with 2847 words
+2014-09-12 18:15:44,534 : INFO : PROGRESS: pass 0, at document #55102/55102
+2014-09-12 18:15:46,144 : INFO : merging changes from 1102 documents into a model of 55102 documents
+2014-09-12 18:15:46,218 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*#ukraine + 0.005*kiev + 0.003*#kiev + 0.003*- + 0.003*police + 0.003*protesters + 0.003*people + 0.003*ukraine. + 0.003*ukraine:
+2014-09-12 18:15:46,229 : INFO : topic #1 (0.500): 0.004*... + 0.004*kiev + 0.003*de + 0.003*en + 0.003*battle + 0.003*sanctions + 0.003*ukraine + 0.002*valencia + 0.002*la + 0.002*obama
+2014-09-12 18:15:46,230 : INFO : topic diff=0.128785, rho=0.188982
+2014-09-12 18:15:46,245 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*#ukraine + 0.005*kiev + 0.003*#kiev + 0.003*- + 0.003*police + 0.003*protesters + 0.003*people + 0.003*ukraine. + 0.003*ukraine:
+2014-09-12 18:15:46,258 : INFO : topic #1 (0.500): 0.004*... + 0.004*kiev + 0.003*de + 0.003*en + 0.003*battle + 0.003*sanctions + 0.003*ukraine + 0.002*valencia + 0.002*la + 0.002*obama
+2014-09-12 18:20:03,555 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-09-12 18:20:04,597 : INFO : adding document #10000 to Dictionary(22373 unique tokens: [u'(photos)', u'sowell', u'http://t.co/grg1m2alxd', u'hanging', u'localized']...)
+2014-09-12 18:20:05,497 : INFO : adding document #20000 to Dictionary(38236 unique tokens: [u'represent..', u'(photos)', u'sowell', u'cesse', u'http://t.co/grg1m2alxd']...)
+2014-09-12 18:20:06,426 : INFO : adding document #30000 to Dictionary(52475 unique tokens: [u'https://t.co/c5r7bwuyfg', u'represent..', u'(photos)', u'sowell', u'gt3s.']...)
+2014-09-12 18:20:07,357 : INFO : adding document #40000 to Dictionary(65398 unique tokens: [u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)', u'sowell']...)
+2014-09-12 18:20:08,308 : INFO : adding document #50000 to Dictionary(78201 unique tokens: [u'#sportsnews', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)']...)
+2014-09-12 18:20:08,783 : INFO : built Dictionary(83947 unique tokens: [u'#sportsnews', u'minefield.', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..']...) from 55102 documents (total 481466 corpus positions)
+2014-09-12 18:20:08,783 : INFO : saving Dictionary object under /Users/nilayan/Project/data/ukraine.dict, separately None
+2014-09-12 18:20:13,979 : INFO : collecting document frequencies
+2014-09-12 18:20:13,988 : INFO : PROGRESS: processing document #0
+2014-09-12 18:20:14,039 : INFO : PROGRESS: processing document #10000
+2014-09-12 18:20:14,076 : INFO : PROGRESS: processing document #20000
+2014-09-12 18:20:14,115 : INFO : PROGRESS: processing document #30000
+2014-09-12 18:20:14,155 : INFO : PROGRESS: processing document #40000
+2014-09-12 18:20:14,195 : INFO : PROGRESS: processing document #50000
+2014-09-12 18:20:14,218 : INFO : calculating IDF weights for 55102 documents and 83946 features (472644 matrix non-zeros)
+2014-09-12 18:20:14,301 : INFO : storing corpus in Matrix Market format to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-12 18:20:14,319 : INFO : saving sparse matrix to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-12 18:20:14,320 : INFO : PROGRESS: saving document #0
+2014-09-12 18:20:14,444 : INFO : PROGRESS: saving document #1000
+2014-09-12 18:20:14,555 : INFO : PROGRESS: saving document #2000
+2014-09-12 18:20:14,669 : INFO : PROGRESS: saving document #3000
+2014-09-12 18:20:14,796 : INFO : PROGRESS: saving document #4000
+2014-09-12 18:20:14,918 : INFO : PROGRESS: saving document #5000
+2014-09-12 18:20:15,048 : INFO : PROGRESS: saving document #6000
+2014-09-12 18:20:15,188 : INFO : PROGRESS: saving document #7000
+2014-09-12 18:20:15,328 : INFO : PROGRESS: saving document #8000
+2014-09-12 18:20:15,456 : INFO : PROGRESS: saving document #9000
+2014-09-12 18:20:15,590 : INFO : PROGRESS: saving document #10000
+2014-09-12 18:20:15,710 : INFO : PROGRESS: saving document #11000
+2014-09-12 18:20:15,823 : INFO : PROGRESS: saving document #12000
+2014-09-12 18:20:15,940 : INFO : PROGRESS: saving document #13000
+2014-09-12 18:20:16,058 : INFO : PROGRESS: saving document #14000
+2014-09-12 18:20:16,177 : INFO : PROGRESS: saving document #15000
+2014-09-12 18:20:16,294 : INFO : PROGRESS: saving document #16000
+2014-09-12 18:20:16,403 : INFO : PROGRESS: saving document #17000
+2014-09-12 18:20:16,505 : INFO : PROGRESS: saving document #18000
+2014-09-12 18:20:16,608 : INFO : PROGRESS: saving document #19000
+2014-09-12 18:20:16,736 : INFO : PROGRESS: saving document #20000
+2014-09-12 18:20:16,853 : INFO : PROGRESS: saving document #21000
+2014-09-12 18:20:16,969 : INFO : PROGRESS: saving document #22000
+2014-09-12 18:20:17,087 : INFO : PROGRESS: saving document #23000
+2014-09-12 18:20:17,202 : INFO : PROGRESS: saving document #24000
+2014-09-12 18:20:17,317 : INFO : PROGRESS: saving document #25000
+2014-09-12 18:20:17,439 : INFO : PROGRESS: saving document #26000
+2014-09-12 18:20:17,728 : INFO : PROGRESS: saving document #27000
+2014-09-12 18:20:17,861 : INFO : PROGRESS: saving document #28000
+2014-09-12 18:20:17,995 : INFO : PROGRESS: saving document #29000
+2014-09-12 18:20:18,142 : INFO : PROGRESS: saving document #30000
+2014-09-12 18:20:18,261 : INFO : PROGRESS: saving document #31000
+2014-09-12 18:20:18,372 : INFO : PROGRESS: saving document #32000
+2014-09-12 18:20:18,530 : INFO : PROGRESS: saving document #33000
+2014-09-12 18:20:18,645 : INFO : PROGRESS: saving document #34000
+2014-09-12 18:20:18,760 : INFO : PROGRESS: saving document #35000
+2014-09-12 18:20:18,879 : INFO : PROGRESS: saving document #36000
+2014-09-12 18:20:19,007 : INFO : PROGRESS: saving document #37000
+2014-09-12 18:20:19,139 : INFO : PROGRESS: saving document #38000
+2014-09-12 18:20:19,269 : INFO : PROGRESS: saving document #39000
+2014-09-12 18:20:19,414 : INFO : PROGRESS: saving document #40000
+2014-09-12 18:20:19,532 : INFO : PROGRESS: saving document #41000
+2014-09-12 18:20:19,673 : INFO : PROGRESS: saving document #42000
+2014-09-12 18:20:19,790 : INFO : PROGRESS: saving document #43000
+2014-09-12 18:20:19,909 : INFO : PROGRESS: saving document #44000
+2014-09-12 18:20:20,045 : INFO : PROGRESS: saving document #45000
+2014-09-12 18:20:20,157 : INFO : PROGRESS: saving document #46000
+2014-09-12 18:20:20,283 : INFO : PROGRESS: saving document #47000
+2014-09-12 18:20:20,407 : INFO : PROGRESS: saving document #48000
+2014-09-12 18:20:20,525 : INFO : PROGRESS: saving document #49000
+2014-09-12 18:20:20,657 : INFO : PROGRESS: saving document #50000
+2014-09-12 18:20:20,772 : INFO : PROGRESS: saving document #51000
+2014-09-12 18:20:20,902 : INFO : PROGRESS: saving document #52000
+2014-09-12 18:20:21,016 : INFO : PROGRESS: saving document #53000
+2014-09-12 18:20:21,137 : INFO : PROGRESS: saving document #54000
+2014-09-12 18:20:21,249 : INFO : PROGRESS: saving document #55000
+2014-09-12 18:20:21,263 : INFO : saved 55102x83947 matrix, density=0.010% (472644/4625647594)
+2014-09-12 18:20:21,263 : INFO : saving MmCorpus index to /Users/nilayan/Project/data/tweetcorpus.mm.index
+2014-09-12 18:20:21,297 : INFO : using symmetric alpha at 0.5
+2014-09-12 18:20:21,297 : INFO : using serial LDA version on this node
+2014-09-12 18:20:21,346 : INFO : running online LDA training, 2 topics, 1 passes over the supplied corpus of 55102 documents, updating model once every 2000 documents, evaluating perplexity every 20000 documents, iterating 50x with a convergence threshold of 0.001000
+2014-09-12 18:20:21,432 : INFO : PROGRESS: pass 0, at document #2000/55102
+2014-09-12 18:20:28,823 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:20:28,931 : INFO : topic #0 (0.500): 0.008*ukraine + 0.007*#ukraine + 0.003*#euromaidan + 0.003*#kiev + 0.003*eu + 0.003*- + 0.003*people + 0.003*sanctions + 0.002*scuffle + 0.002*amidst
+2014-09-12 18:20:28,936 : INFO : topic #1 (0.500): 0.007*#ukraine + 0.006*ukraine + 0.003*mps + 0.003*scuffle + 0.003*amidst + 0.003*#euromaidan + 0.003*vi... + 0.003*brawled + 0.003*country's + 0.003*parliament,
+2014-09-12 18:20:28,937 : INFO : topic diff=1.908888, rho=1.000000
+2014-09-12 18:20:29,026 : INFO : PROGRESS: pass 0, at document #4000/55102
+2014-09-12 18:20:35,176 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:20:35,225 : INFO : topic #0 (0.500): 0.011*truce + 0.009*ukraine + 0.008*ends, + 0.007*toll + 0.007*rises + 0.007*death + 0.006*falls + 0.006*#ukraine + 0.006*ends + 0.006*bloodshed.
+2014-09-12 18:20:35,230 : INFO : topic #1 (0.500): 0.006*#ukraine + 0.006*ukraine + 0.003*rises + 0.003*ends, + 0.003*truce + 0.003*death + 0.002*#euromaidan + 0.002*- + 0.002*ukraine. + 0.002*toll
+2014-09-12 18:20:35,231 : INFO : topic diff=0.272583, rho=0.707107
+2014-09-12 18:20:35,321 : INFO : PROGRESS: pass 0, at document #6000/55102
+2014-09-12 18:20:39,821 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:20:39,871 : INFO : topic #0 (0.500): 0.009*truce + 0.008*ukraine + 0.006*toll + 0.006*ends, + 0.006*rises + 0.005*death + 0.005*#ukraine + 0.005*falls + 0.005*ends + 0.005*ukraine:
+2014-09-12 18:20:39,875 : INFO : topic #1 (0.500): 0.006*ukraine + 0.006*#ukraine + 0.002*#euromaidan + 0.002*- + 0.002*aid + 0.002*ukraine. + 0.002*fired + 0.002*#kiev + 0.002*violence + 0.002*unable
+2014-09-12 18:20:39,876 : INFO : topic diff=0.274262, rho=0.577350
+2014-09-12 18:20:39,974 : INFO : PROGRESS: pass 0, at document #8000/55102
+2014-09-12 18:20:43,923 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:20:43,972 : INFO : topic #0 (0.500): 0.007*truce + 0.006*ukraine + 0.006*famous + 0.006*bubka, + 0.006*sergey + 0.006*sportsmen, + 0.006*ukraine's + 0.006*urged + 0.005*head: + 0.005*end:
+2014-09-12 18:20:43,977 : INFO : topic #1 (0.500): 0.005*en + 0.005*el + 0.005*de + 0.004*ukraine + 0.004*deja + 0.004*alarma + 0.004*"jueves + 0.004*sangriento" + 0.004*decenas + 0.004*muertos
+2014-09-12 18:20:43,978 : INFO : topic diff=0.262237, rho=0.500000
+2014-09-12 18:20:44,070 : INFO : PROGRESS: pass 0, at document #10000/55102
+2014-09-12 18:20:47,592 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:20:47,642 : INFO : topic #0 (0.500): 0.006*bubka, + 0.006*sergey + 0.006*famous + 0.006*head: + 0.006*end: + 0.006*olympic + 0.006*ukraine's + 0.006*sportsmen, + 0.005*violence + 0.005*ukraine
+2014-09-12 18:20:47,647 : INFO : topic #1 (0.500): 0.004*en + 0.004*ukraine + 0.004*kiev + 0.004*de + 0.004*aid + 0.004*unable + 0.004*fired + 0.004*medics + 0.004*on: + 0.004*#ukraine
+2014-09-12 18:20:47,648 : INFO : topic diff=0.235134, rho=0.447214
+2014-09-12 18:20:47,735 : INFO : PROGRESS: pass 0, at document #12000/55102
+2014-09-12 18:20:51,108 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:20:51,161 : INFO : topic #0 (0.500): 0.005*ukraine + 0.004*violence + 0.004*kiev + 0.004*ukraine's + 0.004*bubka, + 0.004*sergey + 0.004*#ukraine + 0.004*olympic + 0.004*famous + 0.004*head:
+2014-09-12 18:20:51,166 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.004*en + 0.004*kiev + 0.004*de + 0.003*aid + 0.003*fired + 0.003*medics + 0.003*el + 0.003*unable
+2014-09-12 18:20:51,168 : INFO : topic diff=0.241550, rho=0.408248
+2014-09-12 18:20:51,255 : INFO : PROGRESS: pass 0, at document #14000/55102
+2014-09-12 18:20:54,576 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:20:54,628 : INFO : topic #0 (0.500): 0.006*ukraine + 0.004*kiev + 0.004*violence + 0.004*#ukraine + 0.003*#kiev + 0.003*ukraine's + 0.003*- + 0.003*valencia + 0.003*olympic + 0.003*truce
+2014-09-12 18:20:54,634 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.004*kiev + 0.003*en + 0.003*de + 0.002*#euromaidan + 0.002*#kiev + 0.002*aid + 0.002*medics + 0.002*fired
+2014-09-12 18:20:54,635 : INFO : topic diff=0.233164, rho=0.377964
+2014-09-12 18:20:54,723 : INFO : PROGRESS: pass 0, at document #16000/55102
+2014-09-12 18:20:57,986 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:20:58,037 : INFO : topic #0 (0.500): 0.005*ukraine + 0.004*kiev + 0.004*#ukraine + 0.003*#kiev + 0.003*- + 0.003*violence + 0.003*ukraine's + 0.002*truce + 0.002*eu + 0.002*sanctions
+2014-09-12 18:20:58,043 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*en + 0.003*de + 0.003*#euromaidan + 0.002*#kiev + 0.002*people + 0.002*- + 0.002*ukraine.
+2014-09-12 18:20:58,044 : INFO : topic diff=0.229471, rho=0.353553
+2014-09-12 18:20:58,129 : INFO : PROGRESS: pass 0, at document #18000/55102
+2014-09-12 18:21:00,913 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:00,966 : INFO : topic #0 (0.500): 0.005*ukraine + 0.004*kiev + 0.004*#ukraine + 0.004*#kiev + 0.003*- + 0.003*eu + 0.003*sanctions + 0.003*unrest: + 0.003*violence + 0.002*ukraine's
+2014-09-12 18:21:00,972 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*worst + 0.003*reporter: + 0.003*kiev: + 0.003*rattled + 0.003*gunbattle + 0.003*close + 0.003*walls.
+2014-09-12 18:21:00,973 : INFO : topic diff=0.207892, rho=0.333333
+2014-09-12 18:21:04,873 : INFO : -11.061 per-word bound, 2136.5 perplexity estimate based on a held-out corpus of 2000 documents with 4658 words
+2014-09-12 18:21:04,873 : INFO : PROGRESS: pass 0, at document #20000/55102
+2014-09-12 18:21:07,511 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:07,565 : INFO : topic #0 (0.500): 0.006*ukraine + 0.004*kiev + 0.004*eu + 0.004*sanctions + 0.004*#ukraine + 0.003*unrest: + 0.003*#kiev + 0.003*- + 0.003*imposed + 0.002*news
+2014-09-12 18:21:07,571 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.005*reporter: + 0.005*worst + 0.004*rattled + 0.004*gunbattle + 0.004*close + 0.004*walls. + 0.004*kiev: + 0.004*day + 0.003*ukraine
+2014-09-12 18:21:07,572 : INFO : topic diff=0.194834, rho=0.316228
+2014-09-12 18:21:07,658 : INFO : PROGRESS: pass 0, at document #22000/55102
+2014-09-12 18:21:10,451 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:10,502 : INFO : topic #0 (0.500): 0.006*ukraine + 0.004*eu + 0.004*sanctions + 0.004*kiev + 0.004*#ukraine + 0.004*unrest: + 0.004*#kiev + 0.003*- + 0.003*imposed + 0.002*pray
+2014-09-12 18:21:10,508 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*reporter: + 0.004*worst + 0.004*kiev: + 0.004*close + 0.004*gunbattle + 0.004*rattled + 0.004*walls. + 0.003*ukraine + 0.003*day
+2014-09-12 18:21:10,509 : INFO : topic diff=0.208885, rho=0.301511
+2014-09-12 18:21:10,596 : INFO : PROGRESS: pass 0, at document #24000/55102
+2014-09-12 18:21:13,347 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:13,400 : INFO : topic #0 (0.500): 0.006*ukraine + 0.004*kiev + 0.004*sanctions + 0.004*eu + 0.004*#ukraine + 0.004*#kiev + 0.003*- + 0.003*unrest: + 0.003*imposed + 0.002*pray
+2014-09-12 18:21:13,407 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.003*worst + 0.003*ukraine + 0.003*reporter: + 0.003*kiev: + 0.003*kiev + 0.003*close + 0.003*gunbattle + 0.003*rattled + 0.003*day
+2014-09-12 18:21:13,408 : INFO : topic diff=0.202814, rho=0.288675
+2014-09-12 18:21:13,495 : INFO : PROGRESS: pass 0, at document #26000/55102
+2014-09-12 18:21:16,252 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:16,305 : INFO : topic #0 (0.500): 0.007*ukraine + 0.005*kiev + 0.004*sanctions + 0.004*eu + 0.004*#ukraine + 0.003*#kiev + 0.003*- + 0.003*unrest: + 0.003*imposed + 0.002*violence
+2014-09-12 18:21:16,312 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*en + 0.003*kiev: + 0.003*worst + 0.003*#euromaidan + 0.002*reporter: + 0.002*day + 0.002*close
+2014-09-12 18:21:16,313 : INFO : topic diff=0.197266, rho=0.277350
+2014-09-12 18:21:16,401 : INFO : PROGRESS: pass 0, at document #28000/55102
+2014-09-12 18:21:19,126 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:19,181 : INFO : topic #0 (0.500): 0.006*ukraine + 0.005*kiev + 0.004*sanctions + 0.004*#ukraine + 0.003*#kiev + 0.003*eu + 0.003*- + 0.002*imposed + 0.002*news + 0.002*unrest:
+2014-09-12 18:21:19,187 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*en + 0.002*#euromaidan + 0.002*#kiev + 0.002*governor + 0.002*- + 0.002*handcuffed + 0.002*de
+2014-09-12 18:21:19,188 : INFO : topic diff=0.197053, rho=0.267261
+2014-09-12 18:21:19,276 : INFO : PROGRESS: pass 0, at document #30000/55102
+2014-09-12 18:21:21,875 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:21,928 : INFO : topic #0 (0.500): 0.007*ukraine + 0.005*kiev + 0.004*- + 0.004*sanctions + 0.003*#ukraine + 0.003*#kiev + 0.003*eu + 0.002*imposed + 0.002*pray + 0.002*truce
+2014-09-12 18:21:21,937 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*en + 0.002*#kiev + 0.002*#euromaidan + 0.002*- + 0.002*de + 0.002*governor + 0.002*handcuffed
+2014-09-12 18:21:21,938 : INFO : topic diff=0.193713, rho=0.258199
+2014-09-12 18:21:22,023 : INFO : PROGRESS: pass 0, at document #32000/55102
+2014-09-12 18:21:24,569 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:24,623 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*kiev + 0.004*- + 0.003*#ukraine + 0.003*sanctions + 0.003*#kiev + 0.003*eu + 0.002*happening + 0.002*dead + 0.002*pray
+2014-09-12 18:21:24,630 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*en + 0.002*de + 0.002*- + 0.002*#euromaidan + 0.002*police + 0.002*kiev:
+2014-09-12 18:21:24,631 : INFO : topic diff=0.179421, rho=0.250000
+2014-09-12 18:21:24,717 : INFO : PROGRESS: pass 0, at document #34000/55102
+2014-09-12 18:21:27,275 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:27,328 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*kiev + 0.004*- + 0.003*sanctions + 0.003*#kiev + 0.003*#ukraine + 0.003*happening + 0.002*eu + 0.002*pray + 0.002*ukraine.
+2014-09-12 18:21:27,336 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*en + 0.002*- + 0.002*#euromaidan + 0.002*de + 0.002*police + 0.002*live
+2014-09-12 18:21:27,337 : INFO : topic diff=0.179384, rho=0.242536
+2014-09-12 18:21:27,424 : INFO : PROGRESS: pass 0, at document #36000/55102
+2014-09-12 18:21:29,939 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:29,992 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*kiev + 0.003*- + 0.003*#kiev + 0.003*#ukraine + 0.003*sanctions + 0.003*people + 0.003*clashes + 0.003*bbc + 0.003*happening
+2014-09-12 18:21:30,000 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*en + 0.002*police + 0.002*de + 0.002*video: + 0.002*- + 0.002*#euromaidan
+2014-09-12 18:21:30,001 : INFO : topic diff=0.177015, rho=0.235702
+2014-09-12 18:21:30,090 : INFO : PROGRESS: pass 0, at document #38000/55102
+2014-09-12 18:21:32,674 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:32,728 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*kiev + 0.004*sanctions + 0.003*- + 0.003*#kiev + 0.003*#ukraine + 0.003*people + 0.003*clashes + 0.003*happening + 0.002*ukraine.
+2014-09-12 18:21:32,736 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*en + 0.002*de + 0.002*police + 0.002*- + 0.002*#euromaidan + 0.002*obama
+2014-09-12 18:21:32,737 : INFO : topic diff=0.182632, rho=0.229416
+2014-09-12 18:21:36,632 : INFO : -11.136 per-word bound, 2249.8 perplexity estimate based on a held-out corpus of 2000 documents with 5261 words
+2014-09-12 18:21:36,632 : INFO : PROGRESS: pass 0, at document #40000/55102
+2014-09-12 18:21:39,135 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:39,190 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*kiev + 0.003*sanctions + 0.003*- + 0.003*#kiev + 0.003*#ukraine + 0.003*people + 0.003*happening + 0.002*clashes + 0.002*ukraine.
+2014-09-12 18:21:39,198 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*en + 0.002*de + 0.002*- + 0.002*#euromaidan + 0.002*police + 0.002*obama
+2014-09-12 18:21:39,199 : INFO : topic diff=0.174438, rho=0.223607
+2014-09-12 18:21:39,285 : INFO : PROGRESS: pass 0, at document #42000/55102
+2014-09-12 18:21:41,839 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:41,894 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*kiev + 0.003*sanctions + 0.003*- + 0.003*#kiev + 0.003*#ukraine + 0.003*happening + 0.002*people + 0.002*eu + 0.002*ukraine.
+2014-09-12 18:21:41,902 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*en + 0.002*de + 0.002*- + 0.002*#euromaidan + 0.002*police + 0.002*obama
+2014-09-12 18:21:41,903 : INFO : topic diff=0.172395, rho=0.218218
+2014-09-12 18:21:41,992 : INFO : PROGRESS: pass 0, at document #44000/55102
+2014-09-12 18:21:44,495 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:44,550 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*kiev + 0.003*sanctions + 0.003*- + 0.003*#kiev + 0.003*#ukraine + 0.003*happening + 0.002*eu + 0.002*people + 0.002*ukraine.
+2014-09-12 18:21:44,558 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*en + 0.002*de + 0.002*#euromaidan + 0.002*police + 0.002*- + 0.002*obama
+2014-09-12 18:21:44,559 : INFO : topic diff=0.174272, rho=0.213201
+2014-09-12 18:21:44,647 : INFO : PROGRESS: pass 0, at document #46000/55102
+2014-09-12 18:21:47,160 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:47,216 : INFO : topic #0 (0.500): 0.008*ukraine + 0.005*kiev + 0.003*sanctions + 0.003*#kiev + 0.003*- + 0.003*#ukraine + 0.003*people + 0.002*happening + 0.002*ukraine. + 0.002*eu
+2014-09-12 18:21:47,224 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*police + 0.002*en + 0.002*de + 0.002*video: + 0.002*- + 0.002*#euromaidan
+2014-09-12 18:21:47,225 : INFO : topic diff=0.176381, rho=0.208514
+2014-09-12 18:21:47,314 : INFO : PROGRESS: pass 0, at document #48000/55102
+2014-09-12 18:21:49,785 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:49,843 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*kiev + 0.003*#kiev + 0.003*sanctions + 0.003*- + 0.003*people + 0.003*#ukraine + 0.002*happening + 0.002*ukraine. + 0.002*clashes
+2014-09-12 18:21:49,851 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*police + 0.002*en + 0.002*de + 0.002*video: + 0.002*- + 0.002*#euromaidan
+2014-09-12 18:21:49,852 : INFO : topic diff=0.168387, rho=0.204124
+2014-09-12 18:21:49,940 : INFO : PROGRESS: pass 0, at document #50000/55102
+2014-09-12 18:21:52,404 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:52,459 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*kiev + 0.003*- + 0.003*#kiev + 0.003*sanctions + 0.003*#ukraine + 0.002*people + 0.002*happening + 0.002*ukraine. + 0.002*clashes
+2014-09-12 18:21:52,468 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*police + 0.002*en + 0.002*crisis + 0.002*de + 0.002*#euromaidan + 0.002*-
+2014-09-12 18:21:52,469 : INFO : topic diff=0.168483, rho=0.200000
+2014-09-12 18:21:52,555 : INFO : PROGRESS: pass 0, at document #52000/55102
+2014-09-12 18:21:54,914 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:54,972 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*kiev + 0.003*- + 0.003*#kiev + 0.003*ukraine. + 0.003*sanctions + 0.003*happening + 0.003*#ukraine + 0.003*people + 0.002*clashes
+2014-09-12 18:21:54,980 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*police + 0.002*crisis + 0.002*- + 0.002*en + 0.002*de + 0.002*#euromaidan
+2014-09-12 18:21:54,982 : INFO : topic diff=0.159241, rho=0.196116
+2014-09-12 18:21:55,068 : INFO : PROGRESS: pass 0, at document #54000/55102
+2014-09-12 18:21:57,510 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:21:57,566 : INFO : topic #0 (0.500): 0.008*ukraine + 0.006*kiev + 0.003*- + 0.003*#kiev + 0.003*ukraine. + 0.003*happening + 0.003*#ukraine + 0.003*people + 0.003*sanctions + 0.002*clashes
+2014-09-12 18:21:57,575 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*kiev + 0.003*#kiev + 0.002*crisis + 0.002*#euromaidan + 0.002*- + 0.002*de + 0.002*police + 0.002*en
+2014-09-12 18:21:57,576 : INFO : topic diff=0.159025, rho=0.192450
+2014-09-12 18:21:59,587 : INFO : -10.800 per-word bound, 1782.9 perplexity estimate based on a held-out corpus of 1102 documents with 2847 words
+2014-09-12 18:21:59,587 : INFO : PROGRESS: pass 0, at document #55102/55102
+2014-09-12 18:22:00,824 : INFO : merging changes from 1102 documents into a model of 55102 documents
+2014-09-12 18:22:00,879 : INFO : topic #0 (0.500): 0.007*ukraine + 0.006*kiev + 0.004*... + 0.003*- + 0.003*#kiev + 0.003*killed + 0.003*ukraine: + 0.003*ukraine. + 0.003*battle + 0.002*happening
+2014-09-12 18:22:00,888 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*police + 0.002*#kiev + 0.002*kiev + 0.002*snipers + 0.002*#euromaidan + 0.002*- + 0.002*crisis + 0.002*en
+2014-09-12 18:22:00,889 : INFO : topic diff=0.132429, rho=0.188982
+2014-09-12 18:22:00,900 : INFO : topic #0 (0.500): 0.007*ukraine + 0.006*kiev + 0.004*... + 0.003*- + 0.003*#kiev + 0.003*killed + 0.003*ukraine: + 0.003*ukraine. + 0.003*battle + 0.002*happening
+2014-09-12 18:22:00,909 : INFO : topic #1 (0.500): 0.005*#ukraine + 0.004*ukraine + 0.003*police + 0.002*#kiev + 0.002*kiev + 0.002*snipers + 0.002*#euromaidan + 0.002*- + 0.002*crisis + 0.002*en
+2014-09-12 18:23:51,170 : INFO : adding document #0 to Dictionary(0 unique tokens: [])
+2014-09-12 18:23:52,193 : INFO : adding document #10000 to Dictionary(22373 unique tokens: [u'(photos)', u'sowell', u'http://t.co/grg1m2alxd', u'hanging', u'localized']...)
+2014-09-12 18:23:53,084 : INFO : adding document #20000 to Dictionary(38236 unique tokens: [u'represent..', u'(photos)', u'sowell', u'cesse', u'http://t.co/grg1m2alxd']...)
+2014-09-12 18:23:54,018 : INFO : adding document #30000 to Dictionary(52475 unique tokens: [u'https://t.co/c5r7bwuyfg', u'represent..', u'(photos)', u'sowell', u'gt3s.']...)
+2014-09-12 18:23:54,941 : INFO : adding document #40000 to Dictionary(65398 unique tokens: [u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)', u'sowell']...)
+2014-09-12 18:23:55,882 : INFO : adding document #50000 to Dictionary(78201 unique tokens: [u'#sportsnews', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..', u'(photos)']...)
+2014-09-12 18:23:56,353 : INFO : built Dictionary(83947 unique tokens: [u'#sportsnews', u'minefield.', u'https://t.co/c5r7bwuyfg', u'http://t.co/wra0wudevn', u'represent..']...) from 55102 documents (total 481466 corpus positions)
+2014-09-12 18:23:56,353 : INFO : saving Dictionary object under /Users/nilayan/Project/data/ukraine.dict, separately None
+2014-09-12 18:24:01,507 : INFO : collecting document frequencies
+2014-09-12 18:24:01,508 : INFO : PROGRESS: processing document #0
+2014-09-12 18:24:01,552 : INFO : PROGRESS: processing document #10000
+2014-09-12 18:24:01,589 : INFO : PROGRESS: processing document #20000
+2014-09-12 18:24:01,628 : INFO : PROGRESS: processing document #30000
+2014-09-12 18:24:01,667 : INFO : PROGRESS: processing document #40000
+2014-09-12 18:24:01,706 : INFO : PROGRESS: processing document #50000
+2014-09-12 18:24:01,729 : INFO : calculating IDF weights for 55102 documents and 83946 features (472644 matrix non-zeros)
+2014-09-12 18:24:01,812 : INFO : storing corpus in Matrix Market format to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-12 18:24:01,813 : INFO : saving sparse matrix to /Users/nilayan/Project/data/tweetcorpus.mm
+2014-09-12 18:24:01,813 : INFO : PROGRESS: saving document #0
+2014-09-12 18:24:01,935 : INFO : PROGRESS: saving document #1000
+2014-09-12 18:24:02,048 : INFO : PROGRESS: saving document #2000
+2014-09-12 18:24:02,160 : INFO : PROGRESS: saving document #3000
+2014-09-12 18:24:02,285 : INFO : PROGRESS: saving document #4000
+2014-09-12 18:24:02,407 : INFO : PROGRESS: saving document #5000
+2014-09-12 18:24:02,534 : INFO : PROGRESS: saving document #6000
+2014-09-12 18:24:02,673 : INFO : PROGRESS: saving document #7000
+2014-09-12 18:24:02,813 : INFO : PROGRESS: saving document #8000
+2014-09-12 18:24:02,941 : INFO : PROGRESS: saving document #9000
+2014-09-12 18:24:03,070 : INFO : PROGRESS: saving document #10000
+2014-09-12 18:24:03,189 : INFO : PROGRESS: saving document #11000
+2014-09-12 18:24:03,302 : INFO : PROGRESS: saving document #12000
+2014-09-12 18:24:03,420 : INFO : PROGRESS: saving document #13000
+2014-09-12 18:24:03,535 : INFO : PROGRESS: saving document #14000
+2014-09-12 18:24:03,654 : INFO : PROGRESS: saving document #15000
+2014-09-12 18:24:03,771 : INFO : PROGRESS: saving document #16000
+2014-09-12 18:24:03,880 : INFO : PROGRESS: saving document #17000
+2014-09-12 18:24:03,983 : INFO : PROGRESS: saving document #18000
+2014-09-12 18:24:04,086 : INFO : PROGRESS: saving document #19000
+2014-09-12 18:24:04,187 : INFO : PROGRESS: saving document #20000
+2014-09-12 18:24:04,322 : INFO : PROGRESS: saving document #21000
+2014-09-12 18:24:04,459 : INFO : PROGRESS: saving document #22000
+2014-09-12 18:24:04,593 : INFO : PROGRESS: saving document #23000
+2014-09-12 18:24:04,724 : INFO : PROGRESS: saving document #24000
+2014-09-12 18:24:04,855 : INFO : PROGRESS: saving document #25000
+2014-09-12 18:24:04,987 : INFO : PROGRESS: saving document #26000
+2014-09-12 18:24:05,110 : INFO : PROGRESS: saving document #27000
+2014-09-12 18:24:05,225 : INFO : PROGRESS: saving document #28000
+2014-09-12 18:24:05,342 : INFO : PROGRESS: saving document #29000
+2014-09-12 18:24:05,550 : INFO : PROGRESS: saving document #30000
+2014-09-12 18:24:05,684 : INFO : PROGRESS: saving document #31000
+2014-09-12 18:24:05,797 : INFO : PROGRESS: saving document #32000
+2014-09-12 18:24:05,921 : INFO : PROGRESS: saving document #33000
+2014-09-12 18:24:06,042 : INFO : PROGRESS: saving document #34000
+2014-09-12 18:24:06,157 : INFO : PROGRESS: saving document #35000
+2014-09-12 18:24:06,284 : INFO : PROGRESS: saving document #36000
+2014-09-12 18:24:06,423 : INFO : PROGRESS: saving document #37000
+2014-09-12 18:24:06,554 : INFO : PROGRESS: saving document #38000
+2014-09-12 18:24:06,669 : INFO : PROGRESS: saving document #39000
+2014-09-12 18:24:06,788 : INFO : PROGRESS: saving document #40000
+2014-09-12 18:24:06,905 : INFO : PROGRESS: saving document #41000
+2014-09-12 18:24:07,020 : INFO : PROGRESS: saving document #42000
+2014-09-12 18:24:07,136 : INFO : PROGRESS: saving document #43000
+2014-09-12 18:24:07,250 : INFO : PROGRESS: saving document #44000
+2014-09-12 18:24:07,372 : INFO : PROGRESS: saving document #45000
+2014-09-12 18:24:07,484 : INFO : PROGRESS: saving document #46000
+2014-09-12 18:24:07,614 : INFO : PROGRESS: saving document #47000
+2014-09-12 18:24:07,740 : INFO : PROGRESS: saving document #48000
+2014-09-12 18:24:07,859 : INFO : PROGRESS: saving document #49000
+2014-09-12 18:24:07,973 : INFO : PROGRESS: saving document #50000
+2014-09-12 18:24:08,087 : INFO : PROGRESS: saving document #51000
+2014-09-12 18:24:08,217 : INFO : PROGRESS: saving document #52000
+2014-09-12 18:24:08,333 : INFO : PROGRESS: saving document #53000
+2014-09-12 18:24:08,448 : INFO : PROGRESS: saving document #54000
+2014-09-12 18:24:08,561 : INFO : PROGRESS: saving document #55000
+2014-09-12 18:24:08,575 : INFO : saved 55102x83947 matrix, density=0.010% (472644/4625647594)
+2014-09-12 18:24:08,575 : INFO : saving MmCorpus index to /Users/nilayan/Project/data/tweetcorpus.mm.index
+2014-09-12 18:24:08,607 : INFO : using symmetric alpha at 0.5
+2014-09-12 18:24:08,607 : INFO : using serial LDA version on this node
+2014-09-12 18:24:08,649 : INFO : running online LDA training, 2 topics, 1 passes over the supplied corpus of 55102 documents, updating model once every 2000 documents, evaluating perplexity every 20000 documents, iterating 50x with a convergence threshold of 0.001000
+2014-09-12 18:24:08,735 : INFO : PROGRESS: pass 0, at document #2000/55102
+2014-09-12 18:24:16,022 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:24:16,105 : INFO : topic #0 (0.500): 0.007*ukraine + 0.005*#ukraine + 0.003*eu + 0.003*- + 0.002*#euromaidan + 0.002*sanctions + 0.002*#kiev + 0.002*ukraine. + 0.002*scuffle + 0.002*vi...
+2014-09-12 18:24:16,110 : INFO : topic #1 (0.500): 0.008*#ukraine + 0.008*ukraine + 0.004*amidst + 0.003*#euromaidan + 0.003*scuffle + 0.003*mps + 0.003*country's + 0.003*ministers + 0.003*brawled + 0.003*video:
+2014-09-12 18:24:16,111 : INFO : topic diff=1.909061, rho=1.000000
+2014-09-12 18:24:16,199 : INFO : PROGRESS: pass 0, at document #4000/55102
+2014-09-12 18:24:22,226 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:24:22,275 : INFO : topic #0 (0.500): 0.011*truce + 0.008*rises + 0.008*ends, + 0.008*death + 0.008*toll + 0.007*ukraine + 0.006*bloodshed. + 0.005*ends + 0.005*black + 0.005*repo...
+2014-09-12 18:24:22,280 : INFO : topic #1 (0.500): 0.009*#ukraine + 0.008*ukraine + 0.003*#euromaidan + 0.003*#kiev + 0.003*falls + 0.003*people + 0.002*- + 0.002*ukraine. + 0.002*ends, + 0.002*truce
+2014-09-12 18:24:22,281 : INFO : topic diff=0.320179, rho=0.707107
+2014-09-12 18:24:22,372 : INFO : PROGRESS: pass 0, at document #6000/55102
+2014-09-12 18:24:26,899 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:24:26,949 : INFO : topic #0 (0.500): 0.010*truce + 0.006*rises + 0.006*death + 0.006*ends, + 0.006*toll + 0.006*ukraine + 0.005*ukraine: + 0.005*bloodshed. + 0.005*ends + 0.005*cnn's
+2014-09-12 18:24:26,954 : INFO : topic #1 (0.500): 0.008*#ukraine + 0.007*ukraine + 0.003*#euromaidan + 0.003*#kiev + 0.003*- + 0.002*people + 0.002*ukraine. + 0.002*sanctions + 0.002*protesters + 0.002*aid
+2014-09-12 18:24:26,955 : INFO : topic diff=0.310296, rho=0.577350
+2014-09-12 18:24:27,054 : INFO : PROGRESS: pass 0, at document #8000/55102
+2014-09-12 18:24:30,998 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:24:31,048 : INFO : topic #0 (0.500): 0.008*truce + 0.006*famous + 0.006*bubka, + 0.006*sportsmen, + 0.006*sergey + 0.006*urged + 0.006*violence + 0.006*head: + 0.005*end: + 0.005*ukraine's
+2014-09-12 18:24:31,052 : INFO : topic #1 (0.500): 0.008*el + 0.006*de + 0.005*#ukraine + 0.005*ukraine + 0.005*kiev + 0.005*en + 0.004*alarma + 0.004*sangriento" + 0.004*"jueves + 0.004*decenas
+2014-09-12 18:24:31,053 : INFO : topic diff=0.276735, rho=0.500000
+2014-09-12 18:24:31,146 : INFO : PROGRESS: pass 0, at document #10000/55102
+2014-09-12 18:24:34,505 : INFO : merging changes from 2000 documents into a model of 55102 documents
+2014-09-12 18:24:34,554 : INFO : topic #0 (0.500): 0.007*truce + 0.007*bubka, + 0.006*sergey + 0.006*violence + 0.006*famous + 0.006*head: + 0.006*end: + 0.006*sportsmen, + 0.006*olympic + 0.006*ukraine's
+2014-09-12 18:24:34,559 : INFO : topic #1 (0.500): 0.007*el + 0.006*de + 0.005*#ukraine + 0.005*kiev + 0.005*en + 0.005*ukraine + 0.004*#kiev + 0.003*valencia + 0.003*la + 0.003*decenas
+2014-09-12 18:24:34,560 : INFO : topic diff=0.239692, rho=0.447214
+2014-09-12 18:24:34,647 : INFO : PROGRESS: pass 0, at document #12000/55102

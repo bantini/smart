@@ -1,0 +1,38 @@
+2014-02-20 19:51:25
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=51, tm_sec=25, tm_wday=3, tm_yday=51, tm_isdst=-1)
+0
+Min
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=51, tm_sec=25, tm_wday=3, tm_yday=51, tm_isdst=-1)
+Max
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=51, tm_sec=25, tm_wday=3, tm_yday=51, tm_isdst=-1)
+2014-02-20 19:57:50
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=57, tm_sec=50, tm_wday=3, tm_yday=51, tm_isdst=-1)
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=51, tm_sec=25, tm_wday=3, tm_yday=51, tm_isdst=-1)
+max
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=57, tm_sec=50, tm_wday=3, tm_yday=51, tm_isdst=-1)
+2014-02-20 18:12:48
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=18, tm_min=12, tm_sec=48, tm_wday=3, tm_yday=51, tm_isdst=-1)
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=51, tm_sec=25, tm_wday=3, tm_yday=51, tm_isdst=-1)
+Min
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=18, tm_min=12, tm_sec=48, tm_wday=3, tm_yday=51, tm_isdst=-1)
+2014-02-20 19:56:47
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=56, tm_sec=47, tm_wday=3, tm_yday=51, tm_isdst=-1)
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=18, tm_min=12, tm_sec=48, tm_wday=3, tm_yday=51, tm_isdst=-1)
+2014-02-20 18:58:22
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=18, tm_min=58, tm_sec=22, tm_wday=3, tm_yday=51, tm_isdst=-1)
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=18, tm_min=12, tm_sec=48, tm_wday=3, tm_yday=51, tm_isdst=-1)
+2014-02-20 19:19:32
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=19, tm_sec=32, tm_wday=3, tm_yday=51, tm_isdst=-1)
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=18, tm_min=12, tm_sec=48, tm_wday=3, tm_yday=51, tm_isdst=-1)
+2014-02-20 19:45:29
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=45, tm_sec=29, tm_wday=3, tm_yday=51, tm_isdst=-1)
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=18, tm_min=12, tm_sec=48, tm_wday=3, tm_yday=51, tm_isdst=-1)
+2014-02-20 17:45:22
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=17, tm_min=45, tm_sec=22, tm_wday=3, tm_yday=51, tm_isdst=-1)
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=18, tm_min=12, tm_sec=48, tm_wday=3, tm_yday=51, tm_isdst=-1)
+Min
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=17, tm_min=45, tm_sec=22, tm_wday=3, tm_yday=51, tm_isdst=-1)
+2014-02-20 19:52:00
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=19, tm_min=52, tm_sec=0, tm_wday=3, tm_yday=51, tm_isdst=-1)
+time.struct_time(tm_year=2014, tm_mon=2, tm_mday=20, tm_hour=17, tm_min=45, tm_sec=22, tm_wday=3, tm_yday=51, tm_isdst=-1)
+It's the little pleasures...
