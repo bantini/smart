@@ -7,9 +7,9 @@ from collections import defaultdict
 from gensim import corpora,models,similarities
 from os.path import join 
 
-def stopWordReader(f,path):
+def stopWordReader(f):
 	listOfStopWords = defaultdict()
-	with open(join(path,f),"r") as r:
+	with open(join("../input",f),"r") as r:
 		for line in r:
 			line = line.lstrip().rstrip()
 			#print line
@@ -19,16 +19,15 @@ def stopWordReader(f,path):
 
 def dictionaryCreator(tweets):
 	dictionary = corpora.Dictionary(tweets)
-	dictionary.save("/Users/nilayan/Project/data/ukraine_1m2_5.dict")
+	dictionary.save("../dicts/ukraine_1m2_5.dict")
 	return dictionary
 
 def lsi():
-	logging.basicConfig(file = "../data/u_1m2_5_out.log",format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
+	logging.basicConfig(file = "../log/u_1m2_5_out.log",format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
 	documents = []
-	path = "/Users/nilayan/Project/dicts"
 	f = "englishST.txt"
-	stopWords = stopWordReader(f,path)	
-	with open(join("/Users/nilayan/Project/data","ukr_50k.txt"),"r") as reader:
+	stopWords = stopWordReader(f)
+	with open(join("../input","ukr_50k.txt"),"r") as reader:
 		csv_reader = csv.reader(reader)
 		for row in reader:
 			line = row[1]
@@ -44,7 +43,7 @@ def lsi():
 	#corpus = [dictionary.doc2bow(document) for document in documents]
 	tfidf = models.TfidfModel(corpus)
 	corpus_tfidf = tfidf[corpus]
-	corpora.MmCorpus.serialize("/Users/nilayan/Project/data/tweetcorpus_1m2_5.mm",corpus)
+	corpora.MmCorpus.serialize("../corpus/tweetcorpus_1m2_5.mm",corpus)
 	lsi = models.LsiModel(corpus_tfidf,id2word = dictionary,num_topics = 5)
 	lsi.print_topics(2)
 	#print lsi
