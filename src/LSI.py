@@ -2,6 +2,7 @@
 
 import logging
 import os
+import time
 from collections import defaultdict
 from gensim import corpora,models,similarities
 from os.path import join 
@@ -38,7 +39,7 @@ def lsi():
         for row in reader:
             #print row
             try:
-                time_file = line.split(",")[0]
+                time_file = row.split(",")[0]
                 ts = time.strftime('%Y-%m-%d %H:%M:%S', time.strptime(time_file,'%Y-%m-%d %H:%M:%S'))
                 if min_time is None:
                     min_time = ts
@@ -69,7 +70,8 @@ def lsi():
 
 
             #documents.append(NE.namedEntityExtractor(line))
-    logging.info("Min-time:%s,Max-time:%s",min_time,max_time)
+    logging.info("Min-time:%s",min_time)
+    logging.info("Max-time:%s",max_time)
     tweets = [[word for word in document.lower().split() if word not in stopWords]for document in documents]
     dictionary = dictionaryCreator(tweets)
     #dictionary = dictionaryCreator(documents)
