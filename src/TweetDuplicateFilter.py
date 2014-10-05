@@ -1,5 +1,6 @@
 import json
 import time
+import os
 from os.path import join
 from collections import defaultdict
 
@@ -10,10 +11,10 @@ class Tweet:
 
 def tweetReader(f):
 	listOfId = defaultdict(long)
-	path = "/Users/nilayan/Project/data"
-	with open(join("/Users/nilayan/Downloads/D",f),"r") as r:
+	path = path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
+	with open(join(path,f),"r") as r:
 		counter = 0
-		out_file = "ukr.txt"
+		out_file = "ukr_new.txt"
 		for line in r:
 			#print line
 			try:
@@ -32,15 +33,6 @@ def tweetReader(f):
 							print "%s,%s\n"%(ts,text)
 							w.write("%s,%s\n"%(ts,text))
 							listOfId[id] = True
-							"""
-							if counter>50000:
-								print counter
-								break
-							else:
-								print "Old"
-								print counter
-								counter+=1
-							"""
 				except KeyError:
 					text = json_data["text"]
 					ts = time.strftime('%Y-%m-%d %H:%M:%S', time.strptime(json_data["created_at"],'%a %b %d %H:%M:%S +0000 %Y'))
@@ -53,18 +45,6 @@ def tweetReader(f):
 							listOfId[id] = True
 							with open(join(path,out_file),"a") as w:
 								w.write("%s,%s\n"%(ts,text))
-							#created_at = json_data["created_at"]
-							#tweetObject = Tweet(text,created_at)
-							"""
-							if counter>50000:
-								print "New"
-								print counter
-								break
-							else:
-								print "New"
-								print counter
-								counter+=1
-							"""
 					except Exception,e:
 						print "Inner loop exception:"
 						print e
@@ -75,7 +55,7 @@ def tweetReader(f):
 				pass
 
 def main():
-	f = "ukraine_full.txt"
+	f = "ukraine_new.txt"
 	tweetReader(f)
 
 if __name__ == "__main__":
