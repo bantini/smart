@@ -1,8 +1,9 @@
 import LSI
 import LDA
+import VarietyProcessor as vp
 def main():
     #LSI.lsi()
-    LSI.lsi()
+    vp.varietyProcessor()
 
 if __name__ == "__main__":
     main()

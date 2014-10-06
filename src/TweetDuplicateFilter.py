@@ -1,9 +1,6 @@
 import json
 import time
-<<<<<<< HEAD
-=======
 import gzip
->>>>>>> 3dbb5d07c510bda42e8917907f8249b97458fc3d
 import os
 from os.path import join
 from collections import defaultdict
@@ -15,17 +12,10 @@ class Tweet:
 
 def tweetReader(f):
 	listOfId = defaultdict(long)
-<<<<<<< HEAD
-	path = path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
+	path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
 	with open(join(path,f),"r") as r:
 		counter = 0
-		out_file = "ukr_new.txt"
-=======
-	path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
-	with gzip.open(join(path,f),"r") as r:
-		counter = 0
-		out_file = "isr.txt"
->>>>>>> 3dbb5d07c510bda42e8917907f8249b97458fc3d
+		out_file = "ukr.txt"
 		for line in r:
 			#print line
 			try:
@@ -66,11 +56,7 @@ def tweetReader(f):
 				pass
 
 def main():
-<<<<<<< HEAD
 	f = "ukraine_new.txt"
-=======
-	f = "israel_full.txt.gz"
->>>>>>> 3dbb5d07c510bda42e8917907f8249b97458fc3d
 	tweetReader(f)
 
 if __name__ == "__main__":
