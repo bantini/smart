@@ -1,3 +1,5 @@
+from curses.ascii import isalpha
+
 __author__ = 'nilayan'
 
 import re
@@ -26,15 +28,18 @@ def pattern_matcher(items):
     url_pattern = re.compile('http[s]?://(?:[a-zA-Z]|[0-9]|[$-_@.&+]|[!*\(\),]|(?:%[0-9a-fA-F][0-9a-fA-F]))+')
     cleaned_items = []
     for item in items:
-        if re.match(hash_pattern,item):
-            cleaned_items.append(item[1:])
-        elif re.match(user_pattern,item):
+        if re.match(hash_pattern,item.lower()):
+            word = item.lower()[1:]
+            word = ''.join(e for e in word if e.isalpha())
+            cleaned_items.append(word)
+        elif re.match(user_pattern,item.lower()):
             pass
-        elif re.match(url_pattern,item):
+        elif re.match(url_pattern,item.lower()):
             pass
-        elif item in stopWords:
+        elif item.lower() in stopWords:
             pass
         else:
-            cleaned_items.append(item)
+            item = ''.join(e for e in item if e.isalpha())
+            cleaned_items.append(item.lower())
     return cleaned_items
 
