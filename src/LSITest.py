@@ -6,5 +6,5 @@ corpus = dictionary.doc2bow(None)
 tfidf_model  = models.TfidfModel(corpus)
 corpus = tfidf_model[corpus]
 corpora.MmCorpus.serialize(corpus)
-lsi = models.LsiModel.
+lsi = models.LsiModel(corpus)
 

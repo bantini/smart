@@ -33,6 +33,7 @@ def lsi(f):
     path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
     min_time = None
     max_time = None
+    documents = []
     with open(join(path, f),"r") as reader:
         #csv_reader = csv.reader(reader)
         for row in reader:
@@ -76,4 +77,4 @@ def lsi(f):
     lsi = models.LsiModel(corpus_tfidf,id2word = dictionary,num_topics = 2)
     lsi.save(file_model)
     #lsi.show_topics()
-    return lsi
+    return lsi,dictionary

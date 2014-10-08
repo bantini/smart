@@ -1,6 +1,6 @@
 import LSI
 import LDA
-import VarietyProcessor as vp
+import LSIProcessor as vp
 def main():
     #LSI.lsi()
     vp.varietyProcessor()
