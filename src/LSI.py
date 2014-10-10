@@ -20,15 +20,15 @@ def stopWordReader(f):
 
 def dictionaryCreator(tweets):
     dictionary = corpora.Dictionary(tweets)
-    path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'dicts'))
-    dictionary.save(join(path,"ukr_50k.dict"))
+    #path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'dicts'))
+    #dictionary.save(join(path,"ukr_50k.dict"))
     return dictionary
 
 def lsi(f):
     logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
     path_log = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'log'))
     file_log = join(path_log,"ukr_50k.log")
-    path_model = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'log'))
+    path_model = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'dicts'))
     file_model = join(path_model,"ukr_50.lsi")
     path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
     min_time = None
@@ -72,9 +72,15 @@ def lsi(f):
     corpus = [dictionary.doc2bow(tweet) for tweet in tweets]
     tfidf = models.TfidfModel(corpus)
     corpus_tfidf = tfidf[corpus]
-    corpus_path = path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'corpus'))
-    corpora.MmCorpus.serialize(join(corpus_path, "ukr_50k.mm"),corpus)
+    #corpus_path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'corpus'))
+    #corpora.MmCorpus.serialize(join(corpus_path, "ukr_50k.mm"),corpus)
     lsi = models.LsiModel(corpus_tfidf,id2word = dictionary,num_topics = 2)
-    lsi.save(file_model)
-    #lsi.show_topics()
+    #lsi.save(file_model)
+    """
+    print "Showing topics"
+    topics = lsi.show_topics(log=False,formatted=False)
+    for topic in topics[0]:
+        if topic[0]>0.05:
+            print topic[1]
+    """
     return lsi,dictionary

@@ -31,7 +31,8 @@ def pattern_matcher(items):
         if re.match(hash_pattern,item.lower()):
             word = item.lower()[1:]
             word = ''.join(e for e in word if e.isalpha())
-            cleaned_items.append(word)
+            if len(word.lstrip().rstrip())>0:
+                cleaned_items.append(word)
         elif re.match(user_pattern,item.lower()):
             pass
         elif re.match(url_pattern,item.lower()):
@@ -40,6 +41,7 @@ def pattern_matcher(items):
             pass
         else:
             item = ''.join(e for e in item if e.isalpha())
-            cleaned_items.append(item.lower())
+            if len(item.lstrip().rstrip())>0:
+                cleaned_items.append(item.lower())
     return cleaned_items
 
