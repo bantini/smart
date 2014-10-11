@@ -25,12 +25,12 @@ def dictionaryCreator(tweets):
     return dictionary
 
 def lsi(f):
-    logging.basicConfig(format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
     path_log = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'log'))
-    file_log = join(path_log,"ukr_50k.log")
+    file_log = join(path_log,f+".log")
     path_model = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'dicts'))
-    file_model = join(path_model,"ukr_50.lsi")
+    file_model = join(path_model,f+".lsi")
     path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
+    logging.basicConfig(filename = file_log,format='%(asctime)s : %(levelname)s : %(message)s', level=logging.INFO)
     min_time = None
     max_time = None
     documents = []
@@ -76,11 +76,10 @@ def lsi(f):
     #corpora.MmCorpus.serialize(join(corpus_path, "ukr_50k.mm"),corpus)
     lsi = models.LsiModel(corpus_tfidf,id2word = dictionary,num_topics = 2)
     #lsi.save(file_model)
-    """
+    lsi.print_topics(2,10)
     print "Showing topics"
     topics = lsi.show_topics(log=False,formatted=False)
     for topic in topics[0]:
         if topic[0]>0.05:
             print topic[1]
-    """
     return lsi,dictionary

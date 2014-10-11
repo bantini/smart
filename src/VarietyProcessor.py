@@ -7,10 +7,10 @@ import LSI as lsi
 def varietyProcessor():
     #initial_query = set(['ukraine'])
     #expanded_query = set(['russia','putin','obama','crimea','palin'])
-    lsi_model,dictionary = lsi.lsi("ukr.txt")
+    lsi_model,dictionary = lsi.lsi("ukr_ori.txt")
     verify_path  =  os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
     output_path  =  os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'output'))
-    with open(join(verify_path,'ukr.txt'),'r') as reader,open(join(output_path,'ukr_expt2.csv'),'w') as writer:
+    with open(join(verify_path,'ukr.txt'),'r') as reader,open(join(output_path,'ukr_expt3.csv'),'w') as writer:
         for line in reader:
             initial = 0
             russia = 0
@@ -31,12 +31,10 @@ def varietyProcessor():
             if 'palin' in line:
                 palin+=1
             try:
-                print "Ukraine:%d,Russia:%d,Obama:%d,Crimea:%d,Palin:%d,LSi Score:%s"%(initial,russia,obama,crimea,palin,lsi_output[0][1])
                 writer.write("%d,%d,%d,%d,%d,%f\n"%(initial,russia,obama,crimea,palin,lsi_output[0][1]))
             except IndexError:
-                print "Ukraine:%d,Russia:%d,Obama:%d,Crimea:%d,Palin:%d,LSi Score:0.0"%(initial,russia,obama,crimea,palin)
                 writer.write("%d,%d,%d,%d,%d,0.0\n"%(initial,russia,obama,crimea,palin))
-    #print "Ukraine:%d,Russia:%d,Obama:%d,Crimea:%d,Palin:%d"%(initial,russia,obama,crimea,palin)
+
 
 def main():
     varietyProcessor()
