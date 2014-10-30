@@ -13,9 +13,9 @@ class Tweet:
 def tweetReader(f):
 	listOfId = defaultdict(long)
 	path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
-	with open(join(path,f),"r") as r:
+	with open(f,"r") as r:
 		counter = 0
-		out_file = "ukr.txt"
+		out_file = "war_2.txt"
 		for line in r:
 			#print line
 			try:
@@ -56,7 +56,7 @@ def tweetReader(f):
 				pass
 
 def main():
-	f = "ukraine_new.txt"
+	f = "war_2_json.txt"
 	tweetReader(f)
 
 if __name__ == "__main__":

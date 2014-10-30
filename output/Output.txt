@@ -1,0 +1,80 @@
+598884
+Total,russia_no,russia_LSI, Obama_no,Obama_LSI, Crimea_no,Crimea_LSI, Palin_no, Palin_LSI, Ukraine_no,Ukraine_LSI
+
+
+Expt 1:
+
+LSI: ukr.txt
+Verification: ukr.txt
+Output: ukr_1_1.csv
+Parameters: Only one unique term present
+598883,11839,0.342728,2641,0.610698,6805,0.250663,883,0.115189,289116,-0.108938
+
+Expt 2:
+
+LSI: ukr.txt
+Verification: ukr.txt
+Output: ukr_1_1.csv
+Parameters: Only 1 unique term along with original term present
+598883,61332,0.179261,17479,0.494566,33514,0.039923,1142,0.773105,289116,-0.108938
+
+Expt 3:
+
+LSI: ukr.txt
+Verification: ukr.txt
+Output: ukr_1_1.csv
+Parameters: 1 unique term with original term present
+598883,87302,0.256244,25001,0.591608,55162,0.158841,2401,0.559759,289116,-0.108938
+
+Expt 4:
+
+LSI: ukr.txt
+Verification: ukraine_v1.txt
+Output: ukr_1_2.txt
+Parameters: Only 1 unique term present
+76682,8186,0.298322,34956,0.548102,220,0.160946,19,0.617348,4227,-0.142836
+
+Expt 5:
+
+LSI: ukr.txt
+Verification: ukraine_v1.txt
+Output: ukr_1_2.txt
+Parameters: Only 1 unique term with original term present
+76682,1475,0.301302,48,0.401572,25,0.017645,0,0.000000,4227,-0.142836
+
+Expt 6:
+
+LSI:ukr.txt
+Verification: ukraine_v1.txt
+Output: ukr_1_2.txt
+Parameters: 1 term with original term
+76682,1496,0.302112,53,0.429402,41,0.109688,0,0.000000,4227,-0.142836
+
+Total,Russia_no,Russia_LSI,Obama_no,Obama_LSI,Kiev_no,Kiev_LSI, euromaidan_no,Euromaidan_LSI, Ukr_no,Ukr_LSI
+
+Expt 7:
+
+LSI: ukraine_v1.txt
+Verification: ukr_v2.txt
+Output: ukr_1_3.txt
+Parameters: Only 1 unique term
+2444,371,0.149402,904,0.016199,16,0.096442,0,0.000000,178,0.205001
+
+Expt 8:
+
+LSI: ukraine_v1.txt
+Verification: ukr_v2.txt
+Output: ukr_1_3.txt
+Parameters: Only 1 unique term with original term
+2444,17,0.361326,0,0.000000,5,0.287016,0,0.000000,178,0.205001
+
+Expt 9:
+
+LSI: ukraine_v1.txt
+Verification: ukr_v2.txt
+Output: ukr_1_3.txt
+Parameters: 1 term with original term
+2444,18,0.365645,0,0.000000,6,0.312357,0,0.000000,178,0.205001
+
+
+

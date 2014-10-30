@@ -3,7 +3,7 @@ import LDA
 import LSIProcessor as lp
 def main():
     #LSI.lsi()
-    ls.lsi('ukr_ori.txt')
+    ls.lsi('war_2.txt')
 
 if __name__ == "__main__":
     main()

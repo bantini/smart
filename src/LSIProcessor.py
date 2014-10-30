@@ -7,7 +7,7 @@ import LSI
 def lsiProcessor():
     verify_path  =  os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
     write_path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'output'))
-    lsi_model,dictionary = LSI.lsi("ukr.txt")
+    lsi_model,dictionary = LSI.lsi("war_2_json.txt")
     with open(join(verify_path,'ukr_out.txt'),'r') as reader,open(join(write_path,'ukr_verified.csv'),'w') as writer:
         for line in reader:
             try:

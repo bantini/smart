@@ -67,7 +67,7 @@ def lsi(f):
                 pass
     logging.info("Min-time:%s",min_time)
     logging.info("Max-time:%s",max_time)
-    tweets = [[word for word in se.pattern_matcher(document.lower().split())]for document in documents[:50000]]
+    tweets = [[word for word in se.pattern_matcher(document.lower().split())]for document in documents[:1000]]
     dictionary = dictionaryCreator(tweets)
     corpus = [dictionary.doc2bow(tweet) for tweet in tweets]
     tfidf = models.TfidfModel(corpus)
@@ -78,8 +78,7 @@ def lsi(f):
     #lsi.save(file_model)
     lsi.print_topics(2,10)
     print "Showing topics"
-    topics = lsi.show_topics(log=False,formatted=False)
-    for topic in topics[0]:
-        if topic[0]>0.05:
-            print topic[1]
+    topics = lsi.show_topics()
+    for topic in topics:
+            print topic
     return lsi,dictionary
