@@ -15,7 +15,7 @@ def tweetReader(f):
 	path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
 	with open(f,"r") as r:
 		counter = 0
-		out_file = "war_2.txt"
+		out_file = "isis_isil_clean.txt"
 		for line in r:
 			#print line
 			try:
@@ -31,8 +31,8 @@ def tweetReader(f):
 						ts = time.strftime('%Y-%m-%d %H:%M:%S', time.strptime(json_data["retweeted_status"]["created_at"],'%a %b %d %H:%M:%S +0000 %Y'))	
 						#tweetObject = Tweet(text,created_at)
 						with open(join(path,out_file),"a") as w:
-							print "%s,%s\n"%(ts,text)
-							w.write("%s,%s\n"%(ts,text))
+							print "%s\n"%(text)
+							w.write("%s\n"%(text))
 							listOfId[id] = True
 				except KeyError:
 					text = json_data["text"]
@@ -45,18 +45,18 @@ def tweetReader(f):
 						else:
 							listOfId[id] = True
 							with open(join(path,out_file),"a") as w:
-								w.write("%s,%s\n"%(ts,text))
+								w.write("%s\n"%(text))
 					except Exception,e:
-						print "Inner loop exception:"
+						print "Inner loop exception:"+line
 						print e
 						pass
 			except Exception,e:
-				print "Outer loop exception"
+				print "Outer loop exception"+line
 				print e
 				pass
 
 def main():
-	f = "war_2_json.txt"
+	f = '/home/nilayan/Thesis/smart/src/isis_isil.txt'
 	tweetReader(f)
 
 if __name__ == "__main__":

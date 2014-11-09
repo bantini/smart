@@ -6,7 +6,7 @@ import json
 import operator
 hash_tag_dict = {}
 def hashTagExtractor():
-    file_name = "/home/nilayan/Thesis/smart/src/war_2_json.txt"
+    file_name = "/home/nilayan/Thesis/smart/src/uga_5.txt"
     with open(file_name,'r') as reader:
         for line in reader:
             try:
