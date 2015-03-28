@@ -6,8 +6,8 @@ from datetime import datetime
 
 list_of_times = []
 path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'src'))
-file = 'uga_7'
-with open(join(path,file+".log"), "r") as reader:
+file = '/home/nilayan/Thesis/smart/src/isis_isil_velocity.log'
+with open(file, "r") as reader:
     for line in reader:
         line = line.strip().split(',')
         #print line[0]
@@ -16,18 +16,14 @@ with open(join(path,file+".log"), "r") as reader:
 init_time = datetime.fromtimestamp(mktime(list_of_times[0]))
 sum = 0
 counter = 0
-with open('uga.csv','a') as writer:
+with open('isis_vel.csv','a') as writer:
     for time_from_list in list_of_times[1:]:
         present = datetime.fromtimestamp(mktime(time_from_list))
         diff = present - init_time
-        #if diff.total_seconds() < 100:
-        #print diff.total_seconds()
-        # if diff.total_seconds()<1000:
-        #     print diff.total_seconds()
-        #     sum += diff.total_seconds()
-        #     counter += 1
+        sum += diff.total_seconds()
+        counter += 1
         init_time = present
         writer.write("%s,%d\n"%(str(time_from_list),diff.seconds))
-# average = sum / counter
-# print average
+average = sum / counter
+print average
 

@@ -5,6 +5,7 @@ from nltk.classify import svm
 from nltk.metrics import BigramAssocMeasures
 from nltk.probability import FreqDist, ConditionalFreqDist
 import SpecialEntityRemover as se
+from sklearn import cross_validation
 
 POLARITY_DATA_DIR = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
 RT_POLARITY_POS_FILE = os.path.join(POLARITY_DATA_DIR, 'Syria_relevant.txt')
@@ -16,7 +17,8 @@ def evaluate_features(feature_select):
     posFeatures = []
     negFeatures = []
     #http://stackoverflow.com/questions/367155/splitting-a-string-into-words-and-punctuation
-    #breaks up the sentences into lists of individual words (as selected by the input mechanism) and appends 'pos' or 'neg' after each list
+    #breaks up the sentences into lists of individual words
+    #(as selected by the input mechanism) and appends 'pos' or 'neg' after each list
     with open(RT_POLARITY_POS_FILE, 'r') as posSentences:
         for i in posSentences:
             posWords = se.pattern_matcher(i.split())
@@ -64,7 +66,6 @@ def evaluate_features(feature_select):
             new_reference_set[predicted_value].add(i)
     print len(new_reference_set['rel'])
     print len(new_reference_set['irr'])
-
 
 #creates a feature selection mechanism that uses all words
 def make_full_dict(words):
