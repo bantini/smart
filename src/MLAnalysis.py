@@ -7,6 +7,7 @@ from nltk.probability import FreqDist, ConditionalFreqDist
 import SpecialEntityRemover as se
 from sklearn import cross_validation
 
+#Using Naive Bayes on set of Files 'RT_POLARITY_POS_FILE','RT_POLARITY_NEG_FILE','RT_EVALUATION_FILE'. most of the code has been copied from the Example file
 POLARITY_DATA_DIR = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
 RT_POLARITY_POS_FILE = os.path.join(POLARITY_DATA_DIR, 'Syria_relevant.txt')
 RT_POLARITY_NEG_FILE = os.path.join(POLARITY_DATA_DIR, 'Syria_irrelevant.txt')
