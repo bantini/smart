@@ -4,6 +4,7 @@ import os
 import SpecialEntityRemover as se
 from os.path import join
 import LSI as lsi
+#Use LSI on the tweets and then count the occurrence of the terms ukraine, russia, obama, kiev, euromaidan
 def varietyProcessor():
     #initial_query = set(['ukraine'])
     #expanded_query = set(['russia','putin','obama','crimea','palin'])
