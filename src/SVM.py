@@ -3,7 +3,7 @@ from sklearn.svm import LinearSVC
 from sklearn.feature_extraction.text import TfidfVectorizer
 import os.path
 from os.path import join
-
+#SVM using Pandas
 #LinearSVC.fit()
 class Tweet:
     def __init__(self,t,cat):
