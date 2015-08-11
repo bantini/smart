@@ -5,6 +5,8 @@ import json
 import time
 __author__ = 'nilayan'
 
+#Test if a gzipped file specified in 'file' can be opened and read correctly 
+
 corpus_path = path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
 unique_counter = 0
 found_counter = 0
