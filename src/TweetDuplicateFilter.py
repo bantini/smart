@@ -4,6 +4,7 @@ import gzip
 import os
 from os.path import join
 from collections import defaultdict
+#Find and remove all the duplicate tweets including retweets
 
 class Tweet:
 	def __init__(self, text, created_at):
