@@ -6,6 +6,7 @@ from collections import defaultdict
 from gensim import corpora,models,similarities
 from os.path import join 
 
+#Use the LDA algorithm on the tweets read from 'tweets.txt'. Note that these tweets are clean and contain only the text
 def stopWordReader(f,path):
 	listOfStopWords = defaultdict()
 	with open(join(path,f),"r") as r:
