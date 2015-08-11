@@ -4,6 +4,7 @@ from os.path import join
 import SpecialEntityRemover as se
 import LSI
 
+#LSI processing by specifying input file in the variable 'reader'
 def lsiProcessor():
     verify_path  =  os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
     write_path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'output'))
