@@ -7,6 +7,8 @@ from gensim import corpora,models,similarities
 from os.path import join
 import SpecialEntityRemover as se
 
+#Use the LSI algorithm on the tweets file 'f'
+
 def stopWordReader(f):
     path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
     list_of_stop_words = defaultdict()
