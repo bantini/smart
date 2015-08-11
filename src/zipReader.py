@@ -4,6 +4,8 @@ import json
 import time
 from os.path import join
 
+#Read a Zip file rather than a text one and count number of unique tweets
+
 path = os.path.abspath(os.path.join(os.path.dirname(__file__), '..', 'input'))
 filename = "Archive.zip"
 unique_counter = 0
