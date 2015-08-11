@@ -3,6 +3,7 @@ import time
 import logging
 from os.path import join
 #_author__ = 'nilayan'
+#Find the Minimum and Maximum time in all the tweets
 
 def MaxMinTime(f):
     path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
