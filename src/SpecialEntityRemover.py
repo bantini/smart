@@ -8,6 +8,7 @@ import os
 from os.path import join
 from collections import defaultdict
 
+#Remove all the urs, hash tags and users from the tweet
 def stopWordReader(f):
     path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'input'))
     list_of_stop_words = defaultdict()
