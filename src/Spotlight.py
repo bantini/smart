@@ -3,6 +3,7 @@ import time
 from os.path import join
 import json
 
+#Use the spotlight API to identify the entities
 
 def spotlightCaller():
     path = "/Users/nilayan/Project/data"
