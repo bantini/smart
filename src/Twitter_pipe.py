@@ -8,7 +8,7 @@ from os.path import join
 import argparse
 
 
-
+#Start collecting tweets. The usage is python Twitter_pipe.py -s <search_term>
 class listener(StreamListener):
 	passed_filename = "test"
 	def __init__(self,filename):
