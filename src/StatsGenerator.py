@@ -2,6 +2,8 @@ __author__ = 'nilayan'
 import csv
 import os
 from os.path import join
+
+#Count the occurance of each column
 path = os.path.abspath(os.path.join(os.path.dirname( __file__ ), '..', 'output'))
 #path = "C:/Users/nilayan/Google Drive/Data/ukr_expt2.csv"
 file_reader = join(path,"ukr_1_4.csv")
