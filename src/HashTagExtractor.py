@@ -1,5 +1,5 @@
 from _ast import operator
-
+#Extract Hash tags from the tweets from the file in file_name
 __author__ = 'nilayan'
 from os.path import join
 import json
