@@ -7,6 +7,7 @@ from os.path import join
 import re
 import csv
 
+#Open the tweets file in 'reader', search for the search queries in 'terms' and write it in the form of a csv in 'writer'
 def varietyProcessor():
     terms = ['uga','Dawgs','UF','GAFL14','FLGA14','GoDawgs','Georgia','UGAvsUF','bulldogs','ItsTime','UFvsUGA','Gators','Zelo','Florida','ItsGreatUF','GatorNation','GoGators']
     terms_clean = [term.lower() for term in terms]
